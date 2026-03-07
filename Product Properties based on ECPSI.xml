@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Actual Products: Property Estimation based on ECP and SI"</Title>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>3</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Text">
+		<Location top="892" left="1767" bottom="910" right="1914" />
+		<Alignment>Center</Alignment>
+		<Font GUID="CF0F8F66-B1AB-4C36-885E-206F4C943D59" Name="Times 10 Bold" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="780" />
+		<TabOrder>2</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"TBP Curve"</Title>
+		<TooltipText>"It will display the resulting TBP for Total Liquid Products."</TooltipText>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>display_yield_curve</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="905" right="1911" />
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1425" bottom="952" right="1635" />
+		<TabOrder>5</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"ECP/SI Report"</Title>
+		<TooltipText>"Information displayed in this page can be saved in an Excel spreadsheet."</TooltipText>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>PrintAdditionalProperties</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Scalar">
+		<MultipleCases>true</MultipleCases>
+		<Location top="50" left="15" bottom="375" right="1735" />
+		<TabOrder>1</TabOrder>
+		<PopupMenu None="true" />
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>PRODID</Identifier>
+			<NumberFormat Width="10" Decimals="0" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Number of Products from the Unit (3-10)"</Title>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationPRODID</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>H2SINC</Identifier>
+			<NumberFormat Width="1" Decimals="0" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Include H2S in ECP/SI calc (0=No; 1=Yes)"</Title>
+			<ProcedureUponChange>ValidationH2SSwitch</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>H2SW</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="10" Decimals="2" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YCFS</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"EFFECTIVE CUT POINTS (ECP)"</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP1</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP2</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP3</ProcedureUponChange>
+			<Hidden>AllowProd4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP4</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP4</ProcedureUponChange>
+			<Hidden>AllowProd5</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP5</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP5</ProcedureUponChange>
+			<Hidden>AllowProd6</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP6</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP6</ProcedureUponChange>
+			<Hidden>AllowProd7</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP7</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP7</ProcedureUponChange>
+			<Hidden>AllowProd8</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP8</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP8</ProcedureUponChange>
+			<Hidden>AllowProd9</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UserECP9</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>ValidationECP9</ProcedureUponChange>
+			<Hidden>AllowProd10</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"SEPARATION INDEX (SI)"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"SITOP: slope of recovery curve for components below the ECP"</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop1</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop1</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop2</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop2</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop3</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop3</ProcedureUponChange>
+			<Hidden>AllowProd4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop4</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop4</ProcedureUponChange>
+			<Hidden>AllowProd5</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop5</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop5</ProcedureUponChange>
+			<Hidden>AllowProd6</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop6</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop6</ProcedureUponChange>
+			<Hidden>AllowProd7</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop7</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop7</ProcedureUponChange>
+			<Hidden>AllowProd8</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop8</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop8</ProcedureUponChange>
+			<Hidden>AllowProd9</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SItop9</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSItop9</ProcedureUponChange>
+			<Hidden>AllowProd10</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"SIBOT: slope of the recovery curve for components above ECP"</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot1</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot1</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot2</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot2</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot3</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot3</ProcedureUponChange>
+			<Hidden>AllowProd4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot4</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot4</ProcedureUponChange>
+			<Hidden>AllowProd5</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot5</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot5</ProcedureUponChange>
+			<Hidden>AllowProd6</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot6</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot6</ProcedureUponChange>
+			<Hidden>AllowProd7</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot7</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot7</ProcedureUponChange>
+			<Hidden>AllowProd8</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot8</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot8</ProcedureUponChange>
+			<Hidden>AllowProd9</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SIbot9</Identifier>
+			<NumberFormat Width="7" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>ValidationSIbot9</ProcedureUponChange>
+			<Hidden>AllowProd10</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Table">
+		<MultipleCases>true</MultipleCases>
+		<Location top="375" left="15" bottom="900" right="1735" />
+		<TabOrder>4</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<PopupMenu None="true" />
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" Width="2" MarginTop="5" MarginRight="20" MarginBottom="5" MarginLeft="20" />
+		<MaxColWidth>14</MaxColWidth>
+		<MaxRowWidth>27</MaxRowWidth>
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<InputColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</InputColor>
+		<RowIndentation>3</RowIndentation>
+		<MultiLineHeaders>true</MultiLineHeaders>
+		<AllVerticalGridLines>true</AllVerticalGridLines>
+		<ValueInStatusLine>true</ValueInStatusLine>
+		<ElementTextAsTooltip>false</ElementTextAsTooltip>
+		<NumberOfStatusLines>1</NumberOfStatusLines>
+		<ExplicitIdentifier>
+			<Identifier>TBPw( tbpwtitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"TBP wt% @ 760 mmHg"</HeaderText>
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPLV( tbpLVitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"TBP LV% @ 760 mmHg"</HeaderText>
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>D86F( LVitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"D86 @ 760 mmHg"</HeaderText>
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" />
+			<Unit Display="InTitle" />
+			<Description>""</Description>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportMRAT( MRATitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>""</HeaderText>
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportLVR( LVRitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>""</HeaderText>
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportYield( ylditem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>""</HeaderText>
+			<NumberFormat Width="8" Decimals="4" Scientific="IfTooSmallorLarge" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportNum2( sgitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>""</HeaderText>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>KVis( KVitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" />
+			<Unit AlternativeUnit="[cSt]" Convention="[None]" Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportP1( MWitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>""</HeaderText>
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportNitro( NitroItem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>""</HeaderText>
+			<NumberFormat Width="8" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" />
+			<Unit AlternativeUnit="[ppmw]" Convention="[None]" Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportSulfur( SulItem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>""</HeaderText>
+			<NumberFormat Width="8" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" />
+			<Unit Convention="[None]" Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FlashF( FlashItem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"Flash Point"</HeaderText>
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BoilPtF( BPitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"Boiling Points"</HeaderText>
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>OtherPF( OPitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"Other Properties"</HeaderText>
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ReportON( ONitem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"Octane"</HeaderText>
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RepFamily( FamilyItem, maxprod )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"In Gasoline"</HeaderText>
+			<NumberFormat Width="8" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" />
+			<Unit Display="InTitle" />
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="918" left="840" bottom="952" right="1373" />
+		<StaticText>Use CTRL + C to copy data from the table to the clipboard. Then, select the appropriate option.</StaticText>
+		<Font GUID="8E506C3E-A7E1-43B2-95FE-D570E830EF8B" Name="All_Small" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>InvestmentVariablePresentValue</Symbol>
+			<Symbol>H2SW</Symbol>
+			<Symbol>YCFS</Symbol>
+			<Symbol>PRODID</Symbol>
+			<Symbol>TBPw</Symbol>
+			<Symbol>TBPLV</Symbol>
+			<Symbol>D86F</Symbol>
+			<Symbol>BoilPtF</Symbol>
+			<Symbol>KVis</Symbol>
+			<Symbol>ReportYield</Symbol>
+			<Symbol>ReportMRAT</Symbol>
+			<Symbol>ReportLVR</Symbol>
+			<Symbol>ReportP1</Symbol>
+			<Symbol>ReportNum2</Symbol>
+			<Symbol>ReportNitro</Symbol>
+			<Symbol>ReportSulfur</Symbol>
+			<Symbol>FlashF</Symbol>
+			<Symbol>OtherPF</Symbol>
+			<Symbol>ReportON</Symbol>
+			<Symbol>RepFamily</Symbol>
+			<Symbol>UserECP1</Symbol>
+			<Symbol>UserECP2</Symbol>
+			<Symbol>UserECP3</Symbol>
+			<Symbol>UserECP4</Symbol>
+			<Symbol>UserECP5</Symbol>
+			<Symbol>UserECP6</Symbol>
+			<Symbol>UserECP7</Symbol>
+			<Symbol>UserECP8</Symbol>
+			<Symbol>UserECP9</Symbol>
+			<Symbol>SItop1</Symbol>
+			<Symbol>SItop2</Symbol>
+			<Symbol>SItop3</Symbol>
+			<Symbol>SItop4</Symbol>
+			<Symbol>SItop5</Symbol>
+			<Symbol>SItop6</Symbol>
+			<Symbol>SItop7</Symbol>
+			<Symbol>SItop8</Symbol>
+			<Symbol>SItop9</Symbol>
+			<Symbol>SIbot1</Symbol>
+			<Symbol>SIbot2</Symbol>
+			<Symbol>SIbot3</Symbol>
+			<Symbol>SIbot4</Symbol>
+			<Symbol>SIbot5</Symbol>
+			<Symbol>SIbot6</Symbol>
+			<Symbol>SIbot7</Symbol>
+			<Symbol>SIbot8</Symbol>
+			<Symbol>SIbot9</Symbol>
+			<Symbol>H2SINC</Symbol>
+			<Symbol>PrintAdditionalProperties</Symbol>
+			<Symbol>ValidationPRODID</Symbol>
+			<Symbol>ValidationH2SSwitch</Symbol>
+			<Symbol>ValidationECP1</Symbol>
+			<Symbol>ValidationECP2</Symbol>
+			<Symbol>ValidationECP3</Symbol>
+			<Symbol>ValidationECP4</Symbol>
+			<Symbol>ValidationECP5</Symbol>
+			<Symbol>ValidationECP6</Symbol>
+			<Symbol>ValidationECP7</Symbol>
+			<Symbol>ValidationECP8</Symbol>
+			<Symbol>ValidationECP9</Symbol>
+			<Symbol>ValidationSItop1</Symbol>
+			<Symbol>ValidationSItop2</Symbol>
+			<Symbol>ValidationSItop3</Symbol>
+			<Symbol>ValidationSItop4</Symbol>
+			<Symbol>ValidationSItop5</Symbol>
+			<Symbol>ValidationSItop6</Symbol>
+			<Symbol>ValidationSItop7</Symbol>
+			<Symbol>ValidationSItop8</Symbol>
+			<Symbol>ValidationSItop9</Symbol>
+			<Symbol>ValidationSIbot1</Symbol>
+			<Symbol>ValidationSIbot2</Symbol>
+			<Symbol>ValidationSIbot3</Symbol>
+			<Symbol>ValidationSIbot4</Symbol>
+			<Symbol>ValidationSIbot5</Symbol>
+			<Symbol>ValidationSIbot6</Symbol>
+			<Symbol>ValidationSIbot7</Symbol>
+			<Symbol>ValidationSIbot8</Symbol>
+			<Symbol>ValidationSIbot9</Symbol>
+			<Symbol>display_yield_curve</Symbol>
+			<Symbol>AllowUserLevel4</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+			<Symbol>AllowProd10</Symbol>
+			<Symbol>AllowProd9</Symbol>
+			<Symbol>AllowProd8</Symbol>
+			<Symbol>AllowProd7</Symbol>
+			<Symbol>AllowProd6</Symbol>
+			<Symbol>AllowProd5</Symbol>
+			<Symbol>AllowProd4</Symbol>
+			<Symbol>tbpwtitem</Symbol>
+			<Symbol>tbpLVitem</Symbol>
+			<Symbol>LVitem</Symbol>
+			<Symbol>maxprod</Symbol>
+			<Symbol>ylditem</Symbol>
+			<Symbol>MRATitem</Symbol>
+			<Symbol>LVRitem</Symbol>
+			<Symbol>MWitem</Symbol>
+			<Symbol>sgitem</Symbol>
+			<Symbol>FlashItem</Symbol>
+			<Symbol>NitroItem</Symbol>
+			<Symbol>SulItem</Symbol>
+			<Symbol>BPitem</Symbol>
+			<Symbol>OPitem</Symbol>
+			<Symbol>ONitem</Symbol>
+			<Symbol>KVitem</Symbol>
+			<Symbol>FamilyItem</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

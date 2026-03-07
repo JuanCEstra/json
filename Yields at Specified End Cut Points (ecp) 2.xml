@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Net Yields on Fresh Feed at Specified Cut Points"</Title>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>2</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Yields"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>3</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ParentPage PageGUID="F5DAD93B-86D1-4480-87E5-6C915E664EB6" Name="Yields Page 2 Subpages" />
+		<MultipleTabRows>true</MultipleTabRows>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="892" left="1767" bottom="914" right="1917" />
+		<StaticText>3 of 4</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="840" />
+		<TabOrder>5</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Operating Conditions"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="DAC23FFB-DBB5-4BD3-99F4-E927221BDE16" Name="Operating Conditions 1" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="890" bottom="952" right="1100" />
+		<Hidden>VALUE := (D1N + D2N - 1)</Hidden>
+		<TabOrder>4</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Naphtha Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="3C7D5F82-0384-4BF3-BAC7-76DF54EC4816" Name="Naphtha Cracking Feed" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1165" bottom="952" right="1375" />
+		<Hidden>VALUE := BOFG - 1</Hidden>
+		<TabOrder>1</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Bio-oil Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="2219F74D-F0B9-49C2-8E04-13A8D48564E8" Name="Bio-Oil Feed" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>UserSelectableConventions</Symbol>
+			<Symbol>CurrentUnitConvention</Symbol>
+			<Symbol>BOFG</Symbol>
+			<Symbol>D1N</Symbol>
+			<Symbol>D2N</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

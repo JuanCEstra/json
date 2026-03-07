@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2023-10-16 18:17:02">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Plant Rundown Yields @ Specified Cut Points: Mass rates"</Title>
+	<Hidden>VALUE := Economic_Mode = 1</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>2</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromBottom" Value="23" />
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Yields"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Scalar">
+		<MultipleCases>true</MultipleCases>
+		<Location top="50" left="15" bottom="865" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>WFGC2RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="10" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WH2RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WH2SRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC1RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC2RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC2OLRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC3C2RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC4C2RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WGSLC2RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WDRGRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC2C3RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC3NRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC3OLRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC4C3RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC3TRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC3C4RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC4NRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC4IRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC4OLRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC4DINRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WGSLC4RD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WC4TRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WGSLRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WLCORD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WHCORD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WCLOC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WCOKE</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FGC2RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>H2RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>H2SRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C1RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C2RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C2OLRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C3C2RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4C2RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>GSLC2RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>DRGRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C2C3RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C3NRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C3OLRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4C3RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C3TRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C3C4RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4NRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4IRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4OLRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4DINRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>GSLC4RDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4TRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>GSLRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>LCORDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>HCORDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>CLRFC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YCFS</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WTOTRD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TOTRDWT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FFMOIL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Rectangle">
+		<Location top="870" left="15" bottom="900" right="1735" />
+		<FillColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</FillColor>
+		<LineColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</LineColor>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="879" left="25" bottom="898" right="920" />
+		<StaticText>Please note that the total plant run-down yield can be greater than 100% due to flue gas entrainment</StaticText>
+		<Font GUID="4C831F88-9C20-4609-8778-E6CA6A07472D" Name="Tahoma 10B" />
+		<TextColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="892" left="1767" bottom="910" right="1914" />
+		<Alignment>Center</Alignment>
+		<Font GUID="0B7C0983-A061-45F8-B1B2-F4F19B4B93A6" Name="Time9B" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>DeclaredSubset</Symbol>
+			<Symbol>Economic_mode</Symbol>
+			<Symbol>YCFS</Symbol>
+			<Symbol>CLRFC</Symbol>
+			<Symbol>WCOKE</Symbol>
+			<Symbol>FFMOIL</Symbol>
+			<Symbol>WCLOC</Symbol>
+			<Symbol>WC4TRD</Symbol>
+			<Symbol>WLCORD</Symbol>
+			<Symbol>WHCORD</Symbol>
+			<Symbol>WTOTRD</Symbol>
+			<Symbol>GSLRDWT</Symbol>
+			<Symbol>WDRGRD</Symbol>
+			<Symbol>WGSLRD</Symbol>
+			<Symbol>H2RDWT</Symbol>
+			<Symbol>H2SRDWT</Symbol>
+			<Symbol>C1RDWT</Symbol>
+			<Symbol>C2RDWT</Symbol>
+			<Symbol>C2OLRDWT</Symbol>
+			<Symbol>C3NRDWT</Symbol>
+			<Symbol>C3OLRDWT</Symbol>
+			<Symbol>C4NRDWT</Symbol>
+			<Symbol>C4IRDWT</Symbol>
+			<Symbol>C4OLRDWT</Symbol>
+			<Symbol>WH2RD</Symbol>
+			<Symbol>WH2SRD</Symbol>
+			<Symbol>WC1RD</Symbol>
+			<Symbol>WC2RD</Symbol>
+			<Symbol>WC2OLRD</Symbol>
+			<Symbol>WC3C2RD</Symbol>
+			<Symbol>WC4C2RD</Symbol>
+			<Symbol>WGSLC2RD</Symbol>
+			<Symbol>WFGC2RD</Symbol>
+			<Symbol>C3C2RDWT</Symbol>
+			<Symbol>C4C2RDWT</Symbol>
+			<Symbol>GSLC2RDWT</Symbol>
+			<Symbol>WC2C3RD</Symbol>
+			<Symbol>WC3NRD</Symbol>
+			<Symbol>WC3OLRD</Symbol>
+			<Symbol>WC4C3RD</Symbol>
+			<Symbol>WC3TRD</Symbol>
+			<Symbol>WC3C4RD</Symbol>
+			<Symbol>WC4NRD</Symbol>
+			<Symbol>WC4IRD</Symbol>
+			<Symbol>WC4OLRD</Symbol>
+			<Symbol>WC4DINRD</Symbol>
+			<Symbol>WGSLC4RD</Symbol>
+			<Symbol>C2C3RDWT</Symbol>
+			<Symbol>C4C3RDWT</Symbol>
+			<Symbol>C3C4RDWT</Symbol>
+			<Symbol>C4DINRDWT</Symbol>
+			<Symbol>GSLC4RDWT</Symbol>
+			<Symbol>C3TRDWT</Symbol>
+			<Symbol>FGC2RDWT</Symbol>
+			<Symbol>DRGRDWT</Symbol>
+			<Symbol>TOTRDWT</Symbol>
+			<Symbol>C4TRDWT</Symbol>
+			<Symbol>LCORDWT</Symbol>
+			<Symbol>HCORDWT</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

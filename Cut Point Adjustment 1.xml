@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Cut Point Adjustments"</Title>
+	<Hidden>VALUE := Multi_Cuts = 3</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>3</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromTop" Value="38">
+						<BottomArea Line="PercentageFromTop" Value="0.436823">
+							<BottomArea Line="FixedFromTop" Value="31" />
+						</BottomArea>
+					</LeftArea>
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Cut Point Adjustments"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Rectangle">
+		<Location top="50" left="15" bottom="444" right="1735" />
+		<FillColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</FillColor>
+		<LineColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</LineColor>
+	</PageObject>
+	<PageObject Type="Scalar" Tag="st_data">
+		<MultipleCases>true</MultipleCases>
+		<Location top="85" left="15" bottom="422" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginRight="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>C6C5RT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C6C5RT0</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SCPC6</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SCPLTN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SCPHVN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SCPLGO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SCPHGO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="905" right="1911" />
+		<StaticText>1 of 2</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Scalar" Tag="sp_data">
+		<MultipleCases>true</MultipleCases>
+		<Location top="475" left="15" bottom="893" right="1735" />
+		<TabOrder>2</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginRight="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>ECPC6</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ECPLTN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ECPHVN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ECPLGO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ECPHGO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TLPEBP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text" Tag="st_title">
+		<Location top="50" left="15" bottom="80" right="1735" />
+		<StaticText>STANDARD CUT POINTS (SCP)</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<TextColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Rectangle">
+		<Location top="450" left="15" bottom="905" right="1735" />
+		<FillColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</FillColor>
+		<LineColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</LineColor>
+	</PageObject>
+	<PageObject Type="Text" Tag="sp_title">
+		<Location top="450" left="15" bottom="480" right="1735" />
+		<StaticText>SPECIFIED CUT POINTS (ECP)</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<TextColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="960" />
+		<Hidden>VALUE := ECPLTN=SCPLTN and ECPHVN=SCPHVN and ECPLGO=SCPLGO and ECPHGO=SCPHGO and ECPCLO=SCPCLO and ECPC6=SCPC6</Hidden>
+		<TabOrder>4</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Read warning first"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>cutpoint_message</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Model_Related_Identifiers</Symbol>
+			<Symbol>Multi_cuts</Symbol>
+			<Symbol>SCPHVN</Symbol>
+			<Symbol>SCPLGO</Symbol>
+			<Symbol>SCPHGO</Symbol>
+			<Symbol>TLPEBP</Symbol>
+			<Symbol>ECPLTN</Symbol>
+			<Symbol>ECPHVN</Symbol>
+			<Symbol>ECPLGO</Symbol>
+			<Symbol>ECPHGO</Symbol>
+			<Symbol>C6C5RT</Symbol>
+			<Symbol>C6C5RT0</Symbol>
+			<Symbol>ECPC6</Symbol>
+			<Symbol>SCPLTN</Symbol>
+			<Symbol>ECPCLO</Symbol>
+			<Symbol>SCPCLO</Symbol>
+			<Symbol>SCPC6</Symbol>
+			<Symbol>cutpoint_message</Symbol>
+			<Symbol>AllowDeveloper</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

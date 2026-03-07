@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Hidden>VALUE := Multi_Cuts = 3</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>4</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Product Properties"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Button">
+		<Location top="922" left="1410" bottom="952" right="1650" />
+		<TabOrder>1</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Calibrate Correlations"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="E02D45F4-7A55-4FD6-93F3-DC256BF1D02A" Name="Update Calibrations Page" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="888" left="1765" bottom="905" right="1909" />
+		<StaticText>1 of 2</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1195" bottom="952" right="1375" />
+		<Hidden>SupplyChainUser</Hidden>
+		<TabOrder>5</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Cal. Visc. 40 or 100"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>VIS_RCY_ACF</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+			<Action Type="LinkedPage">
+				<Page PageGUID="07B8D10B-44B0-4451-9808-0BF5F84125E1" Name="Calculate Viscosity at 100 DegC" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="810" />
+		<TabOrder>3</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Additional Properties"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="9F646EB4-1A2E-47A9-AFD7-4AA8A09D17BB" Name="Additional Product Properties" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>6</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ParentPage PageGUID="7FB70F83-7E77-4C65-9FD0-0887B107B56B" Name="Product Properties (ecp) Subpages" />
+		<MultipleTabRows>true</MultipleTabRows>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="850" bottom="952" right="1150" />
+		<Hidden>VALUE := AllowUserLevel4</Hidden>
+		<TabOrder>2</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Product Prop. Correlations"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="74A5D528-4EDC-4D00-AEA5-A82E7CAEAA6E" Name="Product Property Correlations 1" />
+			</Action>
+			<Action Type="LinkedPage">
+				<Page PageGUID="5061D5ED-2EBB-4C72-BAD6-23D98E8973AE" Name="Message(1)" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Multi_cuts</Symbol>
+			<Symbol>SupplyChainUser</Symbol>
+			<Symbol>VIS_RCY_ACF</Symbol>
+			<Symbol>AllowUserLevel4</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

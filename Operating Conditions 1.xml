@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Operating Conditions"</Title>
+	<Hidden>Pages_ActualHidden( 'Operating Conditions 1' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>9</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Operating"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Button">
+		<Location top="967" left="1682" bottom="997" right="1828" />
+		<TabOrder>5</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Main"</Title>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="582D0C80-6BCE-4D29-A314-D663B0E3AFEB" Name="Main" />
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="967" left="1089" bottom="997" right="1523" />
+		<TabOrder>8</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"External Streams"</Title>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>external_streams</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="968" left="1829" bottom="998" right="1865" />
+		<TabOrder>2</TabOrder>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"system\bitmaps\next.bmp"</BitmapFile>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="202FFCB6-8F50-44AA-B710-2335AB0AE717" Name="Operating Conditions 2" />
+				<Page PageGUID="7AF3C3BE-BC35-4812-BB46-AA71468B216D" Name="Two-stage regeneration variables" />
+				<Page PageGUID="05D669F4-15D2-432A-AAD6-55090E0D9199" Name="Two-stage regeneration variables(2)" />
+				<OpenMode>ViaIdentifier</OpenMode>
+				<Identifier>REG_PAGE</Identifier>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="968" left="1555" bottom="998" right="1686" />
+		<TabOrder>3</TabOrder>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"system\bitmaps\prev.bmp"</BitmapFile>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="582D0C80-6BCE-4D29-A314-D663B0E3AFEB" Name="Main" />
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="898" right="1738" />
+		<TabOrder>10</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ParentPage PageGUID="8BF7812B-1E85-4231-8E56-300D243EF692" Name="Operating Conditions Subpages" />
+		<SelectedPageSymbol>spCurrentlySelectedTab</SelectedPageSymbol>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1430" bottom="952" right="1640" />
+		<Hidden>VALUE := if spCurrentlySelectedTab = "Operating Conditions Subpage 3" or spCurrentlySelectedTab = "Operating Conditions Subpage 4" or spCurrentlySelectedTab = "Operating Conditions Subpage 5" then 1 endif</Hidden>
+		<TabOrder>7</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"External Streams"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>external_streams</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1105" bottom="952" right="1375" />
+		<Hidden>VALUE := if spCurrentlySelectedTab = "Operating Conditions Subpage 1" or  spCurrentlySelectedTab = "Operating Conditions Subpage 2" or spCurrentlySelectedTab = "Operating Conditions Naphtha Cracking" then 1 endif</Hidden>
+		<TabOrder>6</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"CO Boiler and CO2 Emissions"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="48A9C109-720B-4A4B-8036-1DB46558CBA1" Name="CO Boiler" />
+			</Action>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>COB_Calculations</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="810" />
+		<Hidden>VALUE := (D1N + D2N - 1)</Hidden>
+		<TabOrder>4</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Naphtha Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="3C7D5F82-0384-4BF3-BAC7-76DF54EC4816" Name="Naphtha Cracking Feed" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="850" bottom="952" right="1060" />
+		<Hidden>VALUE := BOFG - 1</Hidden>
+		<TabOrder>1</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Bio-oil Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="2219F74D-F0B9-49C2-8E04-13A8D48564E8" Name="Bio-Oil Feed" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>UserSelectableConventions</Symbol>
+			<Symbol>CurrentUnitConvention</Symbol>
+			<Symbol>BOFG</Symbol>
+			<Symbol>D1N</Symbol>
+			<Symbol>D2N</Symbol>
+			<Symbol>COB_Calculations</Symbol>
+			<Symbol>REG_PAGE</Symbol>
+			<Symbol>external_streams</Symbol>
+			<Symbol>Pages_ActualHidden</Symbol>
+			<Symbol>spCurrentlySelectedTab</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

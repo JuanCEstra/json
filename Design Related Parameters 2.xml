@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Unit Data - Design-Related Parameters (Additional)"</Title>
+	<Hidden>AllowUserLevel5</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>2</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Unit Data"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Scalar">
+		<MultipleCases>true</MultipleCases>
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>"RISER"</Identifier>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"RISER 1"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>DRISER</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RISEREV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RISERTFLX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"RISER 2"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_DRISER</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_RISEREV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_RISERTFLX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"REACTOR &amp; CYCLONES"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXPRIVOL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Prim. Cyc. Inlet Vol. Rate"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXPRIIA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Prim. Cyc. Inlet Area"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXPRIIV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Prim. Cyc. Inlet Velocity"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXPRIOA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Prim. Cyc. Outlet Area"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXPRIOV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Prim. Cyc. Outlet Velocity"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXSECVOL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Sec. Cyc. Inlet Vol. Rate"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXSECIA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Sec. Cyc. Inlet Area"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXSECIV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Sec. Cyc. Inlet Velocity"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXSECOA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Sec. Cyc. Outlet Area"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXSECOV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx-Sec. Cyc. Outlet Velocity"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TRX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Riser &amp; Rx flows based at Temp. T"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRISER</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Riser &amp; Rx flows based at Pres. P"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"STRIPPER"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TSTRIP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>STRIPD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>STRIPFLX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Cat. Flux in Stripper"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>STRIPVEL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Stripper Sup. Gas Velocity"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ISTRIP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Cat. Inventory in Stripper Bed"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>STRIPT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Cat. Residence Time in Stripper"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"REGENERATOR &amp; CYCLONES"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGPRIVOL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg-Prim. Cyclone Inlet Vol. Rate"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGPRIIA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg-Prim. Cyclone Inlet Area"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGPRIIV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg-Prim. Cyclone Inlet Velocity"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGSECVOL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg-Sec. Cyclone Inlet Vol. Rate"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGSECIA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg-Sec. Cyclone Inlet Area"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGSECIV</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg-Sec. Cyclone Inlet Velocity"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TRGN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg flows based at Temp. T"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRGN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg flows based at Pres. P"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"2-Stage Regenerator ..."</Identifier>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BEDDIA_1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg Bed Diameter Stage 1"</Title>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BEDDIA_2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg Bed Diameter Stage 2"</Title>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>AIR_RMN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>AIR_RMX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRGN_1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Pressure Rg Stg 1"</Title>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRGN_2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Pressure Rg Stg 2"</Title>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := SSRG_mode &gt; 0 or AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"STAND PIPES &amp; OVERHEAD LINES"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SCSPD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Spent Cat. Standpipe Diameter"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SCSPFLX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Spent Cat. Standpipe Flux"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RCSPD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Regen. Cat. Standpipe Diameter"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RCSPFLX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Regen. Cat. Standpipe Flux"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXOVHDD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx Ovhd Line Diameter"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXOVHDVEL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rx Velocity in Ovhd Line"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGOVHDD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg-Ovhd Line Diameter"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RGOVHDVEL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Rg Velocity in Ovhd Line"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"OTHERS"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FCAT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_FCAT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TOTFGW</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>MW_TLP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Est. MW Rx Ovhd Products"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"(Total HC incl. recycles)"</Identifier>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="908" right="1909" />
+		<StaticText>2 of 2</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Model_Related_Identifiers</Symbol>
+			<Symbol>Check_VRTOT_Input</Symbol>
+			<Symbol>SSRG_mode</Symbol>
+			<Symbol>PRISER</Symbol>
+			<Symbol>PRGN</Symbol>
+			<Symbol>TSTRIP</Symbol>
+			<Symbol>TRX</Symbol>
+			<Symbol>TRGN</Symbol>
+			<Symbol>FCAT</Symbol>
+			<Symbol>Use_R2</Symbol>
+			<Symbol>T_FCAT</Symbol>
+			<Symbol>AIR_RMN</Symbol>
+			<Symbol>AIR_RMX</Symbol>
+			<Symbol>PRGN_1</Symbol>
+			<Symbol>PRGN_2</Symbol>
+			<Symbol>TOTFGW</Symbol>
+			<Symbol>DRISER</Symbol>
+			<Symbol>RXPRIIA</Symbol>
+			<Symbol>RXSECIA</Symbol>
+			<Symbol>RXPRIOA</Symbol>
+			<Symbol>RXSECOA</Symbol>
+			<Symbol>STRIPD</Symbol>
+			<Symbol>RXOVHDD</Symbol>
+			<Symbol>RGPRIIA</Symbol>
+			<Symbol>RGSECIA</Symbol>
+			<Symbol>RGOVHDD</Symbol>
+			<Symbol>RCSPD</Symbol>
+			<Symbol>SCSPD</Symbol>
+			<Symbol>ISTRIP</Symbol>
+			<Symbol>R2_DRISER</Symbol>
+			<Symbol>RXPRIVOL</Symbol>
+			<Symbol>RXSECVOL</Symbol>
+			<Symbol>STRIPFLX</Symbol>
+			<Symbol>STRIPT</Symbol>
+			<Symbol>RGPRIVOL</Symbol>
+			<Symbol>RGSECVOL</Symbol>
+			<Symbol>RCSPFLX</Symbol>
+			<Symbol>SCSPFLX</Symbol>
+			<Symbol>BEDDIA_1</Symbol>
+			<Symbol>BEDDIA_2</Symbol>
+			<Symbol>RISEREV</Symbol>
+			<Symbol>R2_RISEREV</Symbol>
+			<Symbol>RISERTFLX</Symbol>
+			<Symbol>R2_RISERTFLX</Symbol>
+			<Symbol>RGOVHDVEL</Symbol>
+			<Symbol>RXOVHDVEL</Symbol>
+			<Symbol>RXPRIIV</Symbol>
+			<Symbol>RXPRIOV</Symbol>
+			<Symbol>RXSECIV</Symbol>
+			<Symbol>RXSECOV</Symbol>
+			<Symbol>STRIPVEL</Symbol>
+			<Symbol>RGPRIIV</Symbol>
+			<Symbol>RGSECIV</Symbol>
+			<Symbol>MW_TLP</Symbol>
+			<Symbol>AllowUserLevel5</Symbol>
+			<Symbol>AllowUserLevel4</Symbol>
+			<Symbol>AllowUserLevel3</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

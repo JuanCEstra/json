@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Hidden>1</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>4</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Update Parameters"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="905" right="1911" />
+		<StaticText>1 of 1</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Scalar">
+		<MultipleCases>true</MultipleCases>
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>KVZRO_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>DYCATC_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>XNMAX_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>KCR_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YSTAR_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>XSTAR_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>KC2LTR_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C34_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C45_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>IC4SR_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>IC5SR_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C3INT_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4INT_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C5INT_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C3SLOP_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4SLOP_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C5SLOP_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>GAMLCO_PDU</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>GAMCLO_PDU</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="840" bottom="952" right="1020" />
+		<Hidden>NotAllowDeveloper</Hidden>
+		<TabOrder>2</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Back"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>GoBack</Destination>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1140" bottom="952" right="1350" />
+		<TabOrder>3</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Re-Calculate"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>PDU_PARM_ACF</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Model_Related_Identifiers</Symbol>
+			<Symbol>KVZRO_PDU</Symbol>
+			<Symbol>DYCATC_PDU</Symbol>
+			<Symbol>XNMAX_PDU</Symbol>
+			<Symbol>KCR_PDU</Symbol>
+			<Symbol>YSTAR_PDU</Symbol>
+			<Symbol>XSTAR_PDU</Symbol>
+			<Symbol>KC2LTR_PDU</Symbol>
+			<Symbol>C34_PDU</Symbol>
+			<Symbol>C45_PDU</Symbol>
+			<Symbol>IC4SR_PDU</Symbol>
+			<Symbol>IC5SR_PDU</Symbol>
+			<Symbol>C3INT_PDU</Symbol>
+			<Symbol>C4INT_PDU</Symbol>
+			<Symbol>C5INT_PDU</Symbol>
+			<Symbol>C3SLOP_PDU</Symbol>
+			<Symbol>C4SLOP_PDU</Symbol>
+			<Symbol>C5SLOP_PDU</Symbol>
+			<Symbol>GAMLCO_PDU</Symbol>
+			<Symbol>GAMCLO_PDU</Symbol>
+			<Symbol>PDU_PARM_ACF</Symbol>
+			<Symbol>NotAllowDeveloper</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

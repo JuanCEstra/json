@@ -1,0 +1,1143 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Unit Constraints"</Title>
+	<Hidden>VALUE := P_UnitConstraints1 - 1 = 0</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>3</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Unit Constraints"</HelpTopic>
+	<Action>
+		<EntryProcedure>Constraints_Page</EntryProcedure>
+	</Action>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Scalar">
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>"REACTOR 1"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"REACTOR"</Identifier>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FRFEED.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FFMOIL.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDAFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Feed A Vol. Rate"</Title>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDBFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Feed B Vol. Rate"</Title>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDCFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Feed C Vol. Rate"</Title>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDDFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Feed D Vol. Rate"</Title>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDMFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Feed E Vol. Rate"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDNFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Feed F Vol. Rate"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FAPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FBPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FCPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FMPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FNPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"BIO-OIL CO-PROCESSING"</Identifier>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBOFD.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILVA.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed A Vol. Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILVB.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed B Vol. Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILVC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed C Vol. Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILVD.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed D Vol. Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILMA.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed A Mass Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILMB.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed B Mass Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILMC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed C Mass Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BOILMD.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Bio-Oil Feed D Mass Rate"</Title>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := BOFG = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TRX.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TPHTR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FWTR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"REACTOR 2"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FRFEED.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FFMOIL.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDAFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDBFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDCFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDDFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDMFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDNFR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FAPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FBPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FCPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FMPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FNPCTV.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_TRX.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_TPHTR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FWTR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"NAPHTHA CRACKING"</Identifier>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FFGRCY.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"FCC Naphtha Recycle Vol. Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FFGPUR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Purchased/Tanked Naphtha Vol. Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FFSRLN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Light Straight-Run Naphtha Vol. Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FFSRHN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Heavy Straight-Run Naphtha Vol. Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FFCOKN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Coker Naphtha Vol. Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FMGRCY.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"FCC Naphtha Recycle Mass Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FMGPUR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Purchased/Tanked Naphtha Mass Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FMSRLN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Light Straight-Run Naphtha Mass Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FMSRHN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Heavy Straight-Run Naphtha Mass Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FMCOKN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Coker Naphtha Mass Rate"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TPHTRN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TRXN2.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Eff. Reaction Temp. for Naphtha Cracking"</Title>
+			<ProcedureUponChange>NC_ScreenCalc</ProcedureUponChange>
+			<Hidden>VALUE := D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := D1N = 0 and D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"REGENERATOR"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FCAT.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if D2N = 1 then "Cat Circ. Rate to FCC Riser by Regen HB" else "Cat Circ. Rate by Regen HB" endif</Title>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FCATSM.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := D2N = 0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FCAT.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"[Riser 2] Cat Circulation Rate by Regen HB"</Title>
+			<Hidden>VALUE := if not Use_R2 then 1 endif</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>AIRWET.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WETAIR.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>OXY.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TRGN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TPLENM.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRGN.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PWGSUC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>DELTA_P.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>QCOOLER.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSPRAY.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PCTCO.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Scientific="IfTooSmall" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PCTO2.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Scientific="IfTooSmall" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>AIROXY.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>CRC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BEDVEL.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"NET YIELDS (excl. Recycles)"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>DRYGAS.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>WETGAS.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PC3T.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PC4T.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PC34T.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PGASOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PLCOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PHCOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PCLOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PHSOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>XFC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_DRYGAS.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_WETGAS.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PC3T.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PC4T.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PC34T.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PGASOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PLCOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PHCOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PCLOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PHSOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_XFC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"PRODUCT PROPERTIES"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Y5RONC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Use_R2 then "[Reactor 1] C5-FBP Research Octane Number (RON)" else "C5-FBP Research Octane Number (RON)" endif</Title>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Y5MONC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Use_R2 then "[Reactor 1] C5-FBP Motor Octane Number (MON)" else "C5-FBP Motor Octane Number (MON)" endif</Title>
+			<ProcedureUponChange>check_tempfd_data</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_Y5RONC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"[Reactor 2] C5-FBP Research Octane Number (RON)"</Title>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_Y5MONC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"[Reactor 2] C5-FBP Motor Octane Number (MON)"</Title>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="905" right="1903" />
+		<StaticText>1 of 2</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="930" />
+		<TabOrder>2</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Add More Constraints"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="15E493F1-D3B5-4516-9EB9-BCBE968280DA" Name="Additional Unit Constraints" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Model_Related_Identifiers</Symbol>
+			<Symbol>check_tempfd_data</Symbol>
+			<Symbol>PRGN</Symbol>
+			<Symbol>FWTR</Symbol>
+			<Symbol>AIRWET</Symbol>
+			<Symbol>FSPRAY</Symbol>
+			<Symbol>OXY</Symbol>
+			<Symbol>PCTCO</Symbol>
+			<Symbol>PCTO2</Symbol>
+			<Symbol>TPLENM</Symbol>
+			<Symbol>WETAIR</Symbol>
+			<Symbol>TRX</Symbol>
+			<Symbol>TRGN</Symbol>
+			<Symbol>FCAT</Symbol>
+			<Symbol>FCATSM</Symbol>
+			<Symbol>RC</Symbol>
+			<Symbol>CRC</Symbol>
+			<Symbol>FFMOIL</Symbol>
+			<Symbol>FRFEED</Symbol>
+			<Symbol>FDAFR</Symbol>
+			<Symbol>FAPCTV</Symbol>
+			<Symbol>FDBFR</Symbol>
+			<Symbol>FBPCTV</Symbol>
+			<Symbol>FDCFR</Symbol>
+			<Symbol>FCPCTV</Symbol>
+			<Symbol>FDDFR</Symbol>
+			<Symbol>FDPCTV</Symbol>
+			<Symbol>FDMFR</Symbol>
+			<Symbol>FMPCTV</Symbol>
+			<Symbol>FDNFR</Symbol>
+			<Symbol>FNPCTV</Symbol>
+			<Symbol>XFC</Symbol>
+			<Symbol>PLCOC</Symbol>
+			<Symbol>PHCOC</Symbol>
+			<Symbol>PCLOC</Symbol>
+			<Symbol>PHSOC</Symbol>
+			<Symbol>PGASOC</Symbol>
+			<Symbol>Y5RONC</Symbol>
+			<Symbol>Y5MONC</Symbol>
+			<Symbol>DRYGAS</Symbol>
+			<Symbol>PC3T</Symbol>
+			<Symbol>PC4T</Symbol>
+			<Symbol>PC34T</Symbol>
+			<Symbol>WETGAS</Symbol>
+			<Symbol>QCOOLER</Symbol>
+			<Symbol>TPHTR</Symbol>
+			<Symbol>Use_R2</Symbol>
+			<Symbol>R2_FWTR</Symbol>
+			<Symbol>R2_TRX</Symbol>
+			<Symbol>R2_FCAT</Symbol>
+			<Symbol>R2_FFMOIL</Symbol>
+			<Symbol>R2_FRFEED</Symbol>
+			<Symbol>R2_FDAFR</Symbol>
+			<Symbol>R2_FAPCTV</Symbol>
+			<Symbol>R2_FDBFR</Symbol>
+			<Symbol>R2_FBPCTV</Symbol>
+			<Symbol>R2_FDCFR</Symbol>
+			<Symbol>R2_FCPCTV</Symbol>
+			<Symbol>R2_FDDFR</Symbol>
+			<Symbol>R2_FDPCTV</Symbol>
+			<Symbol>R2_FDMFR</Symbol>
+			<Symbol>R2_FMPCTV</Symbol>
+			<Symbol>R2_FDNFR</Symbol>
+			<Symbol>R2_FNPCTV</Symbol>
+			<Symbol>R2_Y5RONC</Symbol>
+			<Symbol>R2_Y5MONC</Symbol>
+			<Symbol>T_PC3T</Symbol>
+			<Symbol>T_PC34T</Symbol>
+			<Symbol>T_PC4T</Symbol>
+			<Symbol>T_PGASOC</Symbol>
+			<Symbol>T_PLCOC</Symbol>
+			<Symbol>T_PHCOC</Symbol>
+			<Symbol>T_PCLOC</Symbol>
+			<Symbol>T_PHSOC</Symbol>
+			<Symbol>T_DRYGAS</Symbol>
+			<Symbol>T_WETGAS</Symbol>
+			<Symbol>T_XFC</Symbol>
+			<Symbol>R2_TPHTR</Symbol>
+			<Symbol>BEDVEL</Symbol>
+			<Symbol>AIROXY</Symbol>
+			<Symbol>BOFG</Symbol>
+			<Symbol>TBOFD</Symbol>
+			<Symbol>BOILMA</Symbol>
+			<Symbol>BOILVA</Symbol>
+			<Symbol>BOILMB</Symbol>
+			<Symbol>BOILVB</Symbol>
+			<Symbol>BOILMC</Symbol>
+			<Symbol>BOILVC</Symbol>
+			<Symbol>BOILMD</Symbol>
+			<Symbol>BOILVD</Symbol>
+			<Symbol>NC_ScreenCalc</Symbol>
+			<Symbol>D1N</Symbol>
+			<Symbol>D2N</Symbol>
+			<Symbol>FFGRCY</Symbol>
+			<Symbol>FMGRCY</Symbol>
+			<Symbol>FFGPUR</Symbol>
+			<Symbol>FMGPUR</Symbol>
+			<Symbol>FFSRLN</Symbol>
+			<Symbol>FMSRLN</Symbol>
+			<Symbol>FFSRHN</Symbol>
+			<Symbol>FMSRHN</Symbol>
+			<Symbol>FFCOKN</Symbol>
+			<Symbol>FMCOKN</Symbol>
+			<Symbol>TRXN2</Symbol>
+			<Symbol>TPHTRN</Symbol>
+			<Symbol>PWGSUC</Symbol>
+			<Symbol>DELTA_P</Symbol>
+			<Symbol>Constraints_Page</Symbol>
+			<Symbol>P_UnitConstraints1</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

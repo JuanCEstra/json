@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Hidden>VALUE := P_HiddenIfSingleCase - 1 = 0</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>5</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Feed"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Scalar">
+		<MultipleCases>true</MultipleCases>
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>2</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="528D57BB-D3F9-4EDF-94AC-76D512B326E7">white</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<Symbol>SHARCSelectionColor</Symbol>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>"Riser 1"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FRCLOR</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Total Slurry Recycle Vol. Rate to Riser"</Title>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SLMOIL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FRCLOF</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Slurry Recycle Vol. Rate to Riser Inlet"</Title>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RYCLOF</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := simplesharc=0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"Riser 2"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FRCLOR</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_SLMOIL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FRCLOF</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_RYCLOF</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_Feed_NaphthaContent</ProcedureUponChange>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"Common properties"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSAPI</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSH2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSCARB</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSOXY</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSN2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="0" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSSUL</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSMW</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSBN2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="0" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSAN1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSDI</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSTRI</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSTETRA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSANUC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSCCR</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSNVC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSBR</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FS450M</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSLGO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSCLO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FS1000</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSV50</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FSV100</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1875" bottom="952" right="1911" />
+		<Hidden>pcase_sel( 'psingle_case' )</Hidden>
+		<TabOrder>6</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"&lt;prj&gt;:bitmaps\Right.png"</BitmapFile>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>TreeNext</Destination>
+				<AncestorLevels>2</AncestorLevels>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1764" bottom="952" right="1800" />
+		<Hidden>pcase_sel( 'psingle_case' )</Hidden>
+		<TabOrder>1</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"&lt;prj&gt;:bitmaps\PREV_NEW.BMP"</BitmapFile>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>TreePrevious</Destination>
+				<AncestorLevels>2</AncestorLevels>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1800" bottom="952" right="1875" />
+		<Hidden>pcase_sel( 'psingle_case' )</Hidden>
+		<TabOrder>4</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Main"</Title>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>Main_Page_Open</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1800" bottom="952" right="1875" />
+		<Hidden>pcase_sel( 'pmulti_case' )</Hidden>
+		<TabOrder>3</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Back"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>GoBack</Destination>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Model_Related_Identifiers</Symbol>
+			<Symbol>SHARCSelectionColor</Symbol>
+			<Symbol>Check_Feed_NaphthaContent</Symbol>
+			<Symbol>FS450M</Symbol>
+			<Symbol>FSLGO</Symbol>
+			<Symbol>FSCLO</Symbol>
+			<Symbol>FRCLOR</Symbol>
+			<Symbol>SLMOIL</Symbol>
+			<Symbol>FRCLOF</Symbol>
+			<Symbol>RYCLOF</Symbol>
+			<Symbol>FSH2</Symbol>
+			<Symbol>FSCARB</Symbol>
+			<Symbol>FSOXY</Symbol>
+			<Symbol>FSN2</Symbol>
+			<Symbol>FSSUL</Symbol>
+			<Symbol>FSMW</Symbol>
+			<Symbol>FSBN2</Symbol>
+			<Symbol>FSBR</Symbol>
+			<Symbol>FSAN1</Symbol>
+			<Symbol>FSDI</Symbol>
+			<Symbol>FSTRI</Symbol>
+			<Symbol>FSTETRA</Symbol>
+			<Symbol>FSANUC</Symbol>
+			<Symbol>FS1000</Symbol>
+			<Symbol>FSV50</Symbol>
+			<Symbol>FSCCR</Symbol>
+			<Symbol>FSNVC</Symbol>
+			<Symbol>Use_R2</Symbol>
+			<Symbol>R2_FRCLOR</Symbol>
+			<Symbol>R2_SLMOIL</Symbol>
+			<Symbol>R2_FRCLOF</Symbol>
+			<Symbol>R2_RYCLOF</Symbol>
+			<Symbol>FSAPI</Symbol>
+			<Symbol>FSV100</Symbol>
+			<Symbol>Main_Page_Open</Symbol>
+			<Symbol>P_HiddenIfSingleCase</Symbol>
+			<Symbol>pcase_sel</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+			<Symbol>SimpleSHARC</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

@@ -1,0 +1,838 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Unit Data - Design-Related Parameters"</Title>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>2</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Unit Data"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Scalar">
+		<MultipleCases>true</MultipleCases>
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>"REACTOR"</Identifier>
+			<NumberFormat Width="15" Decimals="0" Alignment="Left" />
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXCYVID</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>RXCSAREA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"RISER"</Identifier>
+			<Hidden>VALUE := if Use_R2 = 0  and D2N = 1 then 1 endif</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"RISER 1"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"MAIN RISER"</Identifier>
+			<Hidden>VALUE := if Use_R2 = 0  and D2N = 0 then 1 endif</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRISER</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VRISER</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Volume of Riser"</Title>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VFEED</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VGASRX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VSTEAM</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VPROD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VLOGM</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>HRTRIS</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TRTLGC</Identifier>
+			<NumberFormat Width="1" Decimals="0" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Riser Top Recycles Logic (2 or 3)"</Title>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"(2: Upstream of Riser Top Temp. Probe Point;"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" 3: Downstream of Riser Top Temp. Probe Point)"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TUNSLP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TCRISE</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TCTOT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>KVZRO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FDEFF</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>EFFCYC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>IBED</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRHRT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRHRTB</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>AllowUserLevel1</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>GFWB</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ETABED</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"RISER 2"</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_PRISER</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_VRISER</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_VFEED</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_VGASRX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="5" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_VSTEAM</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_VPROD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_VLOGM</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_HRTRIS</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TRTLGC</Identifier>
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_TUNSLP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_TCRISE</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_KVZRO</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_FDEFF</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>EFFCYC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_IBED</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_PRHRT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_PRHRTB</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_GFWB</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>R2_ETABED</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"NAPHTHA RISER"</Identifier>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRISERN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VRIS2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VFEED2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VGAS2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VSTM2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VPROD2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VLOG2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TCNC2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SLIPF2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TCNC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="5" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>QLOSSN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not D2N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"LIFT-POT"</Identifier>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VLFPT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VFEED3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VGAS3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VSTM3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VPROD3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VPROD4</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VPROD5</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>VLOG3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TCNC3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SLIPF3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TCNC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="5" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>QLOSSN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := not D1N</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"REGENERATOR &amp; CYCLONES"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRGN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BEDDIA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"2-Stage Regenerator ..."</Identifier>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowuserlevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BEDDIA_1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowuserlevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>BEDDIA_2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowuserlevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>AIR_RMN</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowdeveloper</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>AIR_RMX</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowdeveloper</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRGN_1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowuserlevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PRGN_2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowuserlevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+			<Hidden>VALUE := SSRG_mode &gt;0 or allowuserlevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"STAND PIPES &amp; OVERHEAD LINES"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>QVLOSS</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>Check_VRTOT_Input</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="906" right="1909" />
+		<SourceType>StringParameter</SourceType>
+		<StringParameter>UnitDesignPage</StringParameter>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Line">
+		<Location top="782" left="31" bottom="782" right="1724" />
+		<LineColor RGB="#c0c0c0" />
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Model_Related_Identifiers</Symbol>
+			<Symbol>Check_VRTOT_Input</Symbol>
+			<Symbol>TRTLGC</Symbol>
+			<Symbol>SSRG_mode</Symbol>
+			<Symbol>PRISER</Symbol>
+			<Symbol>PRGN</Symbol>
+			<Symbol>ETABED</Symbol>
+			<Symbol>FDEFF</Symbol>
+			<Symbol>GFWB</Symbol>
+			<Symbol>TUNSLP</Symbol>
+			<Symbol>VRISER</Symbol>
+			<Symbol>PRHRT</Symbol>
+			<Symbol>PRHRTB</Symbol>
+			<Symbol>VGASRX</Symbol>
+			<Symbol>IBED</Symbol>
+			<Symbol>KVZRO</Symbol>
+			<Symbol>HRTRIS</Symbol>
+			<Symbol>VPROD</Symbol>
+			<Symbol>VSTEAM</Symbol>
+			<Symbol>VFEED</Symbol>
+			<Symbol>VLOGM</Symbol>
+			<Symbol>TCRISE</Symbol>
+			<Symbol>QVLOSS</Symbol>
+			<Symbol>EFFCYC</Symbol>
+			<Symbol>Use_R2</Symbol>
+			<Symbol>R2_PRISER</Symbol>
+			<Symbol>R2_ETABED</Symbol>
+			<Symbol>R2_FDEFF</Symbol>
+			<Symbol>R2_GFWB</Symbol>
+			<Symbol>R2_TUNSLP</Symbol>
+			<Symbol>R2_VRISER</Symbol>
+			<Symbol>R2_PRHRT</Symbol>
+			<Symbol>R2_PRHRTB</Symbol>
+			<Symbol>R2_VGASRX</Symbol>
+			<Symbol>R2_IBED</Symbol>
+			<Symbol>R2_KVZRO</Symbol>
+			<Symbol>R2_HRTRIS</Symbol>
+			<Symbol>R2_VPROD</Symbol>
+			<Symbol>R2_VSTEAM</Symbol>
+			<Symbol>R2_VFEED</Symbol>
+			<Symbol>R2_VLOGM</Symbol>
+			<Symbol>R2_TCRISE</Symbol>
+			<Symbol>AIR_RMN</Symbol>
+			<Symbol>AIR_RMX</Symbol>
+			<Symbol>PRGN_1</Symbol>
+			<Symbol>PRGN_2</Symbol>
+			<Symbol>D1N</Symbol>
+			<Symbol>D2N</Symbol>
+			<Symbol>PRISERN</Symbol>
+			<Symbol>QLOSSN</Symbol>
+			<Symbol>SLIPF2</Symbol>
+			<Symbol>SLIPF3</Symbol>
+			<Symbol>VLFPT</Symbol>
+			<Symbol>VRIS2</Symbol>
+			<Symbol>TCNC</Symbol>
+			<Symbol>TCNC2</Symbol>
+			<Symbol>TCNC3</Symbol>
+			<Symbol>VFEED2</Symbol>
+			<Symbol>VFEED3</Symbol>
+			<Symbol>VGAS2</Symbol>
+			<Symbol>VGAS3</Symbol>
+			<Symbol>VLOG2</Symbol>
+			<Symbol>VLOG3</Symbol>
+			<Symbol>VPROD2</Symbol>
+			<Symbol>VPROD3</Symbol>
+			<Symbol>VPROD4</Symbol>
+			<Symbol>VPROD5</Symbol>
+			<Symbol>VSTM2</Symbol>
+			<Symbol>VSTM3</Symbol>
+			<Symbol>BEDDIA</Symbol>
+			<Symbol>BEDDIA_1</Symbol>
+			<Symbol>BEDDIA_2</Symbol>
+			<Symbol>TCTOT</Symbol>
+			<Symbol>RXCYVID</Symbol>
+			<Symbol>RXCSAREA</Symbol>
+			<Symbol>UnitDesignPage</Symbol>
+			<Symbol>AllowDeveloper</Symbol>
+			<Symbol>AllowUserLevel4</Symbol>
+			<Symbol>AllowUserLevel3</Symbol>
+			<Symbol>AllowUserLevel1</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

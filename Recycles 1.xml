@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Feed - Recycles"</Title>
+	<Hidden>VALUE := P_HiddenIfMultipleCases - 1 = 0</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>4</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromBottom" Value="28" />
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Feed"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="906" right="1908" />
+		<StaticText>4 of 5</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="750" />
+		<TabOrder>3</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"D15/4 -&gt; API"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="84E89587-415F-473F-B48E-5C3ED9829870" Name="Recycle Calculator" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="890" left="31" bottom="911" right="849" />
+		<StaticText>Please click "D15/4 -&gt; API" button below to translate feed rate in "t/d" to "Volume Flow Rate" for model input.</StaticText>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="875" right="1735" />
+		<TabOrder>5</TabOrder>
+		<Font GUID="92E24E6D-5186-480E-8051-F2B947C72A57" Name="default small" />
+		<ParentPage PageGUID="44F190A3-CBDB-491A-BE0F-248B4640F8B4" Name="All Feed Pages" />
+		<Position>Hidden</Position>
+		<MultipleTabRows>true</MultipleTabRows>
+		<SelectedPageSymbol>"Feed Recycle Full Size Page 1"</SelectedPageSymbol>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="882" left="1151" bottom="910" right="1739" />
+		<TabOrder>6</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ExplicitIdentifier>
+			<Identifier>bClosedRecycleLoopToggle</Identifier>
+			<Color>1D9DAF3B-AA4E-496A-878C-7AC1850659FE Green 2</Color>
+			<Description>"Master - Allow Recycle Properties Update"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="990" bottom="952" right="1140" />
+		<TabOrder>1</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Ind. Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="84E606E9-A309-40B6-AA6D-1F44C87170B1" Name="LGO Recycles" />
+				<Page PageGUID="45C20115-EA6C-4161-98F4-4E5902760A78" Name="HGO Recycles" />
+				<Page PageGUID="01ECF780-C5C3-4FDC-9736-ADE49062E42B" Name="CLO (Slurry) Recycles" />
+				<OpenMode>UserSelects</OpenMode>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>bClosedRecycleLoopToggle</Symbol>
+			<Symbol>P_HiddenIfMultipleCases</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

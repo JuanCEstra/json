@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2023-09-23 15:18:23">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Product Property Correlations: Sp. Gr., Hydrogen &amp; Viscosity"</Title>
+	<Hidden>Pages_ActualHidden( 'Product Property Correlations 3' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>1</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Product Property Correlations"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Text">
+		<Location top="892" left="1767" bottom="910" right="1914" />
+		<StaticText>3 of 4  </StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="16" bottom="905" right="1746" />
+		<TabOrder>2</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ParentPage PageGUID="BC49C675-77FE-435D-8827-29C0B5EF4789" Name="Product Property Correlations Page 3 Subpages" />
+		<MultipleTabRows>true</MultipleTabRows>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Pages_ActualHidden</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+<PageManager>
+	<Page Name="Front Page" PageGUID="4C184BC3-915E-4C03-B47D-99A7ADCCDBFB" />
+	<Page Name="Main" PageGUID="582D0C80-6BCE-4D29-A314-D663B0E3AFEB">
+		<Page Name="Yields at Specified End Cut Points (ecp) 1" PageGUID="B42989F2-4463-439E-8FFB-EFF2AB3D4289">
+			<Page Name="Yields at Specified End Cut Points (ecp) 4" PageGUID="3FDD1CCB-7C63-4314-801F-668968CC15EC" />
+			<Page Name="Yields at Specified End Cut Points (ecp) 2" PageGUID="F86727C1-FB06-442C-81E1-868EF6994F6F" />
+			<Page Name="Yields at Specified End Cut Points (ecp) 3" PageGUID="8E781227-A09C-45ED-892C-27ADF1CD7C1B" />
+			<Page Name="Plant run-down yields" PageGUID="4518D094-4D8E-46E6-BA8E-8CB25CCB8058" />
+		</Page>
+		<Page Name="Feed Components 1" PageGUID="AC862242-277A-41D1-BB2F-ECC9DA13578C">
+			<Page Name="Feed Components 2" PageGUID="DFAD10F4-D435-4BC0-9F1F-82F1408A5A5C" />
+			<Page Name="Feed Components 3" PageGUID="B4FE760D-057D-4946-BA9F-38472FC4953F" />
+			<Page Name="Recycles 1" PageGUID="9B4B4261-0C4F-4081-8162-E55740E24145" />
+			<Page Name="Recycles 2" PageGUID="BEFD7458-9E4B-463A-BF9C-A1A63113DF3F" />
+		</Page>
+		<Page Name="Naphtha Cracking Feed" PageGUID="3C7D5F82-0384-4BF3-BAC7-76DF54EC4816" />
+		<Page Name="Bio-Oil Feed" PageGUID="2219F74D-F0B9-49C2-8E04-13A8D48564E8" />
+		<Page Name="Gross Feed Properties" PageGUID="D9742E10-0378-47DC-A150-46EC4A15F1D7">
+			<Page Name="Gross Feed Cp, Cn, and Ca" PageGUID="4834BB55-6CB7-43E9-89A8-1B8CCC2D3222" />
+		</Page>
+		<Page Name="Feed - Properties of Feed A" PageGUID="0665426C-4D7F-42EC-97C3-A1723A3381AE">
+			<Page Name="Feed - Properties of Feed B" PageGUID="686FFC27-64FA-41AA-9097-562AF8173732" />
+			<Page Name="Feed - Properties of Feed C" PageGUID="B6E6265B-846D-4679-8FCE-32F4717E983F" />
+			<Page Name="Feed - Properties of Feed D" PageGUID="2EC74CAB-3867-4AFE-B22C-F97D1319DB6E" />
+			<Page Name="Feed - Properties of Feed E" PageGUID="D8F0EED4-5CD3-4CCD-BA8C-3E23C1F1226C" />
+			<Page Name="Feed - Properties of Feed F" PageGUID="882FB809-956C-4ED7-9852-F87BC52DA5E4" />
+		</Page>
+		<Page Name="LGO Recycles" PageGUID="84E606E9-A309-40B6-AA6D-1F44C87170B1" />
+		<Page Name="HGO Recycles" PageGUID="45C20115-EA6C-4161-98F4-4E5902760A78" />
+		<Page Name="CLO (Slurry) Recycles" PageGUID="01ECF780-C5C3-4FDC-9736-ADE49062E42B" />
+		<Page Name="Operating Conditions 1" PageGUID="DAC23FFB-DBB5-4BD3-99F4-E927221BDE16">
+			<Page Name="Composition Liftgas, External -Gas &amp; -Liquid" PageGUID="FE06A236-7EAE-4965-8F43-6C724FED5E3A" />
+			<Page Name="CO Boiler" PageGUID="48A9C109-720B-4A4B-8036-1DB46558CBA1" />
+		</Page>
+		<Page Name="Catalyst 1" PageGUID="87D18A46-A36A-4E6C-A91B-C55DFE8C16B1">
+			<Page Name="Catalyst Deactivation" PageGUID="13ABFC3F-73D4-4988-BB81-B75363B7EEFA" />
+		</Page>
+		<Page Name="Economics 1" PageGUID="1A569653-E5EE-43CF-B311-FEBB4C3A4A5F">
+			<Page Name="Economics 2" PageGUID="90FB8D9D-FA2A-43D1-B4AE-F3E7830AD7FD" />
+			<Page Name="Economics 3" PageGUID="075EB33A-FFD3-4CF8-B5BD-DAE778E03E2F" />
+			<Page Name="Economics 4" PageGUID="43E5763F-31AD-46BA-9386-AED2B0EB20A4" />
+		</Page>
+		<Page Name="ECONOMICS - Inputs (Shell GSI Model 1)" PageGUID="8619D4F2-4D19-4B91-B9FE-E0FD0D618148">
+			<Page Name="ECONOMICS - Inputs (Shell GSI Model 1) - 2" PageGUID="45755268-A36A-4F86-94D4-1978EADCBF93" />
+			<Page Name="ECONOMICS - Inputs (Shell GSI Model 1) -3" PageGUID="E0C075DC-5478-440F-8876-0847AC396B29" />
+			<Page Name="ECONOMICS - Calc. Prices - Margin (Shell GSI Model 1)" PageGUID="3A855ED4-1EE3-4C47-B9A7-7630FED77881" />
+		</Page>
+		<Page Name="ECONOMICS - Inputs (Shell GSI Model 2)" PageGUID="C9C46A46-FA78-445B-AAA6-25303F7407B0">
+			<Page Name="ECONOMICS - Inputs (Shell GSI Model 2) -2" PageGUID="3C872609-1548-41D2-97A5-CB0EC5592534" />
+			<Page Name="ECONOMICS - Calc. Prices (Shell GSI Model 2)" PageGUID="A19E1A96-CC21-48FB-AF3E-962FA51321A8" />
+		</Page>
+		<Page Name="Unit Constraints 1" PageGUID="FE47F09D-7B9E-43B0-A847-D43DECF599E4" />
+		<Page Name="Unit Constraints for 2-stage Regen." PageGUID="DE473C58-362E-41E8-BE0B-D9AEB38EFE00" />
+		<Page Name="Unit Constraints 1(1)" PageGUID="17F7E051-2E6B-4EEA-9D9E-30FCF91B18F1" />
+		<Page Name="Unit Constraints for 2-stage Regen.(1)" PageGUID="A0E7441C-1D8A-46EE-BE82-D332F498BE01" />
+		<Page Name="Unit Constraints Level Values(1)" PageGUID="D7E2B751-4FB5-4C9C-9562-66EF5515C7F7" />
+		<Page Name="Additional Unit Constraints" PageGUID="15E493F1-D3B5-4516-9EB9-BCBE968280DA" />
+		<Page Name="Design Related Parameters 1" PageGUID="B0FF0637-375C-4530-BF0C-3515DF9A938E" />
+		<Page Name="Design Related Parameters 2" PageGUID="1EF3C78F-EFAE-49F7-94CF-3CD54CDCE33B" />
+		<Page Name="Stripper-Feed Preheater 1" PageGUID="850D4EB0-CD67-4133-A78B-57C4EF89CB23">
+			<Page Name="Stripper-Feed Preheater 2" PageGUID="16C0594B-9766-403A-A930-4F14A7E955D7" />
+		</Page>
+		<Page Name="Heat Balance New" PageGUID="EA53F6C1-B734-4F79-AF6F-C6520E7FA619" />
+		<Page Name="Product Properties at Specified Cut Points" PageGUID="FEB76F49-4ED1-4C54-930B-3EF6CBFBE04A">
+			<Page Name="Product Properties at Specified Cut Points(2)" PageGUID="9BE847A3-1346-4C0E-878B-CDC4B6C8471C" />
+			<Page Name="Gasoline Product Properties (Concentrations)" PageGUID="A4A02C42-8FFD-4256-9A24-F3E50C90917C" />
+			<Page Name="Gasoline Product Properties (Measurements)" PageGUID="B1F69F55-0A12-4E6E-928E-DA2ED67A7302" />
+			<Page Name="Additional Product Properties" PageGUID="9F646EB4-1A2E-47A9-AFD7-4AA8A09D17BB" />
+			<Page Name="Product Properties based on ECPSI" PageGUID="BF5F5BF5-F442-4C3F-830D-17B695E18541" />
+		</Page>
+		<Page Name="Product Property Correlations 1" PageGUID="74A5D528-4EDC-4D00-AEA5-A82E7CAEAA6E">
+			<Page Name="Product Property Correlations 2" PageGUID="050EB2D8-20CA-4E14-99AC-DE60454B25C3" />
+			<Page Name="Product Property Correlations 3" PageGUID="2446995C-F320-4A0F-959B-70639A1802AC" />
+			<Page Name="Product Property Correlations 4" PageGUID="C4C6CC8E-F340-487C-90D4-82B6B797F906" />
+		</Page>
+		<Page Name="Update Parameters 1" PageGUID="7568D300-6951-4BF2-BF5C-D606A831CE37">
+			<Page Name="Update Parameters Bounds" PageGUID="F93FE423-EE8F-4407-8F57-FAC8EC87F3D8" />
+			<Page Name="PDU Model Parameters" PageGUID="4B069389-0A9E-44A4-B715-8E0951F5BFF1" />
+			<Page Name="Update Parameters for Additional Properties" PageGUID="635C1D0D-3CB5-4905-9E44-B599F21B4AE2" />
+		</Page>
+		<Page Name="1 - Thermodynamic Data" PageGUID="B7EC72CE-EB9C-4A3F-B09F-7CC1675D7033">
+			<Page Name="2 - Activation Energies" PageGUID="29D2407A-E4C8-4DE4-805B-7336A33AC505" />
+			<Page Name="3 - Feed Effect (a)" PageGUID="5897FA85-F1A9-487B-B871-7D2BFEDB917C" />
+			<Page Name="4 - Feed and Catalyst Effect (b)" PageGUID="5B93D18A-FF3C-41A6-BC78-54D7A803DE1F" />
+			<Page Name="4 - Feed and Catalyst Effect (b)(1)" PageGUID="1EE8EB69-7934-4087-AB15-DC6A4FA4BC22" />
+			<Page Name="5 - Linearized Temp. Effect" PageGUID="E240D8E9-3649-44CD-A594-7FB26BEBBD7F" />
+			<Page Name="6 - Metals Effect" PageGUID="93A7BDD8-21E4-4A75-A6E1-1755FDD6E102" />
+			<Page Name="7 - CRC-H2O Effect" PageGUID="3E0A3620-0A0E-4B1F-961F-033F5A58B431" />
+			<Page Name="8 - Feed Correlations-Process Parameters" PageGUID="2DF67081-75B1-451F-8C8C-2A3D99D9616A" />
+			<Page Name="9 - Riser+Bed effects" PageGUID="2F5C072C-87B2-4FE6-B9B6-B9B3BBA17ACC" />
+			<Page Name="10 - Run-down fixed parameters" PageGUID="4797009C-DA30-4BF5-B2C3-699AF64C0A07" />
+			<Page Name="11 - Fixed Parameters for ZSM-5 Effect" PageGUID="D4DE7024-DF2F-4D59-8956-D3D209C0D568" />
+			<Page Name="11 - Fixed Parameters for ZSM-5 Effect (new)" PageGUID="46BED07D-D7A6-4C6A-A799-F9CC0ABC8DF8" />
+			<Page Name="12 - Fixed Parameters for C4 Additive Effect" PageGUID="7DCFA424-30E5-47F6-9371-E4DE5470F008" />
+		</Page>
+		<Page Name="Tunable Fixed Parameters" PageGUID="003CE0B9-8067-481C-B1DD-EFBF1804A2E1" />
+		<Page Name="Naphtha Cracking Effect" PageGUID="16210FA6-1C2E-41C5-B2E6-CCAF7A545BBF" />
+		<Page Name="Cut Point Adjustment 1" PageGUID="CE6642E4-FFE7-4D7E-88B9-0A744E0BAD62" />
+		<Page Name="Cut Point Adjustment 1 - 3 gaso. cuts" PageGUID="81F9AC06-8193-461A-9299-1CCD714DA2B7">
+			<Page Name="Cut Point Adjustments 7 (TBP1)" PageGUID="FF783A84-EED1-4153-816D-7098F917F8EC" />
+		</Page>
+		<Page Name="Yields at Standard Cut Points (scp) 1" PageGUID="5F441622-CD33-45CB-962C-03ABDAEE9C65">
+			<Page Name="Yields at Standard Cut Points (scp) 2" PageGUID="A5793BBE-AF6F-4633-BC49-7EB2AB295FB9" />
+			<Page Name="Yields at Standard Cut Points (scp) 3" PageGUID="5F64F16D-CF0C-47E9-B594-6061225AB5EC" />
+			<Page Name="Yields at Standard Cut Points (scp) 4" PageGUID="0FE38AEF-2576-4EBA-A5CD-60EB4C5B0C16" />
+			<Page Name="Yields at Standard Cut Points (scp) 5" PageGUID="71CA9C70-B2F2-48EC-B416-E388B76925AE" />
+			<Page Name="Yields at Standard Cut Points (scp) 6" PageGUID="F9D20FBE-9F37-4AD2-8FF6-C7C27124955D" />
+		</Page>
+		<Page Name="Product Properties at Standard Cut Points 1" PageGUID="C48B4CAE-98BD-44B8-8F24-03A3796B85C4">
+			<Page Name="Product Properties at Standard Cut Points 2" PageGUID="AE622A5F-D11B-45E5-AAD2-909838934CB6" />
+			<Page Name="Product Properties at Standard Cut Points 3" PageGUID="F6EB4536-FE47-4731-BE25-C8337A082A32" />
+			<Page Name="Product Properties at Standard Cut Points 4" PageGUID="2756CFA9-9736-4E45-B157-0D03A014729D" />
+			<Page Name="Detailed Gasoline Product Properties" PageGUID="3374FE22-A2E6-4DFA-AC89-F7202820F9CE" />
+		</Page>
+		<Page Name="Catalyst Selection 1" PageGUID="9B22FF33-1558-42F0-B0B5-E8A56E8499F8">
+			<Page Name="Catalyst Selection 2" PageGUID="B69C9A04-9F94-4437-8A88-6B0912BCF76E" />
+			<Page Name="Translated Parameters - Cat Selection" PageGUID="B9367EF2-50D0-4C57-9602-36B7D9345482" />
+		</Page>
+	</Page>
+	<Separator />
+	<Page Name="FCC Simulator" PageGUID="EC0F04C6-ED35-4330-B3F4-66DC9359B7D8">
+		<Page Name="FCC Optimizer" PageGUID="8B5EFAC3-CEF2-4844-856C-FB9E2A8F2486" />
+		<Page Name="FCC Simulator (General)" PageGUID="B48652BD-5328-4C83-B72B-CFE8AB0F802D" />
+		<Page Name="FCC Optimizer (General)" PageGUID="23831DA9-2B46-4CC8-974D-EF7C626668DB" />
+		<Page Name="FCC Simulator -2 Stage Regenerator" PageGUID="F4612FFF-4B3C-43F9-AB67-8B45C3F5E0EA" />
+		<Page Name="FCC Optimizer -2 Stage Regenerator" PageGUID="767E4887-E10A-4424-9A26-51419F478015" />
+		<Page Name="FCC Simulator -2 Stage Regenerator (General)" PageGUID="9902AFF4-E326-4392-B1AF-8F86C173F86E" />
+		<Page Name="FCC Optimizer -2 Stage Regenerator (General)" PageGUID="620371AD-161E-4B4B-AE94-0EA83AA72D52" />
+		<Page Name="Simulator or Optimizer" PageGUID="3D5C109C-97AA-480E-94B7-DBA00242533D" />
+		<Page Name="Select Objective Functions" PageGUID="D6BC5DE8-1938-4463-97A0-6512D2D4111E" />
+		<Page Name="Select Feed Characterization for Base Feed" PageGUID="2864927B-F1C8-4022-BDC4-D13C2799AB1F" />
+		<Page Name="Select Feed Characterization for Marginal Feed" PageGUID="3D8F4481-5AFE-41DD-884A-2E559903ECD1" />
+		<Page Name="SHARC Feed Characterization" PageGUID="C4A0C4F1-EC9F-4298-BEB1-7D34DB7F98AC" />
+		<Page Name="Simple Feed Characterization input - Base Feed" PageGUID="D2C4ABC7-A6A4-490E-93B0-3B8116C5B3ED" />
+		<Page Name="Simple Feed Characterization Input - Marginal Feed" PageGUID="8998C838-1FC5-42A1-8AE6-DC80AE4D1E97" />
+		<Page Name="Simple Feed Characterization OutPut - Base Feed" PageGUID="F83B10B6-F156-491B-9E17-9F02197827AE" />
+		<Page Name="Simple Feed Characterization OutPut - Marginal Feed" PageGUID="8177371B-841D-42CE-9909-EF493F9FFE07" />
+		<Page Name="Catalyst Data" PageGUID="406CF88A-5574-473E-9476-2C18E465FA4A" />
+		<Page Name="Coke Data" PageGUID="3D8AD5D2-366D-4E21-8EB3-58F02417C0C5" />
+		<Page Name="Coke Data (Stage 1)" PageGUID="4737CC68-AC85-4C7B-B4BF-1159C9ADE77B" />
+		<Page Name="Coke Data (Stage 2)" PageGUID="4C9761C2-64D3-41F4-A821-6A93EAF6DA3A" />
+		<Page Name="Yield Data" PageGUID="5EF56256-F576-4B2E-B037-91CE859EC39D" />
+		<Page Name="Control Variables" PageGUID="3940B2CC-9D9A-4C43-B7F2-8F7383C8249E" />
+		<Page Name="Unit Constraints List" PageGUID="F69A9EBE-970E-4C2D-97CA-DE5E4EB615D2" />
+		<Page Name="Unit Constraints List(2)" PageGUID="A5659CC7-AF75-4726-BD9A-70A95331BC36" />
+		<Page Name="Unit Constraints List (2 Stage)" PageGUID="5703511B-EA29-459C-8F28-8C7D3F04E6D0" />
+		<Page Name="Unit Constraints List (2 Stage)(2)" PageGUID="43981B25-D684-40A4-8F55-89E969AB04CB" />
+		<Page Name="Product Properties" PageGUID="6CF84B44-0C08-4BF9-948B-CA6FADE21EE2" />
+		<Page Name="Product Properties(2)" PageGUID="711F6B5B-4ABE-476D-B6A5-ABA5BA238009" />
+		<Page Name="Case Comparisons" PageGUID="569C3607-A390-408F-8EF2-4A0F1804D68A" />
+		<Page Name="Summary Page" PageGUID="A17DD0EE-C203-4C8C-8F6C-EF896E3282C3">
+			<Page Name="Case Summary" PageGUID="2AC3EF86-75C7-4548-95DB-786B9DD0A1BA" />
+			<Page Name="Copy Case Summary" PageGUID="2823FB2E-F151-4359-AAB9-25E30626440A" />
+			<Page Name="Case Summary 3 Cut" PageGUID="3C4D8B3D-37E1-4A6C-BDC0-5F801863153D" />
+			<Page Name="Case Summary (2 Stage)" PageGUID="F6B8AD02-9A29-47E6-A333-1D832714460E" />
+			<Page Name="Case Summary 3 Cut (2 Stage)" PageGUID="62D26F03-01A5-4CB9-96CD-06E8B888F0DA" />
+		</Page>
+		<Page Name="SHARC Case Description" PageGUID="2AD9EED7-812E-456D-9D74-BF3EFF674D22" />
+		<Page Name="Switch to Case..." PageGUID="DAA67A54-D13D-4EBC-BD03-0284AF7FB1E7" />
+	</Page>
+	<Page Name="All Import and Export Pages" PageGUID="89DFC018-4F61-4596-9D2A-E7725E5882E3">
+		<Page Name="File Description" PageGUID="644AB16E-42EC-4628-9B38-B28A4C4D1522" />
+		<Page Name="Data File Description Page" PageGUID="A7E48E5F-5E32-4057-BF6F-2A7B4DC8CA5E" />
+		<Page Name="Base Case - All Data File Description Page" PageGUID="2851CF28-8F6E-44A6-8EC6-939E083E5A50" />
+		<Page Name="All Data File Description Page" PageGUID="ABC308F4-3F68-487F-B175-4B11A1401782" />
+		<Page Name="Expand Constraints" PageGUID="F38B56ED-3E44-4B97-AC07-5A26546EE5E8" />
+		<Separator />
+		<Page Name="Select A Base Case" PageGUID="403CE583-02B4-4B81-9B5C-EC735EA0B6AD" />
+		<Page Name="Save before opening base case" PageGUID="F97A800F-F8FF-41C6-BFAC-510763C96760" />
+		<Page Name="Select Feed Files" PageGUID="0D090389-97C2-4FEB-85F0-DC627B9AAC98" />
+		<Page Name="Select More Feed Files" PageGUID="325F3A35-934E-4FB1-94B3-B8E0F9BA6B2F" />
+		<Page Name="Blending Feedfiles" PageGUID="4D0903B5-466C-4F88-9939-280DEC1900C2" />
+		<Page Name="Blending Options" PageGUID="4A66F1D8-81BD-4B8D-98BD-D4F3D4EE198E" />
+		<Page Name="Blends" PageGUID="6F46EC5A-3A55-4361-BD1D-6724CF0C70FB" />
+		<Page Name="Feed Type Selection" PageGUID="9E44DFA2-CC91-4432-B600-69E7D71367B8" />
+		<Page Name="Feed Type Selection(1)" PageGUID="9712ADA8-3303-4185-B170-FB4150834B88" />
+		<Page Name="Feed Data Import from a Spreadsheet" PageGUID="752D8F97-18F9-4BEE-9526-1ABEB9545CF3" />
+		<Page Name="Test Run Data File Loaded" PageGUID="CBDD26BC-5C10-48F0-A78F-2B6665EB1E02" />
+		<Page Name="Update Mode 2 (Import Test Run Data)" PageGUID="74EE3135-DDBA-4298-96A6-37648CA579F6" />
+		<Page Name="Update Mode 2 (Import Test Run Data All)" PageGUID="99D21BA3-E6E7-491C-B42C-598D2DADDD4F" />
+		<Separator />
+		<Page Name="Create a Base Case" PageGUID="32D11536-8AD7-433A-AC54-74EB9103CBA2" />
+		<Page Name="Tips for Exporting Feed Data" PageGUID="752E2A71-8419-4AB6-9F9F-B8EC142270FA" />
+		<Page Name="Spreadsheet File Contents" PageGUID="0B3C06B1-A614-4439-9FB8-476956C55BDA" />
+		<Page Name="Select Sections to be Printed" PageGUID="9B111AEF-71AC-45FF-9CC0-1FAC1E326F00" />
+		<Page Name="Print File Descriptions" PageGUID="0E08896D-4A4F-49FA-9A4C-84A39E95D8CC" />
+		<Page Name="PROFIT-PIMS Yields" PageGUID="657C3E2E-F47E-4D40-93AD-55AA2C228430" />
+		<Page Name="PROFIT-PIMS Yields - 2" PageGUID="242C2680-095C-4D83-A598-E02553AA1DA0" />
+		<Page Name="LP Model (RPMS) Yields" PageGUID="632749C2-C9A5-44B2-9EF4-2CB22A8AD4E5" />
+		<Page Name="Create A Base Case - View Results" PageGUID="C39C0A86-EC73-48F9-B7C7-EBCCC4EED1DB" />
+		<Separator />
+		<Page Name="Cases - Import &amp; Export" PageGUID="BCA089CA-2EC8-42DE-ABE8-7EB8856D5F21" />
+		<Page Name="Generate IDX File" PageGUID="721233EF-0679-4B23-9876-322084A3DDDD" />
+	</Page>
+	<Page Name="All Economics and Optimization Pages" PageGUID="6DF08952-41F4-4847-B939-766CB0EA3C96">
+		<Page Name="Optimization Summary" PageGUID="F1AD02B0-8669-4CD3-9C46-6B3F2715BFCF" />
+		<Page Name="Optimization Summary - All regions and Stages" PageGUID="D9B115F9-DA0B-4302-A231-70CF1CC04567">
+			<Page Name="Full Screen Optimization Summary - US &amp; 1stg Regen." PageGUID="B6660CA8-1546-4B70-AFB0-64EF275CE80D" />
+			<Page Name="Full Screen Optimization Summary - Outside US &amp; 1 stg Regen" PageGUID="00CACB32-14F7-4E73-8C55-0A42B65B1099" />
+			<Page Name="Full Screen Optimization Summary - US &amp; 2-stage Regen" PageGUID="AA09E702-11BE-4FD1-A771-71B9C248D91E" />
+			<Page Name="Full Screen Optimization Summary - Outsid US &amp; 2-stage Regen" PageGUID="9EC2E715-EB9B-4F1B-AF5A-E07A29CB6DF2" />
+			<Page Name="MC - Full Screen Optimization Summary - US &amp; 1stg Regen." PageGUID="EA25DBD7-839D-430E-8541-F76CB3E33E25" />
+			<Page Name="MC - Full Screen Optimization Summary - Outside US &amp; 1 stg Regen" PageGUID="060C5324-59DF-4448-8047-2653FDDDDF33" />
+			<Page Name="MC - Full Screen Optimization Summary - US &amp; 2-stage Regen" PageGUID="5DAE77C6-CB7A-4E28-967D-8B6F0CC2CC40" />
+			<Page Name="MC - Full Screen Optimization Summary - Outsid US &amp; 2-stage Regen" PageGUID="0AEF0416-1B38-41C1-9C0B-E0BDA5B291FD" />
+		</Page>
+		<Separator />
+	</Page>
+	<Page Name="All Feed Pages" PageGUID="44F190A3-CBDB-491A-BE0F-248B4640F8B4">
+		<Page Name="Feed Property Estimations in the Base Case" PageGUID="44ABA64A-DA0A-407A-ACD1-A0618D038412" />
+		<Page Name="Feed A Type" PageGUID="1D834116-0694-4754-A1FB-8581F5F385A1" />
+		<Page Name="Feed-B Type" PageGUID="AC11AC92-8116-484F-8E6E-7F76FF30C877" />
+		<Page Name="Feed-C Type" PageGUID="96B387B7-C678-4BE3-BC3B-5B618164040D" />
+		<Page Name="Feed-D Type" PageGUID="7A07A38D-6A95-440D-B915-6B45A8EEC080" />
+		<Page Name="Feed-E Type" PageGUID="EF2EADA0-05DF-4C5F-9B50-201E3D52ECBB" />
+		<Page Name="Feed-F Type" PageGUID="2BE53292-917B-4194-A25A-E1F4E6AF53AB" />
+		<Page Name="Feed A - Property Estimation" PageGUID="F52C88FA-2483-4DF9-83BA-8CB41E131D30" />
+		<Page Name="Feed B - Property Estimation" PageGUID="DCF981E0-5AFC-4D52-8284-938091E6A8DB" />
+		<Page Name="Feed C - Property Estimation" PageGUID="3024789C-18EE-4F86-94C5-A0BD98A91312" />
+		<Page Name="Feed D - Property Estimation" PageGUID="15ABCB27-8B91-465B-8CD0-3C41BA6062C9" />
+		<Page Name="Feed E - Property Estimation" PageGUID="E63EB818-FD64-468F-9367-3F12B5B543A7" />
+		<Page Name="Feed F - Property Estimation" PageGUID="1EA7132F-F7E9-4730-AC02-8DA6DC41CBCD" />
+		<Separator />
+		<Page Name="Feed Component 1 Full Size Page" PageGUID="4ED5680A-4AD7-4689-895D-64E924BB8A08" />
+		<Page Name="Feed Component 2 Full Size Page" PageGUID="04A7A1B2-C225-4945-AE51-FF4CBF20FB0B" />
+		<Page Name="Feed Component 3 Full Size Page" PageGUID="44BE7547-6A09-457A-A1FC-7AB57CA13BAD" />
+		<Separator />
+		<Page Name="Feed Recycle Full Size Page 1" PageGUID="D13386EF-1DE9-438F-A393-68170E9B58EE" />
+		<Page Name="Feed Recycle Full Size Page 2" PageGUID="481E69AB-5D3C-4DE9-B1B4-AEEE38D4FFDF" />
+		<Page Name="Naphtha Cracking Full Size Page" PageGUID="CD48D7A8-CFA4-4E69-8A73-6D3687BA94B6" />
+		<Page Name="Bio Feed 1" PageGUID="598DC7E3-78F5-49C4-B9CB-34FCC903008A" />
+		<Separator />
+		<Page Name="Feed Selection 1" PageGUID="F9C0B493-2639-4255-AFFF-35DC9DC1C37D" />
+		<Page Name="Gross Feed 1" PageGUID="82C23F5B-1205-4D24-BF0B-4A7521864C31" />
+		<Page Name="Purchased Feed Property Estimation" PageGUID="014DB602-DC53-47DF-9AEF-D42D563D2D6C" />
+		<Page Name="Purchased Feed Property Estimation - 2" PageGUID="67B9E9CE-0DF7-4415-AE90-C1BE53D926C3" />
+	</Page>
+	<Page Name="All Selection Pages" PageGUID="BDCC1C47-0A68-408A-B788-AC8885E20312">
+		<Page Name="Simulation Modes Selection(2)" PageGUID="C4B8657C-1F8B-42B6-97FD-48B5AA78FF74" />
+		<Page Name="Update Mode Selection" PageGUID="194CE042-E855-4591-9672-B9BBDE9C589C" />
+		<Page Name="Update Mode 2 (Calculate Fcat)(1)" PageGUID="B7855718-91BE-463D-B7D9-1AE00A1E249F" />
+		<Page Name="Simulation Modes Selection(1)" PageGUID="5CC340FC-3AB8-4C0D-8556-5AFBB43CADF9" />
+		<Page Name="More Simulation Modes(1)" PageGUID="EF48CB1C-F70C-4861-A69B-6700A22DD76F" />
+		<Page Name="More Simulation Modes(2)" PageGUID="1D3B7F3E-B870-435C-8E99-D1BEF8B4FF57" />
+		<Page Name="Optimization" PageGUID="BE0F0AE9-33D1-4155-8A02-27AC2C540AF3" />
+		<Page Name="Optimization - Feed Mode" PageGUID="A11A3E50-7246-4F09-8C86-B990DBC8736F" />
+		<Separator />
+		<Page Name="Set Reference Case" PageGUID="D63EAD9B-F197-491C-A6E6-A132911097CB" />
+		<Page Name="Set Case As Active" PageGUID="CECA840F-B799-4E9F-B83B-735E764D11E6" />
+		<Page Name="Duplicate Current Case" PageGUID="3472F41F-0FF0-40A0-9D24-7B63E7C07773" />
+		<Page Name="Select Fixed Parameter Page" PageGUID="21FB7CDC-BD53-4A34-AD1A-C6BC6358EB56" />
+		<Page Name="Select Unit Convention" PageGUID="723B59A1-7433-4E3A-90A1-47C7CEF83F48" />
+		<Page Name="AIMMS Case Description" PageGUID="F5814FB9-407E-4CD0-B588-E687B9077F04" />
+		<Page Name="Aimms Case Description - Multiple Cases" PageGUID="A29903FC-75A5-4DA1-A58B-2E7A65F7BF13" />
+		<Separator />
+		<Page Name="Optimal Fresh Catalyst Zeolite Content" PageGUID="DA1A6214-4491-4CC5-A931-7908D1084D5B" />
+		<Page Name="E-Cat Activity Spec" PageGUID="86962312-CC98-457C-A52E-18D9F12025BC" />
+		<Page Name="Absorber Bottoms Constraint" PageGUID="3BB73829-89B3-47F6-8284-E07869B4F1B3" />
+		<Page Name="Open a 2-stage model data file" PageGUID="FBA86A2B-2989-4906-B39F-DE592D31A5FC" />
+	</Page>
+	<Page Name="All Data Analysis Pages" PageGUID="3EE1FD15-89AA-4604-BBAC-0C18AF79E5BD">
+		<Page Name="Data Analysis" PageGUID="60EF3DC5-A2CB-4709-AB04-2C91B9552CDD" />
+		<Page Name="Simulation Modes for Data Analysis" PageGUID="598A30EB-4A8A-498C-B763-0101568844DF" />
+		<Page Name="Select More Mini Test Files" PageGUID="112B2CF2-0B3C-4F86-B6E3-0C11D32990CF" />
+		<Page Name="Select Average Weekly Mini Test Files" PageGUID="A431F5A9-4335-48FD-8059-A29D6E31E362" />
+		<Page Name="Simulation Modes for Unit Monitoring" PageGUID="013CCFA2-1BD1-4E39-8DCF-2025811C84D8" />
+		<Page Name="Unit Monitoring" PageGUID="EA41D6D1-73DB-4145-87A7-6A307811FF42" />
+		<Page Name="Select a Base Case(1)" PageGUID="F2C81337-2007-494C-942E-A2E3481E68E0" />
+		<Page Name="Select UM Cases" PageGUID="A1634B3C-B5C1-4E27-B6F3-EC9C4CFFD294" />
+		<Page Name="Data Analysis Tables - Main Menu" PageGUID="C099F08D-E62C-488E-9626-9FFFCCB81794">
+			<Page Name="Data Analysis Tables" PageGUID="A55F3203-4A37-42B8-B2D2-D56FD28858E7" />
+			<Page Name="Data Analysis Chart" PageGUID="85D79C66-5591-4655-9FE3-A7C7E34BCA2E" />
+			<Page Name="Data Analysis Chart Selection" PageGUID="D7C92FC4-A32D-4088-8EE1-CE01DBC36C19" />
+		</Page>
+	</Page>
+	<Page Name="All Configuration Pages" PageGUID="5C919AE4-F286-4F62-962C-277FC9B4E5A5">
+		<Page Name="Options - User Settings" PageGUID="CF13C13E-4079-4999-83AB-CD2EBBC1918E" />
+		<Page Name="Options - Hide Pages" PageGUID="8EBCE2E7-8BEC-4457-B288-FFF7B75CBEC0" />
+		<Page Name="Options - Default Directories" PageGUID="86179DEC-D9FF-4F64-88EE-CA7ADF22E977" />
+		<Page Name="Options - Current Units" PageGUID="1624A2EC-95B5-4AA7-8903-04895FC45B3F" />
+		<Page Name="Options - Parametric Curves" PageGUID="337E3CE5-A81D-4CD3-9BB6-6F978A14CC3D" />
+		<Page Name="Define - Hidden Pages" PageGUID="20B48A38-9673-4E9D-A1FF-534DEB272386">
+			<Page Name="Hide Page for Economic Modes" PageGUID="5A8F0A5D-FB9E-4728-B5AF-C24F4A388AA5" />
+			<Page Name="Hide Pages for Multi Cuts Modes" PageGUID="89A6DF94-C3C4-4C4B-9D60-3A3ECA4835CD" />
+			<Page Name="Hide Pages for User Levels" PageGUID="69A881F8-02EE-4C27-8536-8F487BBFBC3F" />
+			<Page Name="Hide Pages for Single or Two Stage Mode" PageGUID="0DDA4B85-76D4-4775-89B3-9E882098B926" />
+			<Page Name="Hide Pages for Single or Multiple Cases" PageGUID="D907F3F5-65C0-449A-9F0E-7E337EE9199C" />
+		</Page>
+		<Page Name="Define - Parametric Curves" PageGUID="D3BFFD3A-299A-4701-988F-7FE579E819F8" />
+		<Page Name="Define - Data Analysis Charts" PageGUID="17713D68-4464-4476-94B9-E716C309B1E1" />
+		<Page Name="Maintain - Data Templates" PageGUID="61AC160B-0735-4F60-9AA6-E129B9D57092" />
+		<Page Name="Maintain - Base Case Read" PageGUID="A84843EA-A987-41D2-91F5-1AD16906C0F7" />
+		<Page Name="Maintain - Base Case Write" PageGUID="D9F66F46-F7ED-45FC-BE16-E154DF78651A" />
+	</Page>
+	<Page Name="All Chart + Graphs Pages" PageGUID="4EF1202A-89B7-415C-8A3F-ADA1D8011B58">
+		<Page Name="Parametric Curves" PageGUID="9C1F4D14-2F70-4916-887D-46DC0A5E6712" />
+		<Page Name="cumyld" PageGUID="D46F816A-D39D-4446-B55B-4B14161D3B8E">
+			<Page Name="cumyld - Data" PageGUID="DCC1035E-42D2-43AA-BDB6-3313811A8B7F" />
+		</Page>
+		<Page Name="TBP Curve of TLP" PageGUID="55F34A57-6E2B-43DE-B908-71DA3324D2EC" />
+		<Page Name="TBP Equation" PageGUID="4DED19D2-7771-44A8-A829-1C9CD30971E0" />
+		<Page Name="Graphs 1(1)" PageGUID="8EF4DF87-2723-49B9-929B-368A63D3AD54" />
+		<Page Name="Sensitivity Plots" PageGUID="CAD3A157-DAF9-4CED-A258-8F4D0F777C27" />
+		<Page Name="Graphs 3" PageGUID="B77A792A-8A8A-4C46-9D8F-E83292C75DC9" />
+		<Page Name="Graphs 4" PageGUID="5D77FE63-EF08-4147-9769-574B512669AE" />
+		<Page Name="All unused Graphs" PageGUID="8D325FA7-4E27-44D2-B1BC-3B6C023BF0B8">
+			<Page Name="D15-4 vs. ECP" PageGUID="BF584DA9-5679-4055-9744-81A29F6D62F3" />
+			<Page Name="D15-4 vs. ECP Old" PageGUID="A9EE8588-14FA-40ED-BF88-EA1742A52B4E" />
+			<Page Name="D15-4 vs. ECP(1)" PageGUID="680D36D3-2D67-4CF1-B0C0-A1762EF63FA8" />
+			<Page Name="D15-4 vs. ECP(1) Old" PageGUID="F5F01FA5-37D2-4740-8297-EF2A5DEEE052" />
+			<Page Name="RON vs. ECP" PageGUID="1ECB9E79-B061-4F70-AD24-4EA2BDE6CA10" />
+			<Page Name="RON vs. ECP Old" PageGUID="18E18C1F-E359-4996-911E-444479304E96" />
+			<Page Name="Sulfur vs. ECP" PageGUID="10069AF7-1C4F-4B59-9D2A-8A9CB33FCFB2" />
+			<Page Name="Sulfur vs. ECP Old" PageGUID="21FA62B9-06A5-47C7-83C1-942FEC4CDF28" />
+			<Page Name="Sulfur vs. ECP(1) Old" PageGUID="06694DB5-68E7-421C-81CC-F5CD5272E653" />
+			<Page Name="Sulfur vs. ECP(1)" PageGUID="93C80795-E4D7-4A00-98C5-9030EBFAF24E" />
+			<Page Name="Graphs 1" PageGUID="0DF86EF2-DD8B-414F-9AD1-0133ED3BF595" />
+			<Page Name="Graphs 2" PageGUID="99AF2B9C-C59E-484E-8230-59CBCDBCA447" />
+		</Page>
+	</Page>
+	<Page Name="All Others Pages" PageGUID="A57D991D-62C3-46B8-8FAF-3FAA8B60EF1D">
+		<Page Name="Yields (ecp) Subpages" PageGUID="46E69E90-B9BC-469C-A162-6A78605BA09F">
+			<Page Name="Yields Page 1 Subpages" PageGUID="2C4FC565-16FB-4E5D-988C-94371DCCC8F3">
+				<Page Name="Yields Page 1 Total w NC" PageGUID="F8A0B06E-A14A-4057-A78E-F2FF2269BA32" />
+				<Page Name="Yields Page 1 Reactor 1" PageGUID="786096C2-A5A3-4A95-A572-57ECC47E6A62" />
+				<Page Name="Yields Page 1 NC" PageGUID="8FAC5E87-E6C7-481F-9F60-6DB6FF059868" />
+				<Page Name="Yields Page 1 Reactor 2" PageGUID="C096BAAA-6241-4318-8067-61D17708EC43" />
+				<Page Name="Yields Page 1 Total" PageGUID="715C9DC1-1278-4EC2-B97D-7FF297E7F164" />
+			</Page>
+			<Page Name="Yields Page 4 Subpages" PageGUID="123B0F52-17D6-4403-9F2D-CC17A5CB0988">
+				<Page Name="Yields Page 4 Total w NC" PageGUID="729B659B-604D-4D3A-826D-314A779A3DA2" />
+				<Page Name="Yields Page 4 Reactor 1" PageGUID="01C9CE6F-0481-462B-9587-C7DFA3C1047F" />
+				<Page Name="Yields Page 4 NC" PageGUID="B3628BD9-1A7F-4BCD-99E4-B8CF7060182E" />
+				<Page Name="Yields Page 4 Reactor 2" PageGUID="21A55167-3C70-4889-A0FB-3CC1D9F74F83" />
+				<Page Name="Yields Page 4 Totals" PageGUID="054E7C55-8698-4193-87C0-7A9D2CEE27B3" />
+			</Page>
+			<Page Name="Yields Page 2 Subpages" PageGUID="F5DAD93B-86D1-4480-87E5-6C915E664EB6">
+				<Page Name="Yields Page 2 Reactor 1" PageGUID="32B3A02C-0CFC-4AD9-8F5C-5D647BC27494" />
+				<Page Name="Yields Page 2 Reactor 2" PageGUID="4FBF8A6C-25FA-4ECF-8FB6-5834D038181D" />
+				<Page Name="Yields Page 2 Total" PageGUID="DEF270FD-42D9-455C-B872-9EAD35C90B7E" />
+			</Page>
+			<Page Name="Yields Page 3 Subpages" PageGUID="0B0C23D2-2C05-4CCE-A721-79FFA89A020F">
+				<Page Name="Yields Page 3 Reactor 1" PageGUID="7D8F2E10-101D-4F63-97D9-692B0AFE6778" />
+				<Page Name="Yields Page 3 Reactor 2" PageGUID="465A4089-4BE1-4ABD-B412-0734734F2FF8" />
+				<Page Name="Yields Page 3 Total" PageGUID="334BF36E-0B9B-4E4F-BE40-ED51542562D5" />
+			</Page>
+		</Page>
+		<Page Name="Gross Feed Subpages" PageGUID="07A8CDB6-8482-4031-807E-4AE3D4541952">
+			<Page Name="Gross Feed Reactor 1" PageGUID="17C243C6-FDD3-4D78-8317-D8E4FA3EFC22" />
+			<Page Name="Gross Feed Reactor 2" PageGUID="74A9FFDC-1BD4-4408-AB90-EDC8FF265F44" />
+		</Page>
+		<Page Name="Pages for Report" PageGUID="CBC1AF9B-D78F-4D45-B159-EE4ED592D767">
+			<Page Name="NC Feed Data to Print" PageGUID="B47F9898-181F-4E99-9BDF-75FE0A4F23A9" />
+			<Page Name="BO Feed Data to Print" PageGUID="DD853CBD-CB27-4B45-A2B2-C4E35D30919E" />
+		</Page>
+		<Page Name="Fixed Parameter Subpages" PageGUID="B41E6402-8768-4356-B4A7-AFD42EF52C42">
+			<Page Name="1 - Thermodynamic Data Subpages" PageGUID="E58EB4A7-EA57-49CE-A4B2-1C0064F875B9">
+				<Page Name="1 - Thermodynamic Data Subpage1" PageGUID="3A130544-281B-4BCE-AF2A-BFF80D3C567F" />
+				<Page Name="1 - Thermodynamic Data Subpage2" PageGUID="440F5BE4-CD25-4E25-A0D4-0862AB4B87A7" />
+			</Page>
+			<Page Name="2 - Activation Energies Subpages" PageGUID="F94F97CF-BC30-4923-B1AF-FA6A82BB03F2">
+				<Page Name="2 - Activation Energies Subpage1" PageGUID="328EE6E0-3D61-4B71-8F61-87DA153BFD4D" />
+				<Page Name="2 - Activation Energies Subpage2" PageGUID="7051072C-A146-4375-B52F-6A98ED829E74" />
+			</Page>
+			<Page Name="3 - Feed Effect (a) Subpages" PageGUID="7F47288E-9D84-49B9-896E-4C9DF7560AAC">
+				<Page Name="3 - Feed Effect (a) Subpage1" PageGUID="B11CDA9E-5487-4A3A-99C9-4D5AAA33EAAE" />
+				<Page Name="3 - Feed Effect (a) Subpage2" PageGUID="F8E00527-8020-42BC-A677-F3C52B55D14B" />
+			</Page>
+			<Page Name="4 - Feed and Catalyst Effect (b) Subpages" PageGUID="41981A54-1B85-4097-8DD7-A25592C5A5BE">
+				<Page Name="4 - Feed and Catalyst Effect (b) Subpage1" PageGUID="B559954F-7D63-4A1B-A424-95AA21D8F9C5" />
+				<Page Name="4 - Feed and Catalyst Effect (b) Subpage2" PageGUID="815C4EFB-BD80-40A1-8E09-226712245F5E" />
+			</Page>
+			<Page Name="4 - Feed and Catalyst Effect (b)(1) Subpages" PageGUID="4F98D807-E8E9-443B-9EFC-C882580A6483">
+				<Page Name="4 - Feed and Catalyst Effect (b)(1) Subpage1" PageGUID="183FC47A-C866-4880-A00B-FF2E3B260EA4" />
+				<Page Name="4 - Feed and Catalyst Effect (b)(1) Subpage2" PageGUID="425FE753-83FB-4DCB-A3E3-A9CBA12902EA" />
+			</Page>
+			<Page Name="5 - Linearized Temp. Effect Subpages" PageGUID="DC986300-2AAA-4747-AA0F-C92290528EEB">
+				<Page Name="5 - Linearized Temp. Effect Subpage1" PageGUID="812AC28F-B743-44C1-9BDB-70C4DD7B45AD" />
+				<Page Name="5 - Linearized Temp. Effect Subpage2" PageGUID="AF3FD4B2-11ED-44F3-8B4F-1DAD77EA9D38" />
+			</Page>
+			<Page Name="6 - Metals Effect Subpages" PageGUID="4597E557-74C1-414A-8DDB-2D1219AD3747">
+				<Page Name="6 - Metals Effect Subpage1" PageGUID="0BDE1B29-4CE1-4ED0-89B1-1AD05B786CC0" />
+				<Page Name="6 - Metals Effect Subpage2" PageGUID="07782636-2B24-4949-BC01-D5962BA0773B" />
+			</Page>
+			<Page Name="7 - Crc-H2O Effect Subpages" PageGUID="044E4240-8210-41B3-884D-29D0E5859921">
+				<Page Name="7 - Crc-H2O Effect Subpage1" PageGUID="50131692-DD33-4806-A59A-9D926E9D52C8" />
+				<Page Name="7 - Crc-H2O Effect Subpage2" PageGUID="7F7B919D-AFC1-4AD0-BBD2-9FADA764C971" />
+			</Page>
+			<Page Name="8 - Feed Correlations-Process Parameters Subpages" PageGUID="F396BCDE-8858-444F-B53A-75700F541BEB">
+				<Page Name="8 - Feed Correlations-Process Parameters Subpage1" PageGUID="BA9A5C1F-302C-43D5-839A-7645C1A2F202" />
+				<Page Name="8 - Feed Correlations-Process Parameters Subpage2" PageGUID="864B1EC0-821C-4286-B619-CABB6225B6B9" />
+			</Page>
+			<Page Name="9 - Riser+Bed effects Subpages" PageGUID="7E9BED6E-E73C-46BA-9694-339C2D42EABD">
+				<Page Name="9 - Riser+Bed effects Subpage1" PageGUID="07120532-6AB9-41F3-A99F-59D0C3CD5307" />
+				<Page Name="9 - Riser+Bed effects Subpage2" PageGUID="5DA5E6F0-DCAE-4847-BC1D-DFEFACF7A3AF" />
+			</Page>
+			<Page Name="10 - Run-down fixed parameters Subpages" PageGUID="3CBC441D-B2EE-41D0-80AA-0EDB2C494A00">
+				<Page Name="10 - Run-down fixed parameters Subpage1" PageGUID="823C0EE9-2297-445D-9363-71F99AB51BBA" />
+				<Page Name="10 - Run-down fixed parameters Subpage2" PageGUID="500B22B7-7A00-488A-8664-7DA9A0F49F5E" />
+			</Page>
+			<Page Name="11 - Fixed Parameters for ZSM-5 Effect Subpages" PageGUID="57CE4C39-C4B4-4272-9FF0-05309655E192">
+				<Page Name="11 - Fixed parameters for ZSM-5 effect Subpage1" PageGUID="72539BFF-83F4-4CB3-912B-6895BA04F44B" />
+				<Page Name="11 - Fixed parameters for ZSM-5 effect Subpage2" PageGUID="794C1CDC-28F0-4C70-8830-9071FDC65301" />
+			</Page>
+			<Page Name="11 - Fixed Parameters for ZSM-5 Effect (new) Subpages" PageGUID="B8CBB314-7B8D-4165-9DFE-B342CD7CBE21">
+				<Page Name="11 - Fixed Parameters for ZSM-5 Effect (new) Subpage1" PageGUID="FD17D48B-8BA8-4FCF-BB43-9DD5BF4E6C04" />
+				<Page Name="11 - Fixed Parameters for ZSM-5 Effect (new) Subpage2" PageGUID="3027C669-B40C-4D01-9248-9F660A7BBDFC" />
+			</Page>
+			<Page Name="12 - Fixed Parameters for C4 Additive Effect Subpages" PageGUID="85AC752C-F540-4B00-8E72-F62D3BA9166C">
+				<Page Name="12 - Fixed Parameters for C4 Additive Effect (new) Subpage1" PageGUID="CE2B5973-85F6-4BF0-9C47-E12D5FAC5B3A" />
+				<Page Name="12 - Fixed Parameters for C4 Additive Effect (new) Subpage2" PageGUID="B083ACDC-A129-4F26-8BBF-CF404A448186" />
+			</Page>
+		</Page>
+		<Page Name="Operating Conditions Subpages" PageGUID="8BF7812B-1E85-4231-8E56-300D243EF692">
+			<Page Name="Operating Conditions Subpage 1" PageGUID="E636BC21-23AC-418A-AD52-267C3901D831" />
+			<Page Name="Operating Conditions Subpage 2" PageGUID="2E3B073D-5B3D-4736-8BC2-8568643E248A" />
+			<Page Name="Operating Conditions Naphtha Cracking" PageGUID="B2E77DB4-21E8-4EBB-AEA2-C1A8CFD654CA" />
+			<Page Name="Operating Conditions Subpage 3" PageGUID="86B6845B-527D-4C70-B8C4-E7A4B993F295" />
+			<Page Name="Operating Conditions Subpage 4" PageGUID="87C14DD9-D1F7-4839-9E97-27969D24BDDC" />
+			<Page Name="Operating Conditions Subpage 5" PageGUID="3120E534-B66C-4610-A8F4-EE080D872F40" />
+		</Page>
+		<Page Name="Yields (scp) Subpages" PageGUID="1BBF9955-7DCB-4A0E-B8A2-38407C8D811B">
+			<Page Name="Yields Scp Page 1 Subpages" PageGUID="675014A7-3313-4214-9E78-99D13BB8857B">
+				<Page Name="Yields Scp Page 1 Reactor 1" PageGUID="DA8868F7-76B5-4686-85BB-844A62FFB8DC" />
+				<Page Name="Yields Scp Page 1 Reactor 2" PageGUID="460E856C-9498-4A25-903B-C8241D05E78C" />
+			</Page>
+			<Page Name="Yields Scp Page 2 Subpages" PageGUID="99646D82-EC87-4AFE-BD28-1DD5AF42EC7E">
+				<Page Name="Yields Scp Page 2 Reactor 1" PageGUID="D4400531-E2DA-48D9-BF09-017340CFF35D" />
+				<Page Name="Yields Scp Page 2 Reactor 2" PageGUID="8B595A2D-263F-49BD-A6C7-41A0A68E5D21" />
+			</Page>
+			<Page Name="Yields Scp Page 3 Subpages" PageGUID="FF91E462-6E55-48FC-A03E-9B59E2540BBC">
+				<Page Name="Yields Scp Page 3 Reactor 1" PageGUID="B0FFCDA5-A290-4A0B-B028-BDC61742E508" />
+				<Page Name="Yields Scp Page 3 Reactor 2" PageGUID="9E632A9B-A61C-40D3-BDFB-9CFFA5C3428D" />
+			</Page>
+			<Page Name="Yields Scp Page 4 Subpages" PageGUID="4E51C46E-292F-4072-BE50-A5A3CA0128F0">
+				<Page Name="Yields Scp Page 4 Reactor 1" PageGUID="87F7AECF-4C57-4AAB-BDD5-1E605CBCF46E" />
+				<Page Name="Yields Scp Page 4 Reactor 2" PageGUID="C8401A19-C095-4DD3-936C-16E635796A68" />
+			</Page>
+			<Page Name="Yields Scp Page 5 Subpages" PageGUID="2048B700-F714-4EBB-8EFF-EAF363810D90">
+				<Page Name="Yields Scp Page 5 Reactor 1" PageGUID="999CB66B-50C4-46AE-97DC-75DC84561EF6" />
+				<Page Name="Yields Scp Page 5 Reactor 2" PageGUID="3FF3D4BA-6185-4A8C-B9C8-9BB1004FAD21" />
+			</Page>
+			<Page Name="Yields Scp Page 6 Subpages" PageGUID="D5D4F8C9-DC0D-4C20-ADC1-64A9C089FFA6">
+				<Page Name="Yields Scp Page 6 Reactor 1" PageGUID="12723822-C29A-412A-8BF3-F12C7A151D32" />
+				<Page Name="Yields Scp Page 6 Reactor 2" PageGUID="2EAC086A-E4B8-4C6B-BCDD-4B81F119D1DC" />
+			</Page>
+		</Page>
+		<Page Name="Product Properties (ecp) Subpages" PageGUID="7FB70F83-7E77-4C65-9FD0-0887B107B56B">
+			<Page Name="Product Properties Page 1 Reactor 1" PageGUID="F301D050-B678-4DA0-AC90-237B6DB275A2" />
+			<Page Name="Product Properties Page 1 Reactor 2" PageGUID="0D72C8E9-95A5-4747-B82F-2F3B6C924FAE" />
+		</Page>
+		<Page Name="Product Properties Subpages(2)" PageGUID="D7C05C28-4FE9-4B67-8840-574B33ABD01B">
+			<Page Name="Product Properties Page 2 Reactor 1" PageGUID="880225AF-C873-4259-B205-8026648AB2B1" />
+			<Page Name="Product Properties Page 2 Reactor 2" PageGUID="393EF397-8D7A-4ECA-9FBE-9FA36A4ADB5E" />
+		</Page>
+		<Page Name="Product Properties Scp Subpages" PageGUID="9BD05480-4F1F-480D-A1A2-EFDEFF21F378">
+			<Page Name="Product Properties Scp Page 1 Subpages" PageGUID="CC915EDA-7882-440D-9C54-107A26E9AB98">
+				<Page Name="Product Properties Scp Page 1 Reactor 1" PageGUID="D9F888D3-E338-45EA-ABF7-003CAD19C8E2" />
+				<Page Name="Product Properties Scp Page 1 Reactor 2" PageGUID="E8909BFC-7844-4269-BB09-81CEC114E7F4" />
+			</Page>
+			<Page Name="Product Properties Scp Page 2 Subpages" PageGUID="C5B857B7-83DC-4B71-B1BB-CBEAD90E1EC5">
+				<Page Name="Product Properties Scp Page 2 Reactor 1" PageGUID="EAECC7C2-44E1-48FA-B509-C81BFF7ECADB" />
+				<Page Name="Product Properties Scp Page 2 Reactor 2" PageGUID="4C63C9B8-415B-4745-A9AB-E04CA012EC75" />
+			</Page>
+			<Page Name="Product Properties Scp Page 3 Subpages" PageGUID="AA9535F1-9B34-49C6-8871-0D02992E4E9C">
+				<Page Name="Product Properties Scp Page 3 Reactor 1" PageGUID="27C40648-52AF-4B82-A3F3-4501E6EC0837" />
+				<Page Name="Product Properties Scp Page 3 Reactor 2" PageGUID="FAEA4281-20F1-42C8-8CB7-0AB48867FE3B" />
+			</Page>
+			<Page Name="Product Properties Scp Page 4 Subpages" PageGUID="4B8AF2AC-7089-492D-A36B-63E3BAE017ED">
+				<Page Name="Product Properties Scp Page 4 Reactor 1" PageGUID="11C286C1-E633-4899-8927-E950FF9A8C91" />
+				<Page Name="Product Properties Scp Page 4 Reactor 2" PageGUID="F5AAF356-8AA2-4A81-830E-ECD327DB69C8" />
+			</Page>
+			<Page Name="Product Properties Scp Page 5 Subpages" PageGUID="E846E5F1-9725-4901-B189-D6448C2F6086">
+				<Page Name="Product Properties Scp Page 5 Reactor 1" PageGUID="807B5A7F-DDEC-437C-AA7B-5383241B485B" />
+				<Page Name="Product Properties Scp Page 5 Reactor 2" PageGUID="06EF798E-0960-41F8-9801-5471B69000C9" />
+			</Page>
+		</Page>
+		<Page Name="Product Property Correlations Subpages" PageGUID="1D8A1340-F6C2-4190-8CFF-2BDAD5048867">
+			<Page Name="Product Property Correlations Page 1 Subpages" PageGUID="40B56D8F-E10A-4524-BBF4-01CFAD138E1F">
+				<Page Name="Product Property Correlations Page 1 Reactor 1" PageGUID="FF4CF828-4FA6-4544-AA37-92E0CF6CFDBA" />
+				<Page Name="Product Property Correlations Page 1 Reactor 2" PageGUID="C36CF0B0-5E9C-4019-AB48-14F3B4EFE73D" />
+			</Page>
+			<Page Name="Product Property Correlations Page 2 Subpages" PageGUID="FC5BDD4D-95CD-48AD-A012-B0B6FC3235B3">
+				<Page Name="Product Property Correlations Page 2 Reactor 1" PageGUID="700D1C01-3AA4-4672-9363-DF50834E7F87" />
+				<Page Name="Product Property Correlations Page 2 Reactor 2" PageGUID="22599BE2-14FB-46A8-B0EB-DE9260DE4E35" />
+			</Page>
+			<Page Name="Product Property Correlations Page 3 Subpages" PageGUID="BC49C675-77FE-435D-8827-29C0B5EF4789">
+				<Page Name="Product Property Correlations Page 3 Reactor 1" PageGUID="5674ADD2-044E-4827-919A-E495615AD977" />
+				<Page Name="Product Property Correlations Page 3 Reactor 2" PageGUID="E913A28B-3304-4D4F-9D9A-366705B5445D" />
+			</Page>
+			<Page Name="Product Property Correlations Page 4 Subpages" PageGUID="67940419-AA66-41A4-8F23-A4C36CCF5986">
+				<Page Name="Product Property Correlations Page 4 Reactor 1" PageGUID="872903C5-8B32-41DD-8738-C84DB10CFC3B" />
+				<Page Name="Product Property Correlations Page 4 Reactor 2" PageGUID="BC170846-83A8-46B9-8CC0-644F1AF6170F" />
+			</Page>
+		</Page>
+		<Page Name="Heat Balance" PageGUID="ED4CB0E2-C6B3-42E2-B523-30977E256F1C">
+			<Page Name="Heat Balance_RR" PageGUID="A991185A-1B18-4F66-A90E-8B3D8564243D" />
+			<Page Name="Temperature Flow Rates of Streams" PageGUID="BF66FC78-5365-4B58-BD3F-81D8B3D5350B" />
+		</Page>
+		<Page Name="Page Index" PageGUID="120DBE66-1A52-41BC-8BCA-B6ED8F561F3F" />
+		<Page Name="Model News" PageGUID="B48DA4C7-16BD-4E77-9C5B-18FEBE8376D5" />
+		<Page Name="SHARC Release Info." PageGUID="6D57A2D3-B771-42E5-ADF3-2BFA65C63400" />
+		<Page Name="Page Release Info" PageGUID="E1C0EB0E-E986-42AD-A773-AEE12A1C3E3B">
+			<Page Name="Release Info" PageGUID="0F2730C6-AC29-4DBB-AF79-8672A17DFB93" />
+		</Page>
+		<Page Name="Model Technical Support" PageGUID="E5B11B79-6807-4286-B03C-AFD0C36C249C" />
+		<Page Name="Naphtha Cracking Info" PageGUID="50C0D820-CF28-4605-A104-FBCDCBE87F8C" />
+		<Page Name="About Naphtha Cracking" PageGUID="E9A420DF-097C-4CE3-A3AB-FE0DB27717DC" />
+		<Page Name="About Bio" PageGUID="BBDFA005-5DF6-4543-8379-518721E82930" />
+		<Page Name="New Flowchart" PageGUID="B8583909-65AF-4193-A6E8-1E85EF7D00F0" />
+		<Page Name="Update Base Case Version" PageGUID="C3BF9A89-475A-4045-9320-4ECF6B52CD98" />
+		<Page Name="Update Base Case Version_Startup" PageGUID="55D21503-5F81-4ABD-B2F8-9581145566BC" />
+		<Separator />
+		<Page Name="Adjust Zeolite for HB in Cat Evaluation" PageGUID="D45A2398-4348-4D14-A5CF-250E7AC1F73E" />
+		<Page Name="Estimate iC4= and C5 Yields" PageGUID="1D057808-E9B1-4B6B-A4ED-7C0BC767560F" />
+		<Page Name="Update Calibrations Page" PageGUID="E02D45F4-7A55-4FD6-93F3-DC256BF1D02A" />
+		<Page Name="Metal on E-cat Options" PageGUID="B809E9CA-51C7-40C1-ACD1-07B6C19CB196" />
+		<Page Name="Recycle Calculator" PageGUID="84E89587-415F-473F-B48E-5C3ED9829870" />
+		<Page Name="Update mode 2 (Calculate Fcat)" PageGUID="E3BC24BA-17FA-450A-992C-AE7A3F8D7849" />
+		<Page Name="Review Options" PageGUID="ED280A37-AFC5-4BA8-A8DB-245AC012FCEE" />
+		<Page Name="2_22d - table" PageGUID="E0E1147D-E93D-4625-A523-572E633127E7" />
+		<Page Name="Feed NVC-CCR" PageGUID="DD8D5D08-F6F1-4237-AE89-E306A298B687" />
+		<Page Name="Review Options(1)" PageGUID="D047FFB5-FAD2-444C-A740-E87AEF3A58C6" />
+		<Page Name="Standard Cut" PageGUID="7E54EBA1-3946-4315-A07C-9D664764CC12" />
+		<Page Name="Feed Property Correlations" PageGUID="6AC0B70C-E9BF-484B-A4E6-CEF7A57D5868" />
+		<Page Name="Calculate Viscosity at 100 DegC" PageGUID="07B8D10B-44B0-4451-9808-0BF5F84125E1" />
+		<Page Name="Pressure Balance" PageGUID="212AD79C-3D95-48D9-AB30-9D5B330F6F02" />
+		<Page Name="Execute the Model" PageGUID="06283FE3-FC3E-413C-9699-EAA60DD8E728" />
+		<Page Name="Message(1)" PageGUID="5061D5ED-2EBB-4C72-BAD6-23D98E8973AE" />
+		<Page Name="Catalyst or Feed Selection" PageGUID="9A3E40F0-2C2E-4B06-9821-369837DF04A3" />
+		<Page Name="UpdBound" PageGUID="E4FFE202-4D6A-4B3A-B084-C50A3F5885C7" />
+		<Page Name="ImportPTR" PageGUID="869991FE-3C64-4F09-884C-4C4588BC16C4" />
+		<Page Name="OptBound" PageGUID="BB281B03-4FAA-4ACB-94FC-35F6133D060A" />
+		<Page Name="ImportBound" PageGUID="C27661D9-C805-4858-8AD3-833E93B39D6E" />
+		<Page Name="DRAppendix" PageGUID="8BB2DA88-2761-4E0A-A488-96B43F3442C0" />
+		<Page Name="RestoreLastFeasibleSolution" PageGUID="6270F8E1-350D-478D-B715-C72DD634FAEB" />
+		<Page Name="RestoredLastFeasibleSolution" PageGUID="4E8425D1-1544-4430-8D41-60783C3B3F02" />
+	</Page>
+	<Separator />
+	<Page Name="All Still To Placed Pages" PageGUID="C2D27F9A-9A9C-471D-BAE5-9B8E3973C9F9">
+		<Page Name="Naphtha Cracking Yield Page" PageGUID="288CB460-031B-4795-A119-5EF74CA68FF5" />
+		<Page Name="Simulation Modes Selection" PageGUID="237FA10E-A2BD-406F-B3E7-A9A68D534773" />
+		<Page Name="More Simulation Modes" PageGUID="06C1E47E-26E1-4C7B-AB16-BA3C27DE00CE" />
+		<Page Name="Message" PageGUID="E42ABE19-F18B-4BF0-893F-3FBA4FDC4922" />
+		<Page Name="Unit Selection - Import Parameters" PageGUID="3F382797-57C3-4CAD-9E62-D7C707D3CD38" />
+		<Page Name="V100 input selection page" PageGUID="34CBADA8-74C2-4C52-A571-0C4BD6DB9289" />
+		<Page Name="Main (SIOP Normal User Level)(1)" PageGUID="1BCFB9D2-CF09-47B6-8272-6F087943C900" />
+		<Page Name="Main(2)" PageGUID="AE1D5C28-84FE-49AB-B296-12A4E2F3933A" />
+		<Page Name="Yields at Specified End Cut Points (ecp)(2)" PageGUID="7AC95F00-6E46-4805-AA5E-45A555E61205" />
+		<Page Name="Yields 1M" PageGUID="AF8C0820-FD9D-456B-9568-D9AF3EA41F2B" />
+		<Page Name="Operating Conditions 1M" PageGUID="08E94B62-191A-4077-B52D-80831EDBC0D2" />
+		<Page Name="Feed Properties" PageGUID="6B45D66D-CA99-4E85-BBBE-54F2690D24FC" />
+		<Page Name="Prod. Prop. at Spec. Cut Points, SOC units" PageGUID="9210BC0B-B705-4FF1-B5B9-B8DD05918B88" />
+		<Page Name="Dialog Pages" PageGUID="EF39AA06-7805-4DEC-87AF-40C5B4984C9B">
+			<Page Name="Metal Passivation" PageGUID="A50F4A1E-2729-4BED-A188-4168C4B1E820" />
+			<Page Name="Blending Selection Review" PageGUID="F59A6E96-550C-4DFD-9D61-D7AA3FCED6F0" />
+			<Page Name="Purchased Feed Type" PageGUID="D3EEAD03-4ABB-4AE8-8688-9614F73989BD" />
+			<Page Name="Feed Property Estimation -" PageGUID="39A30A2F-8A74-4654-98EF-A0B0A9605805" />
+			<Page Name="Select Sections to be Printed - ASCII" PageGUID="C2100F0E-D3EE-43B8-9B92-D72A2ED89386" />
+			<Page Name="Parameters of Yc vs. Severity" PageGUID="E0901DC3-E47A-4AD0-8D1A-40FDE2186E53" />
+		</Page>
+		<Page Name="Still to be places" PageGUID="AB2DA90E-E396-4716-B794-4F24B3E095B2">
+			<Separator />
+			<Page Name="6 - Metal Effect" PageGUID="EA339B1C-39E5-461C-8E31-82A809F55240" />
+			<Page Name="6 - Metal Effect (Shell GSI)" PageGUID="9671DEFE-DD25-43F1-B91A-D42E3CC37B97" />
+			<Page Name="6b - Metals Effect, Exponential Model" PageGUID="852E5605-A40B-4776-974C-A147E9868167" />
+			<Page Name="Catalyst - Zeolite" PageGUID="47B66BCC-1F5E-4664-80D9-9EB7440616A5" />
+		</Page>
+	</Page>
+	<Separator />
+	<Page Name="All Debug Pages" PageGUID="F21E9461-1276-484A-87D9-4F0226F48948">
+		<Page Name="Automated Testing" PageGUID="5F3554A9-6DD2-475C-A2F1-A0C7173B14F9">
+			<Page Name="Test Case Settings" PageGUID="FC5622E1-DEA3-4E2E-9DF1-6C59EE2ABE97" />
+			<Page Name="Values and Bounds" PageGUID="66B323FA-26AA-4F53-A492-65955476BCCF" />
+			<Page Name="Procedures" PageGUID="70CD3DF2-1D98-425F-A347-9660A9C972A1" />
+			<Page Name="Run Order" PageGUID="329586F7-AF22-410E-A35A-55A9BBC0DDD3" />
+			<Page Name="Export Template" PageGUID="3D3E1BE5-B31B-4AA7-83B9-850BB106719D" />
+		</Page>
+		<Page Name="AutoTest - Add Parameter or Variable" PageGUID="236A08CB-A9D8-4425-90DD-A2BAA73F32A8" />
+		<Page Name="AutoTest - Add Procedure" PageGUID="2EFFD067-C449-44C1-9B03-8542003267FB" />
+		<Page Name="Page 1" PageGUID="0198E6E6-EABC-44E1-A02D-EC0415EF7AC1" />
+		<Page Name="regen. data" PageGUID="6E0BAC1B-FCD4-4EEA-AD92-5BCC6545AEC7" />
+		<Page Name="some regen. variables" PageGUID="F354CBAC-190E-486C-83AC-37D5FEB066D4" />
+		<Page Name="PB" PageGUID="5BB14AA8-FDDF-4FBF-9AA5-257536253B35" />
+		<Page Name="yyy2 - yout page" PageGUID="EECB9C0F-4FCB-44C4-9FB2-06424A72F184" />
+	</Page>
+	<Page Name="All Data Pages" PageGUID="7F5BAF80-6C1C-45E1-A25B-6C4CB7D3EC70">
+		<Page Name="[Data Page] ETAB" PageGUID="AE3C7FF1-663F-407C-9A10-E800FC07576F" />
+		<Page Name="[Data Page] PC_XIdentifiersPerCurveGroupSet" PageGUID="61C780D1-B547-43AD-B6E0-FC929ECD5478" />
+		<Page Name="[Data Page] FDNFRW" PageGUID="807F7038-F7BC-4CD4-90D6-DE4E2781CCF9" />
+		<Page Name="[Data Page] FSPRAY" PageGUID="DC638AF5-13BE-45B7-B1D1-B582183CEC10" />
+		<Page Name="[Data Page] DA_BaseArray" PageGUID="FF7C3DBF-D7DB-45F1-90FD-64F370FDCD76" />
+		<Page Name="[Data Page] DA_DoDataAnalyze TempTableA" PageGUID="A028919C-8DA0-4C6B-8964-632BC0846FB6" />
+		<Page Name="[Data Page] DA_Table" PageGUID="3EB8303C-F1CA-43D2-B7B7-AC1550D13F64" />
+		<Page Name="[Data Page] IndividualUnitGroupIdentifiersMapping" PageGUID="3B14B57E-5745-493F-BBCB-02E526234BE0" />
+		<Page Name="[Data Page] DA_IdentifierInGraph_M" PageGUID="B508FFB3-B13C-4282-B81E-290B50C99103" />
+		<Page Name="[Data Page] Template_BaseCase_Read" PageGUID="CBE7EF50-5D1D-453F-B6BE-9C0613002B1F" />
+		<Page Name="[Data Page] ExcelIsInput" PageGUID="57D8364E-BB1A-4935-93AB-C3DEA49099AE" />
+		<Page Name="[Data Page] ExcelIdentifierTree" PageGUID="499F679D-444E-4DA5-A514-C48296938CE7" />
+		<Page Name="[Data Page] DA_GraphLowerBoundActual" PageGUID="7BA4A2F5-D1CF-4CCB-BD92-0AC73144E9BF" />
+		<Page Name="[Data Page] DA_GraphUpperBoundActual" PageGUID="45B5F9F2-FA82-430B-8FF2-797A56BC08CD" />
+		<Page Name="[Data Page] DA_GraphUpperBound" PageGUID="7FEDEBB9-0176-4FCB-BF92-9DE325C10D28" />
+		<Page Name="[Data Page] DA_GraphLowerBound" PageGUID="7919947B-D3B2-405A-A186-AC8C884D4046" />
+		<Page Name="[Data Page] UnitOfIdentifierAccordingtoConvention" PageGUID="A2A3A5EE-5077-4A4B-ADD6-9753EAB0C0E7" />
+		<Page Name="[Data Page] PC_ActualUpperBound" PageGUID="DD670EED-3620-4FCF-A4CC-D56B33E48C35" />
+		<Page Name="[Data Page] IndividualUnitIdentifiersBoundParameters" PageGUID="B0721FF5-41DB-456D-A98E-908432E4F2CF" />
+		<Page Name="[Data Page] IndividualUnitPerBound" PageGUID="AC96A832-C7C9-4C1C-9ABA-6EF5A8C11CFF" />
+		<Page Name="[Data Page] ActualUnit" PageGUID="867B5BB5-1E29-4300-90D5-EC8C069AA2C8" />
+		<Page Name="[Data Page] TotalBlendData" PageGUID="C31C65D2-A568-4BDA-97A1-7CBEDAA5C50C" />
+		<Page Name="[Data Page] GFCN" PageGUID="803F385E-5606-424D-81C4-8E1045EE5079" />
+		<Page Name="[Data Page] PPCUT4" PageGUID="7DD42CBD-5605-4EE4-91AA-D37A98EA9AD3" />
+		<Page Name="[Data Page] ExcelIdentifierTextString" PageGUID="51869A95-D746-4012-A8BF-B8890267AD57" />
+		<Page Name="[Data Page] MMP_HidePP" PageGUID="6B90BDB7-D41B-4A86-BC37-B2F6D9BA8669" />
+		<Page Name="[Data Page] CaseFileURL" PageGUID="D03900AB-F76B-4255-8185-43F3EE3E9443" />
+		<Page Name="[Data Page] AccessAllowed" PageGUID="1BB00CA3-C334-46E4-96A3-3B73CCE747AF" />
+		<Page Name="[Data Page] pNumberOfReferences" PageGUID="3AAA789D-7549-4ABE-8768-F152B37D1783" />
+		<Page Name="[Data Page] R2_FCAT" PageGUID="C20AED5D-4A88-4BD2-8604-FEA41AC54252" />
+		<Page Name="[Data Page] FCAT" PageGUID="DD768398-7EFC-47B9-AB05-DEF6B8A39954" />
+		<Page Name="[Data Page] SFCUT6" PageGUID="9AE1FD8B-51EA-49A9-8031-813CBDF63FD2" />
+		<Page Name="[Data Page] R2_SFCUT6" PageGUID="742D9BFA-2431-4AA5-9DF4-4BCF7BF091F0" />
+		<Page Name="[Data Page] SFFGC" PageGUID="3835BBDA-5F2D-419A-AFA5-3EBF9CA206C9" />
+		<Page Name="[Data Page] R2_SFFGC" PageGUID="AD1483A1-C4AD-4265-9A30-7F512CF4E00F" />
+		<Page Name="[Data Page] R2_VGASOCUT2" PageGUID="4BA5D46D-5862-40B6-9C4A-DC9E93E7F729" />
+		<Page Name="[Data Page] GCUTD2" PageGUID="2349D626-7045-4372-A8C5-53269A5AED11" />
+		<Page Name="[Data Page] VGASOCUT2" PageGUID="DF88970E-EC36-4528-BA9F-D3FDE1950063" />
+		<Page Name="[Data Page] R2_GCUTD2" PageGUID="A70EDE89-7854-491B-AED1-98176BC4DA1C" />
+		<Page Name="[Data Page] T_WCLOC" PageGUID="1EE6556E-03E1-476E-96FE-799443DD3CD5" />
+		<Page Name="[Data Page] PC645C" PageGUID="B1A2CB98-AD89-40B6-B213-FD94C43CD039" />
+		<Page Name="[Data Page] ZEOLIT" PageGUID="B8044DD0-080B-4F76-867C-05572DB894E0" />
+		<Page Name="[Data Page] TQAFT" PageGUID="05BC2672-67BB-452B-8880-DD3585A0E306" />
+		<Page Name="[Data Page] ALPBZN" PageGUID="722A4567-581F-495C-BA39-836F81676361" />
+		<Page Name="[Data Page] MySecondaryActions" PageGUID="2473786B-EAF7-4621-A808-F8A9151A6B59" />
+	</Page>
+	<Page Name="All Template Structure Objects" PageGUID="12B244F2-67C7-44AB-A572-9F586B18411A">
+		<Page Name="---------------Free format Dialog Pages---------------" PageGUID="BA0ECDFB-1BED-4B04-B6D1-2CF9B7A0A7EA" />
+		<Page Name="---------------End of Free format Dialog Pages---------------" PageGUID="61CEEFA7-31BC-4D92-8EE8-45843D076C3E" />
+		<Page Name="---------------DataPages and TestPages---------------" PageGUID="3A4277CD-871B-4F74-A2EE-931EE822FA43" />
+		<Page Name="---------------End of DataPages and TestPages---------------" PageGUID="FF0522D2-F13E-4C4A-BA99-934265903933" />
+	</Page>
+	<Page Name="For New Flowchart" PageGUID="87937A3D-C33A-443E-9033-66EF3199915E">
+		<Page Name="Two-stage regeneration variables" PageGUID="7AF3C3BE-BC35-4812-BB46-AA71468B216D" />
+		<Page Name="Two-stage regeneration variables(2)" PageGUID="05D669F4-15D2-432A-AAD6-55090E0D9199" />
+		<Page Name="Operating Conditions 2" PageGUID="202FFCB6-8F50-44AA-B710-2335AB0AE717" />
+	</Page>
+</PageManager>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2023-09-23 15:18:23">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Product Property Correlations - Sulfur"</Title>
+	<Hidden>Pages_ActualHidden( 'Product Property Correlations 2' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>1</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromBottom" Value="77" />
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Product Property Correlations"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Rectangle">
+		<Location top="835" left="15" bottom="900" right="1735" />
+		<Shape>In-Shadow</Shape>
+		<FillColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</FillColor>
+		<LineColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="892" left="1767" bottom="910" right="1914" />
+		<StaticText>2 of 4  </StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="840" left="35" bottom="891" right="1615" />
+		<StaticText>NOTES:
+For Paraffinic Feed, set the Sulfur correlation default to 0; Otherwise, set it to 1.
+SOx Factor = Measured SOx in Flue Gas/Calculated Value. Default = 1.</StaticText>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="835" right="1735" />
+		<TabOrder>2</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ParentPage PageGUID="FC5BDD4D-95CD-48AD-A012-B0B6FC3235B3" Name="Product Property Correlations Page 2 Subpages" />
+		<MultipleTabRows>true</MultipleTabRows>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Pages_ActualHidden</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

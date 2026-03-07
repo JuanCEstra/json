@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Catalyst Selection"</Title>
+	<Hidden>Pages_ActualHidden( 'Catalyst Selection 1' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>6</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromLeft" Value="12">
+						<RightArea Line="FixedFromRight" Value="8">
+							<LeftArea Line="FixedFromTop" Value="92">
+								<BottomArea Line="FixedFromRight" Value="209">
+									<LeftArea Line="FixedFromRight" Value="8">
+										<LeftArea Line="FixedFromLeft" Value="8">
+											<RightArea Line="PercentageFromTop" Value="0.049327" />
+										</LeftArea>
+									</LeftArea>
+									<RightArea Line="PercentageFromTop" Value="0.053812" />
+								</BottomArea>
+							</LeftArea>
+						</RightArea>
+					</LeftArea>
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Catalyst/Feed Selection"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Rectangle">
+		<Location top="1027" left="741" bottom="1069" right="2109" />
+		<Shape>Open</Shape>
+		<FillColor RGB="#008080" />
+		<LineColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>RadioButtons</SelectionType>
+		<Location top="260" left="1548" bottom="809" right="1741" />
+		<TabOrder>2</TabOrder>
+		<Font GUID="4C831F88-9C20-4609-8778-E6CA6A07472D" Name="Tahoma 10B" />
+		<TextShown>ElementName</TextShown>
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor>
+			<UserColor GUID="E9F19730-7F31-4458-ABF2-829EDBD30D22">Grey 2</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<SpreadVertically>false</SpreadVertically>
+		<ExplicitIdentifier>
+			<Identifier>catfd_selected</Identifier>
+			<SelectionSet>Catfd_Avail</SelectionSet>
+		</ExplicitIdentifier>
+		<ElementText Index="Catfd_Avail">Max_CatfdName( Catfd_Avail )</ElementText>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="232" left="1550" bottom="256" right="1733" />
+		<StaticText> Catalyst ID          Feed ID</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="4C831F88-9C20-4609-8778-E6CA6A07472D" Name="Tahoma 10B" />
+		<TextColor RGB="#004080" />
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="919" left="2007" bottom="949" right="2097" />
+		<StaticText>Go to Feed
+Evaluation</StaticText>
+		<Font GUID="A3D9443E-E854-4043-955E-9C054C7FE887" Name="Sans serif bold (Sharc)" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="905" right="1911" />
+		<StaticText>1 of 3</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Scalar">
+		<Location top="100" left="15" bottom="132" right="661" />
+		<TabOrder>5</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="InShadow" Width="2" MarginLeft="10" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>none</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>DLTRON</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Estimated Delta-RON of C6-450°F Gasoline"</Title>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="60" left="20" bottom="86" right="1267" />
+		<StaticText>Please select a new Catalyst ID/Feed ID and give the estimated C6-450°F gasoline RON difference between the new catalyst and base catalyst. Then click 'Continue'  button below.</StaticText>
+		<Font GUID="4C831F88-9C20-4609-8778-E6CA6A07472D" Name="Tahoma 10B" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="840" />
+		<TabOrder>9</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Set Base Cat"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>SETCATB_ACF</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1030" bottom="952" right="1210" />
+		<TabOrder>8</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Continue"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>CATSEL_ACF</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1410" bottom="952" right="1650" />
+		<TabOrder>7</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Go to Feed Selection"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="F9C0B493-2639-4255-AFFF-35DC9DC1C37D" Name="Feed Selection 1" />
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1764" bottom="952" right="1800" />
+		<TabOrder>3</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"&lt;prj&gt;:bitmaps\Left.png"</BitmapFile>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>TreePrevious</Destination>
+				<AncestorLevels>1</AncestorLevels>
+				<DescendantLevels>1</DescendantLevels>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1876" bottom="952" right="1912" />
+		<TabOrder>4</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"&lt;prj&gt;:bitmaps\Right.png"</BitmapFile>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>TreeNext</Destination>
+				<AncestorLevels>1</AncestorLevels>
+				<DescendantLevels>1</DescendantLevels>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1800" bottom="952" right="1875" />
+		<TabOrder>1</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Main"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>Main_Page_Open</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Picture">
+		<Location top="195" left="25" bottom="851" right="1530" />
+		<FileName LiteralFileName="true">"&lt;prj&gt;:bitmaps\FeedSelection.png"</FileName>
+		<Display>ActualSize</Display>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="204" left="1091" bottom="659" right="1492" />
+		<StaticText>NOTE:
+Please do not click "Set Base Cat" button during the Catalyst Selection, unless you want to start the selection over again.
+
+When you want to restart the selection, the original base case will be reloaded by clicking the "Set Base Cat" button.
+
+SHARC Menu also contains options for Catalyst Selection:
+1. Translate
+2. Run</StaticText>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>PageOpenSingle</Symbol>
+			<Symbol>DLTRON</Symbol>
+			<Symbol>Max_CatfdName</Symbol>
+			<Symbol>Catfd_Avail</Symbol>
+			<Symbol>catfd_selected</Symbol>
+			<Symbol>CATSEL_ACF</Symbol>
+			<Symbol>SETCATB_ACF</Symbol>
+			<Symbol>Main_Page_Open</Symbol>
+			<Symbol>Pages_ActualHidden</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

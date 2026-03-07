@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Multiple Cuts Yields and Specific Gravities"</Title>
+	<Hidden>Pages_ActualHidden( 'Cut Point Adjustments 7 (TBP1)' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>3</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Cut Point Adjustments"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Scalar">
+		<MultipleCases>true</MultipleCases>
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<CalculationColumn>BminusA</CalculationColumn>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>"CUT POINTS"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 1  (CPT1) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 2  (CPT2) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 3  (CPT3) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP4</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 4  (CPT4) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP5</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 5  (CPT5) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP6</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 6  (CPT6) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP7</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 7  (CPT7) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP8</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 8  (CPT8) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCP9</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 9  (CPT9) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPCPA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut Point 10 (CPTA) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"YIELDS OF INDIVIDUAL CUTS"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP1</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 1  (Boiling Range: C5 - CPT1) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP2</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 2  (Boiling Range: CPT1 - CPT2) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP3</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 3  (Boiling Range: CPT2 - CPT3) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP4</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 4  (Boiling Range: CPT3 - CPT4) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP5</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 5  (Boiling Range: CPT4 - CPT5) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP6</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 6  (Boiling Range: CPT5 - CPT6) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP7</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 7  (Boiling Range: CPT6 - CPT7) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP8</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 8  (Boiling Range: CPT7 - CPT8) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYP9</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Cut 9  (Boiling Range: CPT8 - CPT9) "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPYPA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>" Final Cut "</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"API or D15/4°C OF THE CUTS"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP1</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 1" else "d15/4°C - Cut 1" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP2</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 2" else "d15/4°C - Cut 2" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP3</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 3" else "d15/4°C - Cut 3" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP4</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 4" else "d15/4°C - Cut 4" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP5</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 5" else "d15/4°C - Cut 5" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP6</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 6" else "d15/4°C - Cut 6" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP7</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 7" else "d15/4°C - Cut 7" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP8</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 8" else "d15/4°C - Cut 8" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDP9</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Cut 9" else "d15/4°C - Cut 9" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPDPA</Identifier>
+			<NumberFormat Width="8" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>STRING := if Economic_mode = 1 then "API Gravity - Final Cut" else "d15/4°C - Final Cut" endif</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"TBP EQUATION PARAMETERS"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C6C5RT0</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C6C5RT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"C6-Light Gasoline / C5-Full Range Gasoline Ratio"</Title>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>IBP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowDeveloper</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TLPEBP</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPEQM</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPEQA</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPEQB</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPEQC</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TBPEQD</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Dens_coef_A</Identifier>
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Dens_coef_B</Identifier>
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Dens_coef_C</Identifier>
+			<NumberFormat Width="9" Decimals="3" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"SULFUR DISTRIBUTION"</Identifier>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SULC0</Identifier>
+			<NumberFormat Width="9" Decimals="4" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowMaster</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SULC1</Identifier>
+			<NumberFormat Width="9" Decimals="4" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"430°F (221°C)+ TLP Sulfur Distribution, C1"</Title>
+			<Readonly>AllowMaster</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SULC2</Identifier>
+			<NumberFormat Width="9" Decimals="4" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"430°F (221°C)+ TLP Sulfur Distribution, C2"</Title>
+			<Readonly>AllowMaster</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SULC3</Identifier>
+			<NumberFormat Width="9" Decimals="4" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"430°F (221°C)+ TLP Sulfur Distribution, C3"</Title>
+			<Readonly>AllowMaster</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>"DEVIATION FROM CURVE FITTING (Actual - Calc.)"</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C6C5RT</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"C6-Light Gasoline / C5-Full Range Gasoline Ratio"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Yield_1</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Yield_2</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Yield_3</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Yield_4</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Yield_5</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Yield_6</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>" "</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Volume_1</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Volume_2</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Volume_3</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>Meas_min_Fitted_Volume_4</Identifier>
+			<NumberFormat Width="9" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowUserLevel4</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>diff_std</Identifier>
+			<NumberFormat Width="9" Decimals="2" Scientific="IfTooSmallorLarge" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>1</Readonly>
+			<Hidden>AllowMaster</Hidden>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="907" right="1911" />
+		<StaticText>2 of 2</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="810" />
+		<TabOrder>2</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"TBP Curve"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>display_yield_curve</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Model_Related_Identifiers</Symbol>
+			<Symbol>Economic_mode</Symbol>
+			<Symbol>TLPEBP</Symbol>
+			<Symbol>C6C5RT</Symbol>
+			<Symbol>C6C5RT0</Symbol>
+			<Symbol>display_yield_curve</Symbol>
+			<Symbol>IBP</Symbol>
+			<Symbol>diff_std</Symbol>
+			<Symbol>Dens_coef_A</Symbol>
+			<Symbol>Dens_coef_B</Symbol>
+			<Symbol>Dens_coef_C</Symbol>
+			<Symbol>Meas_min_Fitted_Yield_1</Symbol>
+			<Symbol>Meas_min_Fitted_Yield_2</Symbol>
+			<Symbol>Meas_min_Fitted_Yield_3</Symbol>
+			<Symbol>Meas_min_Fitted_Yield_4</Symbol>
+			<Symbol>Meas_min_Fitted_Yield_5</Symbol>
+			<Symbol>Meas_min_Fitted_Yield_6</Symbol>
+			<Symbol>Meas_min_Fitted_Volume_1</Symbol>
+			<Symbol>Meas_min_Fitted_Volume_2</Symbol>
+			<Symbol>Meas_min_Fitted_Volume_3</Symbol>
+			<Symbol>Meas_min_Fitted_Volume_4</Symbol>
+			<Symbol>TBPEQM</Symbol>
+			<Symbol>TBPEQA</Symbol>
+			<Symbol>TBPEQB</Symbol>
+			<Symbol>TBPEQC</Symbol>
+			<Symbol>TBPEQD</Symbol>
+			<Symbol>SULC0</Symbol>
+			<Symbol>SULC1</Symbol>
+			<Symbol>SULC2</Symbol>
+			<Symbol>SULC3</Symbol>
+			<Symbol>TBPCP1</Symbol>
+			<Symbol>TBPCP2</Symbol>
+			<Symbol>TBPCP3</Symbol>
+			<Symbol>TBPCP4</Symbol>
+			<Symbol>TBPCP5</Symbol>
+			<Symbol>TBPCP6</Symbol>
+			<Symbol>TBPCP7</Symbol>
+			<Symbol>TBPCP8</Symbol>
+			<Symbol>TBPCP9</Symbol>
+			<Symbol>TBPCPA</Symbol>
+			<Symbol>TBPYP1</Symbol>
+			<Symbol>TBPYP2</Symbol>
+			<Symbol>TBPYP3</Symbol>
+			<Symbol>TBPYP4</Symbol>
+			<Symbol>TBPYP5</Symbol>
+			<Symbol>TBPYP6</Symbol>
+			<Symbol>TBPYP7</Symbol>
+			<Symbol>TBPYP8</Symbol>
+			<Symbol>TBPYP9</Symbol>
+			<Symbol>TBPYPA</Symbol>
+			<Symbol>TBPDP1</Symbol>
+			<Symbol>TBPDP2</Symbol>
+			<Symbol>TBPDP3</Symbol>
+			<Symbol>TBPDP4</Symbol>
+			<Symbol>TBPDP5</Symbol>
+			<Symbol>TBPDP6</Symbol>
+			<Symbol>TBPDP7</Symbol>
+			<Symbol>TBPDP8</Symbol>
+			<Symbol>TBPDP9</Symbol>
+			<Symbol>TBPDPA</Symbol>
+			<Symbol>Pages_ActualHidden</Symbol>
+			<Symbol>AllowMaster</Symbol>
+			<Symbol>AllowDeveloper</Symbol>
+			<Symbol>AllowUserLevel4</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

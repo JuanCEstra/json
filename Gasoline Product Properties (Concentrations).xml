@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Hidden>Pages_ActualHidden( 'Gasoline Product Properties (Concentrations)' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>5</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromTop" Value="147">
+						<BottomArea Line="FixedFromLeft" Value="169" />
+					</LeftArea>
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Product Properties"</HelpTopic>
+	<Action>
+		<EntryProcedure>UpdateProductPropertyModel1st</EntryProcedure>
+	</Action>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Button">
+		<Location top="922" left="1445" bottom="952" right="1585" />
+		<TabOrder>7</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Back"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="ClosePage" />
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>PPBackProcedure</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>DropDownList</SelectionType>
+		<Location top="234" left="15" bottom="321" right="170" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>ElementName</TextShown>
+		<Border Style="None" />
+		<BackgroundColor RGB="#ffffff" />
+		<ProcedureUponChange>PP1_AutoScale</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>SelectedCalibrationType</Identifier>
+		</ExplicitIdentifier>
+		<ElementText Index="CalibrationTypes">CalibrationTypes_txt( ct )</ElementText>
+	</PageObject>
+	<PageObject Type="2D Chart">
+		<Location top="233" left="178" bottom="900" right="1735" />
+		<TabOrder>4</TabOrder>
+		<Border Style="InShadow" Width="2" MarginTop="10" MarginRight="10" MarginBottom="10" MarginLeft="10" />
+		<X_Axis>
+			<Domain ID="1004">Concentration_DrawCurvesTemp( ocp )</Domain>
+			<Annotation>
+				<Label_spacing ID="1031">50</Label_spacing>
+			</Annotation>
+			<Scale>
+				<Minimum ID="1014">100</Minimum>
+				<Maximum ID="1015">450</Maximum>
+			</Scale>
+			<Gridlines>
+				<Spacing ID="1018">25</Spacing>
+				<Show_on_top ID="1019">1</Show_on_top>
+			</Gridlines>
+		</X_Axis>
+		<Y_Axis>
+			<Identifier>
+				<Value ID="2007">Concentration_DrawCurves( SelectedCalibrationType, ocp )</Value>
+				<Value_label ID="2060">PP1_ValueLabel( SelectedCalibrationType, ocp )</Value_label>
+				<Appearance>
+					<Line>
+						<Color ID="2023">F0BF647F-F7A0-43EE-AC8B-E1897B792F65 cyan</Color>
+						<Width ID="2025">3</Width>
+					</Line>
+				</Appearance>
+			</Identifier>
+			<Annotation>
+				<Precision ID="2056">PP1_GraphNumberOfDecimals( SelectedCalibrationType )</Precision>
+				<Tick_spacing ID="2049">VALUE := PP1_GraphScaleStep( SelectedCalibrationType )</Tick_spacing>
+				<Label_spacing ID="2057">VALUE := PP1_GraphScaleStep( SelectedCalibrationType )</Label_spacing>
+				<X_Axis_origin ID="2053">PP1_GraphLowerBound( SelectedCalibrationType )</X_Axis_origin>
+			</Annotation>
+			<Scale>
+				<Data_minimum ID="2033">PP1_GraphLowerBound( SelectedCalibrationType )</Data_minimum>
+				<Data_maximum ID="2034">PP1_GraphUpperBound( SelectedCalibrationType )</Data_maximum>
+				<Minimum ID="2035">PP1_GraphLowerBound( SelectedCalibrationType )</Minimum>
+				<Maximum ID="2036">PP1_GraphUpperBound( SelectedCalibrationType )</Maximum>
+			</Scale>
+			<Gridlines>
+				<Spacing ID="2043">PP1_GraphScaleStep( SelectedCalibrationType )</Spacing>
+				<Style>
+					<Width ID="2048">2</Width>
+				</Style>
+			</Gridlines>
+		</Y_Axis>
+		<Display>
+			<Surrounding_area>
+				<Foreground_color ExtraInfo="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0" ID="3">"Baby Powder"</Foreground_color>
+				<Background_color ExtraInfo="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA" ID="2">"Page Background"</Background_color>
+			</Surrounding_area>
+			<Misc_display_settings>
+				<Show_box_around_plot_area ID="66">1</Show_box_around_plot_area>
+				<Axis_annotation_font ExtraInfo="46D21664-10B5-49E5-AA67-33C11D3F3FC7" ID="74">"All_Default"</Axis_annotation_font>
+				<Axis_title_font ExtraInfo="46D21664-10B5-49E5-AA67-33C11D3F3FC7" ID="75">"All_Default"</Axis_title_font>
+			</Misc_display_settings>
+		</Display>
+		<Header_Footer>
+			<Header>
+				<Text ID="23">CalibrationTypes_txt( SelectedCalibrationType )</Text>
+				<Font ExtraInfo="46D21664-10B5-49E5-AA67-33C11D3F3FC7" ID="22">"All_Default"</Font>
+			</Header>
+		</Header_Footer>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="50" left="15" bottom="230" right="1735" />
+		<ReadOnly>"Yes"</ReadOnly>
+		<TabOrder>8</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="10" MarginBottom="5" MarginLeft="10" />
+		<MaxColWidth>45</MaxColWidth>
+		<MaxRowWidth>45</MaxRowWidth>
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<InputColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</InputColor>
+		<RowIndentation>3</RowIndentation>
+		<RemoveDefaults>true</RemoveDefaults>
+		<MultiLineHeaders>true</MultiLineHeaders>
+		<ExplicitIdentifier>
+			<Identifier>XIN_74( mxp in mxp_ActiveCutpoints )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<IdentifierTextInTitle>true</IdentifierTextInTitle>
+			<HeaderText>"MBP "</HeaderText>
+			<NumberFormat Width="15" Decimals="2" Alignment="Right" />
+			<Unit Display="InTitle" />
+			<Description>"Mid Boiling Point"</Description>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YIN_74PP( mxp in mxp_ActiveCutpoints )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<IdentifierTextInTitle>true</IdentifierTextInTitle>
+			<HeaderText>"Saturates [%wt]"</HeaderText>
+			<NumberFormat Width="12" Decimals="2" Alignment="Right" />
+			<Description>"Saturates in wt%"</Description>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YIN_74NO( mxp in mxp_ActiveCutpoints )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<IdentifierTextInTitle>true</IdentifierTextInTitle>
+			<HeaderText>"Cyc. Olefins [%wt]"</HeaderText>
+			<NumberFormat Width="12" Decimals="2" Alignment="Right" />
+			<Description>"Cyclic Olefins in wt%"</Description>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YIN_74OO( mxp in mxp_ActiveCutpoints )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<IdentifierTextInTitle>true</IdentifierTextInTitle>
+			<HeaderText>"Total Olefins [%wt] "</HeaderText>
+			<NumberFormat Width="12" Decimals="2" Alignment="Right" />
+			<Description>"Total Olefins in wt%"</Description>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YIN_74AA( mxp in mxp_ActiveCutpoints )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<IdentifierTextInTitle>true</IdentifierTextInTitle>
+			<HeaderText>"Aromatics [%wt]"</HeaderText>
+			<NumberFormat Width="12" Decimals="2" Alignment="Right" />
+			<Description>"Aromatics in wt%"</Description>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>YIN_74SF( mxp in mxp_ActiveCutpoints )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<IdentifierTextInTitle>true</IdentifierTextInTitle>
+			<HeaderText>"Sulfur [%wt]"</HeaderText>
+			<NumberFormat Width="12" Decimals="4" Alignment="Right" />
+			<Description>"Sulfur in wt%"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1875" bottom="952" right="1911" />
+		<TabOrder>9</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"&lt;prj&gt;:bitmaps\Right.png"</BitmapFile>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>Next</Destination>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1764" bottom="952" right="1800" />
+		<TabOrder>3</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"&lt;prj&gt;:bitmaps\Left.png"</BitmapFile>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="ADC9BA71-9235-48F0-9DF6-7A131C599348" Name="All Button Font" />
+		<ActionSequence>
+			<Action Type="GotoPage" />
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1800" bottom="952" right="1875" />
+		<TabOrder>6</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Main"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>Main_Page_Open</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="870" />
+		<Hidden>VALUE := Use_R2</Hidden>
+		<TabOrder>2</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Calibrate Correlations"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="E02D45F4-7A55-4FD6-93F3-DC256BF1D02A" Name="Update Calibrations Page" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Use_R2</Symbol>
+			<Symbol>CalibrationTypes</Symbol>
+			<Symbol>CalibrationTypes_txt</Symbol>
+			<Symbol>SelectedCalibrationType</Symbol>
+			<Symbol>mxp_ActiveCutpoints</Symbol>
+			<Symbol>XIN_74</Symbol>
+			<Symbol>YIN_74PP</Symbol>
+			<Symbol>YIN_74OO</Symbol>
+			<Symbol>YIN_74AA</Symbol>
+			<Symbol>YIN_74NO</Symbol>
+			<Symbol>YIN_74SF</Symbol>
+			<Symbol>Concentration_DrawCurvesTemp</Symbol>
+			<Symbol>Concentration_DrawCurves</Symbol>
+			<Symbol>PP1_GraphLowerBound</Symbol>
+			<Symbol>PP1_GraphUpperBound</Symbol>
+			<Symbol>PP1_GraphScaleStep</Symbol>
+			<Symbol>PP1_GraphNumberOfDecimals</Symbol>
+			<Symbol>PP1_ValueLabel</Symbol>
+			<Symbol>UpdateProductPropertyModel1st</Symbol>
+			<Symbol>PPBackProcedure</Symbol>
+			<Symbol>PP1_AutoScale</Symbol>
+			<Symbol>Main_Page_Open</Symbol>
+			<Symbol>Pages_ActualHidden</Symbol>
+			<Symbol>mxp</Symbol>
+			<Symbol>ocp</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

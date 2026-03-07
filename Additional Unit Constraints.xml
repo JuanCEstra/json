@@ -1,0 +1,711 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2025-01-23 14:09:17">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Hidden>Pages_ActualHidden( 'Additional Unit Constraints' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>20</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromTop" Value="178" />
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Unit Constraints"</HelpTopic>
+	<HorizontalGridDistance>-1</HorizontalGridDistance>
+	<VerticalGridDistance>-1</VerticalGridDistance>
+	<PageObject Type="Scalar">
+		<Location top="247" left="16" bottom="900" right="1735" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="46D21664-10B5-49E5-AA67-33C11D3F3FC7" Name="All_Default" />
+		<Border Style="None" MarginTop="20" MarginRight="20" MarginBottom="20" MarginLeft="20" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<ColumnTitles>true</ColumnTitles>
+		<VisibleColumns>iColumnsToShow</VisibleColumns>
+		<SeparatorSign>=</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>QPHGAS.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FTORCH.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>MTORCH.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>TOTFGW.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PO2WT.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="9" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Oxygen in Air (incl. O2 Enrich.) (Wet)"</Title>
+			<Hidden>VALUE := tsrg_mode&gt;0</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PC6310C.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PC5310C.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PC310450C.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>PC645C.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PC6310C.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PC5310C.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>T_PC645C.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>VALUE := not Use_R2</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SLCOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>SHCOC.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>CCRFD.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>IBED.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ECPGSL.[Level]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<Hidden>AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ABS_B.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<Hidden>AllowUserLevel3</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>STMCOB.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="8" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+			<Hidden>AllowDeveloper</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>FACT.[Lower,Level,Upper]</Identifier>
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ZEOLIT.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="6" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>CATMKP.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ZSM5MKP.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"ZSM-5 Addition Rate"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4AMKP.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ECATMKP.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Readonly>AllowUserLevel4</Readonly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>ZSM5.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"ZSM-5 content (%wt combined addition)"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>C4A.[Lower,Level,Upper]</Identifier>
+			<Unit Display="PerValue" />
+			<NumberFormat Width="7" Decimals="2" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"C4 additive content (%wt combined addition)"</Title>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="911" right="1911" />
+		<StaticText>2 of 2</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="140" left="46" bottom="160" right="463" />
+		<TabOrder>2</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>Add_Constraints_TorchF</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>TORCH_F</Identifier>
+			<Description>" Torch Oil to Regenerator"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="172" left="46" bottom="190" right="463" />
+		<TabOrder>3</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_FluegasF</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>FLUEGAS_F</Identifier>
+			<Description>" Total Wet Flue Gas Flow"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="106" left="1228" bottom="130" right="1591" />
+		<TabOrder>4</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_SLCOF</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>S_LCO_F</Identifier>
+			<Description>" Sulfur Content in LCO/LGO"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="141" left="1228" bottom="164" right="1591" />
+		<TabOrder>7</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_SHCOF</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>S_HCO_F</Identifier>
+			<Description>" Sulfur Content in HCO/HGO"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1435" bottom="952" right="1615" />
+		<TabOrder>9</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Back"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="GotoPage">
+				<Destination>GoBack</Destination>
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="106" left="617" bottom="128" right="970" />
+		<TabOrder>10</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_CatActivity</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>CAT_ACTIVITY</Identifier>
+			<Description>" Catalyst Activity (or Make-up Rate)"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="139" left="617" bottom="162" right="970" />
+		<TabOrder>11</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>Add_Constraints_AddEcat</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>ADD_ECAT</Identifier>
+			<Description>" Addition of Purchased E-cat"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="204" left="46" bottom="223" right="463" />
+		<TabOrder>12</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>Add_Constraints_PHTDuty</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>PHT_DUTY</Identifier>
+			<Description>" Feed Preheater Duty"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="72" left="617" bottom="95" right="970" />
+		<TabOrder>13</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_IBedVar</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>IBED_VAR</Identifier>
+			<Description>" Active Inventory of Reactor Bed"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="50" left="1645" bottom="80" right="1735" />
+		<TabOrder>14</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"OK"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>Add_Cons_ACF</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="50" left="15" bottom="67" right="1307" />
+		<StaticText>Select "Additional  Constraints", if needed, for optimization. You may need to enter the appropriate bounds (lower &amp; upper) below accordingly.</StaticText>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="75" left="46" bottom="94" right="463" />
+		<TabOrder>15</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_CCRFDRx</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>CCR_FD_RX</Identifier>
+			<Description>" Gross Feed Conradson Carbon Residue"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="202" left="1228" bottom="223" right="1591" />
+		<Hidden>NotAllowUserLevel3</Hidden>
+		<TabOrder>18</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>Add_Constraints_Absorber1</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>Absorber_1</Identifier>
+			<Description>" Absorber Bottoms Constraint"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="173" left="617" bottom="193" right="970" />
+		<TabOrder>19</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_ZSM5Add</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>ZSM5_ADD</Identifier>
+			<Description>" ZSM-5 Additive Addition Rate"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="107" left="46" bottom="130" right="463" />
+		<Hidden>VALUE := tsrg_mode&gt;0</Hidden>
+		<TabOrder>5</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_OxygenF</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>Oxygen_F</Identifier>
+			<Description>" Oxygen in Air (including O2 enrichment)"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="175" left="1228" bottom="191" right="1591" />
+		<TabOrder>16</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>Add_Constraints_STMCOBF</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>STMCOB_F</Identifier>
+			<Description>" Steam Production from CO Boiler"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="72" left="1228" bottom="95" right="1591" />
+		<TabOrder>6</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_Gasoline</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>Gasoline_F</Identifier>
+			<Description>" Gasoline production"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="990" />
+		<TabOrder>8</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Specify E-Cat Activity"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="86962312-CC98-457C-A52E-18D9F12025BC" Name="E-Cat Activity Spec" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>CheckBoxes</SelectionType>
+		<Location top="204" left="618" bottom="225" right="971" />
+		<TabOrder>17</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>IdentifierText</TextShown>
+		<Border Style="None" />
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</TextColor>
+		<ProcedureUponChange>add_constraints_C4Add</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>C4A_ADD</Identifier>
+			<Description>" C4 Additive Addition Rate"</Description>
+		</ExplicitIdentifier>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>DebuggerBreakpoint</Symbol>
+			<Symbol>TSRG_mode</Symbol>
+			<Symbol>ECATMKP</Symbol>
+			<Symbol>CCRFD</Symbol>
+			<Symbol>ZEOLIT</Symbol>
+			<Symbol>MTORCH</Symbol>
+			<Symbol>CATMKP</Symbol>
+			<Symbol>FACT</Symbol>
+			<Symbol>ZSM5</Symbol>
+			<Symbol>ZSM5MKP</Symbol>
+			<Symbol>C4A</Symbol>
+			<Symbol>C4AMKP</Symbol>
+			<Symbol>PC645C</Symbol>
+			<Symbol>PC6310C</Symbol>
+			<Symbol>PC5310C</Symbol>
+			<Symbol>PC310450C</Symbol>
+			<Symbol>IBED</Symbol>
+			<Symbol>ABS_B</Symbol>
+			<Symbol>SLCOC</Symbol>
+			<Symbol>SHCOC</Symbol>
+			<Symbol>FTORCH</Symbol>
+			<Symbol>Use_R2</Symbol>
+			<Symbol>T_PC6310C</Symbol>
+			<Symbol>T_PC5310C</Symbol>
+			<Symbol>T_PC645C</Symbol>
+			<Symbol>PO2WT</Symbol>
+			<Symbol>TOTFGW</Symbol>
+			<Symbol>STMCOB</Symbol>
+			<Symbol>QPHGAS</Symbol>
+			<Symbol>TORCH_F</Symbol>
+			<Symbol>FLUEGAS_F</Symbol>
+			<Symbol>S_LCO_F</Symbol>
+			<Symbol>S_HCO_F</Symbol>
+			<Symbol>CAT_ACTIVITY</Symbol>
+			<Symbol>ADD_ECAT</Symbol>
+			<Symbol>PHT_DUTY</Symbol>
+			<Symbol>Oxygen_F</Symbol>
+			<Symbol>Gasoline_F</Symbol>
+			<Symbol>STMCOB_F</Symbol>
+			<Symbol>IBED_VAR</Symbol>
+			<Symbol>CCR_FD_RX</Symbol>
+			<Symbol>ZSM5_ADD</Symbol>
+			<Symbol>C4A_ADD</Symbol>
+			<Symbol>ECPGSL</Symbol>
+			<Symbol>Absorber_1</Symbol>
+			<Symbol>Add_Constraints_PHTDuty</Symbol>
+			<Symbol>Add_Constraints_TorchF</Symbol>
+			<Symbol>add_constraints_FluegasF</Symbol>
+			<Symbol>add_constraints_SLCOF</Symbol>
+			<Symbol>add_constraints_SHCOF</Symbol>
+			<Symbol>add_constraints_OxygenF</Symbol>
+			<Symbol>add_constraints_Gasoline</Symbol>
+			<Symbol>add_constraints_CCRFDRx</Symbol>
+			<Symbol>add_constraints_IBedVar</Symbol>
+			<Symbol>add_constraints_CatActivity</Symbol>
+			<Symbol>add_constraints_ZSM5Add</Symbol>
+			<Symbol>add_constraints_C4Add</Symbol>
+			<Symbol>Add_Constraints_AddEcat</Symbol>
+			<Symbol>Add_Constraints_STMCOBF</Symbol>
+			<Symbol>Add_Constraints_Absorber1</Symbol>
+			<Symbol>Add_Cons_ACF</Symbol>
+			<Symbol>Pages_ActualHidden</Symbol>
+			<Symbol>AllowDeveloper</Symbol>
+			<Symbol>AllowUserLevel4</Symbol>
+			<Symbol>AllowUserLevel3</Symbol>
+			<Symbol>NotAllowUserLevel3</Symbol>
+			<Symbol>iColumnsToShow</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

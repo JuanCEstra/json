@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Fixed Parameters: Thermodynamic Data"</Title>
+	<Hidden>Pages_ActualHidden( '1 - Thermodynamic Data' )</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>3</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Fixed Parameters"</HelpTopic>
+	<Action>
+		<EntryProcedure>Parameter_Page</EntryProcedure>
+	</Action>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="905" right="1907" />
+		<SourceType>StringParameter</SourceType>
+		<StringParameter>ThermoPage</StringParameter>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1410" bottom="952" right="1650" />
+		<Hidden>AllowUserLevel3</Hidden>
+		<TabOrder>1</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Go To Page ?"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="ClosePage" />
+			<Action Type="LinkedPage">
+				<Page PageGUID="21FB7CDC-BD53-4A34-AD1A-C6BC6358EB56" Name="Select Fixed Parameter Page" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>4</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ParentPage PageGUID="E58EB4A7-EA57-49CE-A4B2-1C0064F875B9" Name="1 - Thermodynamic Data Subpages" />
+		<SelectedPageSymbol>spCurrentlySelectedTab</SelectedPageSymbol>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="960" />
+		<Hidden>P_NCFPButton</Hidden>
+		<TabOrder>2</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Naphtha Cracking Parameters"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="ClosePage" />
+			<Action Type="LinkedPage">
+				<Page PageGUID="16210FA6-1C2E-41C5-B2E6-CCAF7A545BBF" Name="Naphtha Cracking Effect" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>Parameter_Page</Symbol>
+			<Symbol>ThermoPage</Symbol>
+			<Symbol>Pages_ActualHidden</Symbol>
+			<Symbol>P_NCFPButton</Symbol>
+			<Symbol>AllowUserLevel3</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

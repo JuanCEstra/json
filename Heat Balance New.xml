@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2023-09-07 20:46:51" NeedsCompiledModel="false">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"HEAT BALANCE - Riser/Regenerator"</Title>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>1</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="166" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166" />
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Heat Balance"</HelpTopic>
+	<HorizontalGridDistance>-1</HorizontalGridDistance>
+	<VerticalGridDistance>-1</VerticalGridDistance>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>2</TabOrder>
+		<PrintingOccurrence>Never</PrintingOccurrence>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ParentPage PageGUID="ED4CB0E2-C6B3-42E2-B523-30977E256F1C" Name="Heat Balance" />
+		<MultipleTabRows>true</MultipleTabRows>
+	</PageObject>
+	<UsedReferences>
+		<Model />
+	</UsedReferences>
+</Page>

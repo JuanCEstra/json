@@ -1,0 +1,853 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Hidden>AllowDeveloper</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>5</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromTop" Value="189">
+						<TopArea Line="FixedFromTop" Value="32">
+							<TopArea Line="FixedFromLeft" Value="257">
+								<RightArea Line="FixedFromRight" Value="167" />
+							</TopArea>
+						</TopArea>
+						<BottomArea Line="FixedFromLeft" Value="242">
+							<LeftArea Line="FixedFromTop" Value="51">
+								<BottomArea Line="PercentageFromTop" Value="0.546667">
+									<BottomArea Line="PercentageFromTop" Value="0.764706">
+										<TopArea Line="FixedFromLeft" Value="201" />
+									</BottomArea>
+								</BottomArea>
+							</LeftArea>
+						</BottomArea>
+					</LeftArea>
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Product Properties"</HelpTopic>
+	<Action>
+		<EntryProcedure>PP_AutoScale</EntryProcedure>
+	</Action>
+	<HorizontalGridDistance>-3</HorizontalGridDistance>
+	<VerticalGridDistance>-3</VerticalGridDistance>
+	<PageObject Type="Button">
+		<Location top="922" left="1445" bottom="952" right="1625" />
+		<TabOrder>7</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Back"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="ClosePage" />
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>PPBackProcedure</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="78" left="20" bottom="230" right="1735" />
+		<TabOrder>6</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<Border Style="InShadow" Width="2" MarginTop="10" MarginRight="10" MarginBottom="10" MarginLeft="10" />
+		<MaxColWidth>16</MaxColWidth>
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<InputColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</InputColor>
+		<RowIndentation>3</RowIndentation>
+		<MultiLineHeaders>true</MultiLineHeaders>
+		<ElementTextAsTooltip>false</ElementTextAsTooltip>
+		<ExplicitIdentifier>
+			<Identifier>MMP_IBP( vmmp )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"IBP"</HeaderText>
+			<NumberFormat Width="6" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Unit Display="InTitle" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>MMP_CutPoint( vmmp )</Identifier>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"Effective Cut Point"</HeaderText>
+			<NumberFormat Width="6" Decimals="1" Alignment="Center" ShowDefaults="true" />
+			<Unit Display="InTitle" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>UpdateProductPropertyModel</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>MMP_Measurement( ct, vmmp )</Identifier>
+			<Permutation>[1,0]</Permutation>
+			<FirstColumn>1</FirstColumn>
+			<HeaderText>"Measurements"</HeaderText>
+			<NumberFormat Width="7" Decimals="4" Alignment="Center" ShowDefaults="true" />
+			<Unit Display="InTitle" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<ProcedureUponChange>UpdateProductPropertyModel</ProcedureUponChange>
+		</ExplicitIdentifier>
+		<ElementText Index="ct">CalibrationTypes_txt( ct )</ElementText>
+		<ElementText Index="vmmp">MeasurementPoints_txt( vmmp )</ElementText>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>DropDownList</SelectionType>
+		<Location top="50" left="20" bottom="75" right="222" />
+		<TabOrder>3</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>ElementName</TextShown>
+		<Border Style="None" />
+		<BackgroundColor RGB="#ffffff" />
+		<ExplicitIdentifier>
+			<Identifier>Selected_MeasurementPoint</Identifier>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="51" left="225" bottom="75" right="252" />
+		<TabOrder>8</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Bitmap</ButtonType>
+		<BitmapFile LiteralFileName="true">"&lt;prj&gt;:bitmaps\Delete.bmp"</BitmapFile>
+		<Font GUID="0AE6049A-7257-4E9B-B3F0-4BD18060E0FF" Name="default large" />
+		<ActionSequence>
+			<Action Type="Assignment">
+				<Identifier>Selected_MeasurementPoint</Identifier>
+				<AssignedValue>''</AssignedValue>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="2D Chart">
+		<Location top="238" left="266" bottom="900" right="1735" />
+		<TabOrder>4</TabOrder>
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<X_Axis>
+			<Domain ID="1004">CummulatiefConcentration_DrawCurvesTemp( occp )</Domain>
+			<Annotation>
+				<Label_spacing ID="1031">50</Label_spacing>
+			</Annotation>
+			<Gridlines>
+				<Spacing ID="1018">25</Spacing>
+				<Style>
+					<Width ID="1023">2</Width>
+				</Style>
+			</Gridlines>
+		</X_Axis>
+		<Y_Axis>
+			<Identifier>
+				<Value ID="2007">CummulatifedConcentration_DrawCurvesCalibration( SelectedCalibrationType, occp )</Value>
+				<Value_label ID="2060">PP_ValueLabel( SelectedCalibrationType, occp )</Value_label>
+				<Appearance>
+					<Line>
+						<Color ID="2023">ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC Shell Yellow</Color>
+						<Width ID="2025">3</Width>
+					</Line>
+				</Appearance>
+			</Identifier>
+			<Title>
+				<Text ID="2003">"Cumulative"</Text>
+			</Title>
+			<Annotation>
+				<Precision ID="2056">PP_GraphNumberOfDecimals( SelectedCalibrationType )</Precision>
+				<Tick_spacing ID="2049">VALUE := PP_GraphScaleStep( SelectedCalibrationType )</Tick_spacing>
+				<Label_spacing ID="2057">VALUE := PP_GraphScaleStep( SelectedCalibrationType )</Label_spacing>
+				<X_Axis_origin ID="2053">PP_GraphLowerBound( SelectedCalibrationType )</X_Axis_origin>
+			</Annotation>
+			<Scale>
+				<Data_minimum ID="2033">PP_GraphLowerBound( SelectedCalibrationType )</Data_minimum>
+				<Data_maximum ID="2034">PP_GraphUpperBound( SelectedCalibrationType )</Data_maximum>
+				<Minimum ID="2035">PP_GraphLowerBound( SelectedCalibrationType )</Minimum>
+				<Maximum ID="2036">PP_GraphUpperBound( SelectedCalibrationType )</Maximum>
+			</Scale>
+			<Gridlines>
+				<Spacing ID="2043">PP_GraphScaleStep( SelectedCalibrationType )</Spacing>
+				<Style>
+					<Width ID="2048">2</Width>
+				</Style>
+			</Gridlines>
+		</Y_Axis>
+		<Y2_Axis>
+			<Show ID="3001">"Show"</Show>
+			<Identifier>
+				<Value ID="3009">MMP_CummulatiefConcentration( SelectedCalibrationType, occp )</Value>
+				<Value_label ID="3056">PP_ValueLabelM( SelectedCalibrationType, occp )</Value_label>
+				<Appearance>
+					<Line>
+						<Pattern ID="3026">"None"</Pattern>
+					</Line>
+					<Symbol>
+						<Color ID="3032">FDC7E8D8-96DF-42CE-BB2E-CD1D579B0E74 magenta</Color>
+						<Shape ID="3033">"Diamond"</Shape>
+						<Size ID="3034">VALUE( occp ) := if occp in VisibleMeasurementPoints then
+       7
+endif</Size>
+					</Symbol>
+				</Appearance>
+			</Identifier>
+			<Annotation>
+				<Precision ID="3052">PP_GraphNumberOfDecimals( SelectedCalibrationType )</Precision>
+				<Tick_spacing ID="3047">VALUE := PP_GraphScaleStep( SelectedCalibrationType )</Tick_spacing>
+				<Label_spacing ID="3053">VALUE := PP_GraphScaleStep( SelectedCalibrationType )</Label_spacing>
+			</Annotation>
+			<Scale>
+				<Data_minimum ID="3036">PP_GraphLowerBound( SelectedCalibrationType )</Data_minimum>
+				<Data_maximum ID="3037">PP_GraphUpperBound( SelectedCalibrationType )</Data_maximum>
+				<Minimum ID="3038">PP_GraphLowerBound( SelectedCalibrationType )</Minimum>
+				<Maximum ID="3039">PP_GraphUpperBound( SelectedCalibrationType )</Maximum>
+			</Scale>
+		</Y2_Axis>
+		<Display>
+			<Surrounding_area>
+				<Foreground_color ExtraInfo="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0" ID="3">"Baby Powder"</Foreground_color>
+				<Background_color ExtraInfo="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA" ID="2">"Page Background"</Background_color>
+			</Surrounding_area>
+			<Chart_area>
+				<Foreground_color ExtraInfo="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0" ID="9">"Baby Powder"</Foreground_color>
+				<Background_color ExtraInfo="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA" ID="8">"Page Background"</Background_color>
+				<Border_type>
+					<Width ID="60">2</Width>
+				</Border_type>
+			</Chart_area>
+			<Misc_display_settings>
+				<Show_box_around_plot_area ID="66">1</Show_box_around_plot_area>
+				<Axis_annotation_font ExtraInfo="46D21664-10B5-49E5-AA67-33C11D3F3FC7" ID="74">"All_Default"</Axis_annotation_font>
+				<Axis_title_font ExtraInfo="46D21664-10B5-49E5-AA67-33C11D3F3FC7" ID="75">"All_Default"</Axis_title_font>
+				<Click_label>
+					<Click_label_font ExtraInfo="46D21664-10B5-49E5-AA67-33C11D3F3FC7" ID="78">"All_Default"</Click_label_font>
+				</Click_label>
+			</Misc_display_settings>
+		</Display>
+		<Header_Footer>
+			<Header>
+				<Text ID="23">CalibrationTypes_txt( SelectedCalibrationType )</Text>
+				<Font ExtraInfo="46D21664-10B5-49E5-AA67-33C11D3F3FC7" ID="22">"All_Default"</Font>
+			</Header>
+		</Header_Footer>
+	</PageObject>
+	<PageObject Type="Selection Object">
+		<SelectionType>DropDownList</SelectionType>
+		<Location top="240" left="20" bottom="265" right="178" />
+		<TabOrder>2</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextShown>ElementName</TextShown>
+		<Border Style="None" />
+		<BackgroundColor RGB="#ffffff" />
+		<ProcedureUponChange>UpdateProductPropertyModel2nd</ProcedureUponChange>
+		<ExplicitIdentifier>
+			<Identifier>SelectedCalibrationType</Identifier>
+		</ExplicitIdentifier>
+		<ElementText Index="CalibrationTypes">CalibrationTypes_txt( ct )</ElementText>
+	</PageObject>
+	<PageObject Type="Scalar">
+		<Location top="291" left="20" bottom="617" right="241" />
+		<TabOrder>1</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<Border Style="InShadow" Width="2" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<SelectionColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</SelectionColor>
+		<Layout>Text-Value</Layout>
+		<SeparatorSign>none</SeparatorSign>
+		<ExplicitIdentifier>
+			<Identifier>UP_PP1</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 1"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HidePP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_PP2</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HidePP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_PP3</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HidePP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_PP4</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HidePP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_PP5</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HidePP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_PP6</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HidePP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Hidden>MMP_HidePP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_OO1</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 1"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideOO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_OO2</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideOO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_OO3</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideOO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_OO4</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideOO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_OO5</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideOO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_OO6</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideOO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>MMP_HideOO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_AA2</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideAA</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_AA3</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideAA</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_AA4</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideAA</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_AA5</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideAA</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_AA6</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideAA</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>MMP_HideAA</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NO2</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideNO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NO3</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideNO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NO4</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideNO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NO5</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideNO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NO6</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideNO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>MMP_HideNO</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_SF1</Identifier>
+			<Unit Display="InTitle" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 1"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideSF</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_SF2</Identifier>
+			<Unit Display="InTitle" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideSF</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_SF3</Identifier>
+			<Unit Display="InTitle" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideSF</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_SF4</Identifier>
+			<Unit Display="InTitle" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideSF</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_SF5</Identifier>
+			<Unit Display="InTitle" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideSF</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_SF6</Identifier>
+			<Unit Display="InTitle" />
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<ProcedureUponChange>Update_Change</ProcedureUponChange>
+			<Hidden>MMP_HideSF</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>MMP_HideSF</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_TN2</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideTN</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_TN3</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideTN</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_TN4</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideTN</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_TN5</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideTN</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_TN6</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideTN</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideTN</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_IP2</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideIP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_IP3</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideIP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_IP4</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideIP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_IP5</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideIP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_IP6</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideIP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>""</Identifier>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hideIP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NP2</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 2"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hidenP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NP3</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 3"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hidenP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NP4</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 4"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hidenP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NP5</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 5"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hidenP</Hidden>
+		</ExplicitIdentifier>
+		<ExplicitIdentifier>
+			<Identifier>UP_NP6</Identifier>
+			<NumberFormat Width="6" Decimals="3" Alignment="Center" ShowDefaults="true" />
+			<Color>0DFF8B25-4EC0-45A6-86E0-235EC2D46952 All_Updatable</Color>
+			<ColorUpdatableEntriesOnly>true</ColorUpdatableEntriesOnly>
+			<Title>"Standard Cut 6"</Title>
+			<Hidden>VALUE := currentuser&lt;&gt;"supplychain" or mmp_hidenP</Hidden>
+		</ExplicitIdentifier>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="267" left="20" bottom="286" right="200" />
+		<StaticText>Parameters for Calibration</StaticText>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Table">
+		<Location top="651" left="20" bottom="863" right="242" />
+		<Hidden>HideDiff</Hidden>
+		<TabOrder>9</TabOrder>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<Border Style="InShadow" Width="1" MarginTop="5" MarginRight="5" MarginBottom="5" MarginLeft="5" />
+		<MaxColWidth>16</MaxColWidth>
+		<BackgroundColor>
+			<UserColor GUID="2DB784A9-58B2-41CA-8CA8-8050E0B10FAA">Page Background</UserColor>
+		</BackgroundColor>
+		<TextColor>
+			<UserColor GUID="E0BE9610-95F0-49DE-A3E1-B2C3B18C5AB0">Baby Powder</UserColor>
+		</TextColor>
+		<InputColor>
+			<UserColor GUID="ECDB57B4-90F3-414E-9AD9-DBAEDFCCB0BC">Shell Yellow</UserColor>
+		</InputColor>
+		<RowIndentation>3</RowIndentation>
+		<MultiLineHeaders>true</MultiLineHeaders>
+		<ElementTextAsTooltip>false</ElementTextAsTooltip>
+		<ExplicitIdentifier>
+			<Identifier>MC_Diff( SelectedCalibrationType, vmmp )</Identifier>
+			<Permutation>[1,0]</Permutation>
+			<FirstColumn>2</FirstColumn>
+			<HeaderText>"Diff (Meas.- Cal.)"</HeaderText>
+			<NumberFormat Width="12" Decimals="3" Alignment="Right" />
+		</ExplicitIdentifier>
+		<ElementText Index="vmmp">MeasurementPoints_txt( vmmp )</ElementText>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="45" left="1560" bottom="70" right="1735" />
+		<TabOrder>10</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Standard Cut Points"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="7E54EBA1-3946-4315-A07C-9D664764CC12" Name="Standard Cut" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="990" />
+		<TabOrder>11</TabOrder>
+		<LeaveOnEnter>false</LeaveOnEnter>
+		<ButtonType>Text</ButtonType>
+		<Title>"Update Parameters"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="C4C6CC8E-F340-487C-90D4-82B6B797F906" Name="Product Property Correlations 4" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>CurrentUser</Symbol>
+			<Symbol>UP_AA2</Symbol>
+			<Symbol>UP_AA3</Symbol>
+			<Symbol>UP_AA4</Symbol>
+			<Symbol>UP_AA5</Symbol>
+			<Symbol>UP_AA6</Symbol>
+			<Symbol>UP_OO1</Symbol>
+			<Symbol>UP_OO2</Symbol>
+			<Symbol>UP_OO3</Symbol>
+			<Symbol>UP_OO4</Symbol>
+			<Symbol>UP_OO5</Symbol>
+			<Symbol>UP_OO6</Symbol>
+			<Symbol>UP_NO2</Symbol>
+			<Symbol>UP_NO3</Symbol>
+			<Symbol>UP_NO4</Symbol>
+			<Symbol>UP_NO5</Symbol>
+			<Symbol>UP_NO6</Symbol>
+			<Symbol>UP_PP1</Symbol>
+			<Symbol>UP_PP2</Symbol>
+			<Symbol>UP_PP3</Symbol>
+			<Symbol>UP_PP4</Symbol>
+			<Symbol>UP_PP5</Symbol>
+			<Symbol>UP_PP6</Symbol>
+			<Symbol>UP_SF1</Symbol>
+			<Symbol>UP_SF2</Symbol>
+			<Symbol>UP_SF3</Symbol>
+			<Symbol>UP_SF4</Symbol>
+			<Symbol>UP_SF5</Symbol>
+			<Symbol>UP_SF6</Symbol>
+			<Symbol>UP_TN2</Symbol>
+			<Symbol>UP_TN3</Symbol>
+			<Symbol>UP_TN4</Symbol>
+			<Symbol>UP_TN5</Symbol>
+			<Symbol>UP_TN6</Symbol>
+			<Symbol>UP_IP2</Symbol>
+			<Symbol>UP_IP3</Symbol>
+			<Symbol>UP_IP4</Symbol>
+			<Symbol>UP_IP5</Symbol>
+			<Symbol>UP_IP6</Symbol>
+			<Symbol>UP_NP2</Symbol>
+			<Symbol>UP_NP3</Symbol>
+			<Symbol>UP_NP4</Symbol>
+			<Symbol>UP_NP5</Symbol>
+			<Symbol>UP_NP6</Symbol>
+			<Symbol>CalibrationTypes</Symbol>
+			<Symbol>CalibrationTypes_txt</Symbol>
+			<Symbol>SelectedCalibrationType</Symbol>
+			<Symbol>CummulatiefConcentration_DrawCurvesTemp</Symbol>
+			<Symbol>CummulatifedConcentration_DrawCurvesCalibration</Symbol>
+			<Symbol>MeasurementPoints_txt</Symbol>
+			<Symbol>MeasurementPointsChoices</Symbol>
+			<Symbol>VisibleMeasurementPoints</Symbol>
+			<Symbol>Selected_MeasurementPoint</Symbol>
+			<Symbol>MMP_IBP</Symbol>
+			<Symbol>MMP_CutPoint</Symbol>
+			<Symbol>MMP_Measurement</Symbol>
+			<Symbol>MMP_CummulatiefConcentration</Symbol>
+			<Symbol>MMP_HidePP</Symbol>
+			<Symbol>MMP_HideOO</Symbol>
+			<Symbol>MMP_HideNO</Symbol>
+			<Symbol>MMP_HideAA</Symbol>
+			<Symbol>MMP_HideSF</Symbol>
+			<Symbol>MMP_HideTN</Symbol>
+			<Symbol>MMP_HideIP</Symbol>
+			<Symbol>MMP_HideNP</Symbol>
+			<Symbol>MC_Diff</Symbol>
+			<Symbol>HideDiff</Symbol>
+			<Symbol>PP_GraphLowerBound</Symbol>
+			<Symbol>PP_GraphUpperBound</Symbol>
+			<Symbol>PP_GraphScaleStep</Symbol>
+			<Symbol>PP_GraphNumberOfDecimals</Symbol>
+			<Symbol>PP_ValueLabel</Symbol>
+			<Symbol>PP_ValueLabelM</Symbol>
+			<Symbol>UpdateProductPropertyModel</Symbol>
+			<Symbol>UpdateProductPropertyModel2nd</Symbol>
+			<Symbol>PPBackProcedure</Symbol>
+			<Symbol>PP_AutoScale</Symbol>
+			<Symbol>Update_Change</Symbol>
+			<Symbol>AllowDeveloper</Symbol>
+			<Symbol>ct</Symbol>
+			<Symbol>occp</Symbol>
+			<Symbol>vmmp</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

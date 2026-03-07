@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<Page Version="4000" TimeStamp="2024-07-02 01:02:07">
+	<Location top="49" left="116" bottom="478" right="754" />
+	<PageEditSize Type="Inherited">
+		<Size Width="1920" Height="960" />
+	</PageEditSize>
+	<ProjectUUID>463A94E1-3044-4E54-B4FD-D8CF8F76A4EF</ProjectUUID>
+	<Title>"Feed - Components A-F"</Title>
+	<Hidden>VALUE := P_HiddenIfMultipleCases - 1 = 0</Hidden>
+	<Positioning>Save Last Position</Positioning>
+	<TemplatesTabOrderPosition>7</TemplatesTabOrderPosition>
+	<ResizeData>
+		<MainArea Line="FixedFromBottom" Value="48">
+			<TopArea Line="FixedFromTop" Value="44">
+				<TopArea Line="FixedFromRight" Value="167" />
+				<BottomArea Line="AdjustableFromRight" Value="166">
+					<LeftArea Line="FixedFromTop" Value="144">
+						<BottomArea Line="FixedFromBottom" Value="31" />
+					</LeftArea>
+					<RightArea Line="FixedFromBottom" Value="25">
+						<TopArea Line="FixedFromTop" Value="32" />
+					</RightArea>
+				</BottomArea>
+			</TopArea>
+			<BottomArea Line="FixedFromRight" Value="166">
+				<LeftArea Line="FixedFromLeft" Value="110">
+					<RightArea Line="FixedFromLeft" Value="110" />
+				</LeftArea>
+			</BottomArea>
+		</MainArea>
+	</ResizeData>
+	<Background Inherited="true" />
+	<HelpTopic>"Feed"</HelpTopic>
+	<HorizontalGridDistance>1</HorizontalGridDistance>
+	<VerticalGridDistance>1</VerticalGridDistance>
+	<PageObject Type="Button">
+		<Location top="922" left="600" bottom="952" right="750" />
+		<TabOrder>2</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Feed Type"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>FTYPESEL_ACF</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+			<Action Type="LinkedPage">
+				<Page PageGUID="1D834116-0694-4754-A1FB-8581F5F385A1" Name="Feed A Type" />
+				<Page PageGUID="AC11AC92-8116-484F-8E6E-7F76FF30C877" Name="Feed-B Type" />
+				<Page PageGUID="96B387B7-C678-4BE3-BC3B-5B618164040D" Name="Feed-C Type" />
+				<Page PageGUID="7A07A38D-6A95-440D-B915-6B45A8EEC080" Name="Feed-D Type" />
+				<Page PageGUID="EF2EADA0-05DF-4C5F-9B50-201E3D52ECBB" Name="Feed-E Type" />
+				<Page PageGUID="2BE53292-917B-4194-A25A-E1F4E6AF53AB" Name="Feed-F Type" />
+				<OpenMode>UserSelects</OpenMode>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="790" bottom="952" right="950" />
+		<TabOrder>4</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Feed Prop"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="Run">
+				<RunWhat>SpecificProcecure</RunWhat>
+				<Procedure>FDP_MSG_ACF</Procedure>
+				<AbortOnError>true</AbortOnError>
+			</Action>
+			<Action Type="LinkedPage">
+				<Page PageGUID="F52C88FA-2483-4DF9-83BA-8CB41E131D30" Name="Feed A - Property Estimation" />
+				<Page PageGUID="DCF981E0-5AFC-4D52-8284-938091E6A8DB" Name="Feed B - Property Estimation" />
+				<Page PageGUID="3024789C-18EE-4F86-94C5-A0BD98A91312" Name="Feed C - Property Estimation" />
+				<Page PageGUID="15ABCB27-8B91-465B-8CD0-3C41BA6062C9" Name="Feed D - Property Estimation" />
+				<Page PageGUID="E63EB818-FD64-468F-9367-3F12B5B543A7" Name="Feed E - Property Estimation" />
+				<Page PageGUID="1EA7132F-F7E9-4730-AC02-8DA6DC41CBCD" Name="Feed F - Property Estimation" />
+				<OpenMode>UserSelects</OpenMode>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="980" bottom="952" right="1160" />
+		<TabOrder>5</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Ind. Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="0665426C-4D7F-42EC-97C3-A1723A3381AE" Name="Feed - Properties of Feed A" />
+				<Page PageGUID="686FFC27-64FA-41AA-9097-562AF8173732" Name="Feed - Properties of Feed B" />
+				<Page PageGUID="B6E6265B-846D-4679-8FCE-32F4717E983F" Name="Feed - Properties of Feed C" />
+				<Page PageGUID="2EC74CAB-3867-4AFE-B22C-F97D1319DB6E" Name="Feed - Properties of Feed D" />
+				<Page PageGUID="D8F0EED4-5CD3-4CCD-BA8C-3E23C1F1226C" Name="Feed - Properties of Feed E" />
+				<Page PageGUID="882FB809-956C-4ED7-9852-F87BC52DA5E4" Name="Feed - Properties of Feed F" />
+				<OpenMode>UserSelects</OpenMode>
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="827" left="1760" bottom="877" right="1915" />
+		<TabOrder>6</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Gross Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="A3168FD4-69FB-447C-9D9B-EECDE419269E">Plum</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="D9742E10-0378-47DC-A150-46EC4A15F1D7" Name="Gross Feed Properties" />
+			</Action>
+			<Action Type="ClosePage" />
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Text">
+		<Location top="887" left="1764" bottom="910" right="1911" />
+		<StaticText>1 of 5</StaticText>
+		<Alignment>Center</Alignment>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<TextColor RGB="#000000" />
+	</PageObject>
+	<PageObject Type="Tabbed Page Object">
+		<Location top="50" left="15" bottom="900" right="1735" />
+		<TabOrder>8</TabOrder>
+		<Font GUID="92E24E6D-5186-480E-8051-F2B947C72A57" Name="default small" />
+		<ParentPage PageGUID="44F190A3-CBDB-491A-BE0F-248B4640F8B4" Name="All Feed Pages" />
+		<Position>Hidden</Position>
+		<MultipleTabRows>true</MultipleTabRows>
+		<SelectedPageSymbol>"Feed Component 1 Full Size Page"</SelectedPageSymbol>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1195" bottom="952" right="1375" />
+		<Hidden>VALUE := (D1N + D2N - 1)</Hidden>
+		<TabOrder>3</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Naphtha Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="3C7D5F82-0384-4BF3-BAC7-76DF54EC4816" Name="Naphtha Cracking Feed" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<PageObject Type="Button">
+		<Location top="922" left="1425" bottom="952" right="1635" />
+		<Hidden>VALUE := BOFG - 1</Hidden>
+		<TabOrder>1</TabOrder>
+		<ButtonType>Text</ButtonType>
+		<Title>"Bio-oil Feed"</Title>
+		<BackgroundColor>
+			<UserColor GUID="D36E0309-D4B9-4068-9C4B-F9454B95DD9C">Userform_Background</UserColor>
+		</BackgroundColor>
+		<ForegroundColor>
+			<UserColor GUID="5229662E-CDB9-461A-846B-EF26B8CA05EA">Button Text</UserColor>
+		</ForegroundColor>
+		<Font GUID="EB5CABF9-93B1-4103-9362-DEA0F6B34B95" Name="All Button Tahoma" />
+		<ActionSequence>
+			<Action Type="LinkedPage">
+				<Page PageGUID="2219F74D-F0B9-49C2-8E04-13A8D48564E8" Name="Bio-Oil Feed" />
+			</Action>
+		</ActionSequence>
+	</PageObject>
+	<UsedReferences>
+		<Model>
+			<Symbol>UserSelectableConventions</Symbol>
+			<Symbol>CurrentUnitConvention</Symbol>
+			<Symbol>BOFG</Symbol>
+			<Symbol>D1N</Symbol>
+			<Symbol>D2N</Symbol>
+			<Symbol>FTYPESEL_ACF</Symbol>
+			<Symbol>FDP_MSG_ACF</Symbol>
+			<Symbol>P_HiddenIfMultipleCases</Symbol>
+		</Model>
+	</UsedReferences>
+</Page>

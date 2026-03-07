@@ -1,0 +1,2362 @@
+<?xml version="1.0"?>
+<UserMenuTree Version="4000" TimeStamp="2025-01-23 14:09:17" UserBitmapFileName="&lt;prj&gt;:bitmaps\SHARC Toolbar Bitmaps.bmp">
+	<Menubar Name="Storage Menu Bar" UUID="2B014204-5DC9-4305-8811-2926F7ACA22F">
+		<Menu Name="Case Menu - Not used" UUID="F9C6BC84-508C-450F-8F6D-3E71F704B7C5">
+			<Separator />
+			<MenuItem Name="Batch" UUID="DC03CBBA-7DCA-4B0F-8760-7E187F4E00AE">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowDeveloper</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>Tools-Data Manager</Command>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Import &amp;&amp; Export Cases..." UUID="9B8066AA-8A56-4EB8-8A25-ADAA005D00B0">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="BCA089CA-2EC8-42DE-ABE8-7EB8856D5F21" Name="Cases - Import &amp; Export" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<Menu Name="Case Data Manager" UUID="343F7271-1CC6-4C54-A612-9F44C801D9D2">
+				<MenuItem Name="New Data File..." UUID="D9984775-02D0-497A-9B64-851B76CF71DA" BitmapIndex="31">
+					<ActionSequence>
+						<Action Type="MenuCommand">
+							<Command>File-New Data File</Command>
+						</Action>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>SaveBaseCase</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+					<Help>
+						<StatusLineText>"Creates a new data file, to be used in the Data Manager"</StatusLineText>
+						<Tooltip>"New Data Manager file"</Tooltip>
+					</Help>
+				</MenuItem>
+				<MenuItem Name="Open Data File..." UUID="4DB6F080-05E3-48F6-B1F3-F3E0F0BAA3B3" BitmapIndex="31">
+					<ActionSequence>
+						<Action Type="MenuCommand">
+							<Command>File-Open Data File</Command>
+						</Action>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>SaveBaseCase</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+					<Help>
+						<StatusLineText>"Opens an existing data file, to be used in the Data Manager"</StatusLineText>
+						<Tooltip>"Open Data Manager file"</Tooltip>
+					</Help>
+				</MenuItem>
+			</Menu>
+		</Menu>
+	</Menubar>
+	<Menu Name="Navigation" UUID="251A75A5-4C88-4FD8-9A25-5FD971B9531D">
+		<NavigationMenu Name="Navigator" UUID="AE7E12AE-19F9-40FF-8A72-AB9AD7062A34">
+			<NavigationData>
+				<ReferencePage>Other</ReferencePage>
+				<OtherPage PageGUID="582D0C80-6BCE-4D29-A314-D663B0E3AFEB" Name="Main" />
+				<NumberOfGenerations>2</NumberOfGenerations>
+				<NumberOfAncestors>1</NumberOfAncestors>
+				<InludeHiddenPages>false</InludeHiddenPages>
+				<ActionSequence>
+					<Action Type="GotoNavigationPage" />
+				</ActionSequence>
+			</NavigationData>
+		</NavigationMenu>
+	</Menu>
+	<Menubar Name="Front Page MenuBar" UUID="971A3570-A44C-4656-987E-3E23996D1ED6">
+		<Menu Name="Project" UUID="26BE78EC-843A-4882-9A05-240721EEC520">
+			<Control>
+				<Hide>AllowDeveloper</Hide>
+			</Control>
+			<DefaultMenuItem InternalID="103" />
+			<DefaultMenuItem InternalID="142" />
+			<Separator />
+			<DefaultMenu InternalID="110" />
+			<DefaultMenu InternalID="120" />
+			<DefaultMenuItem InternalID="130" />
+			<Separator />
+			<DefaultMenuItem InternalID="140" />
+			<DefaultMenuItem InternalID="141" />
+			<Separator />
+			<DefaultMenuItem InternalID="143" />
+			<Separator />
+			<DefaultMenu InternalID="170" />
+			<Separator />
+			<DefaultMenuItem InternalID="160" />
+			<DefaultMenuItem InternalID="161" />
+			<Separator />
+			<DefaultMenuItem InternalID="198" />
+		</Menu>
+		<Menu Name="Model" UUID="0FF060FE-679D-4D67-8C8F-E9711EF55815">
+			<Control>
+				<Hide>AllowDeveloper</Hide>
+			</Control>
+			<DefaultMenuItem InternalID="201" />
+			<DefaultMenuItem InternalID="202" />
+			<Separator />
+			<DefaultMenuItem InternalID="211" />
+			<DefaultMenuItem InternalID="212" />
+			<DefaultMenuItem InternalID="213" />
+			<DefaultMenuItem InternalID="214" />
+			<Separator />
+			<DefaultMenuItem InternalID="471" />
+			<DefaultMenuItem InternalID="472" />
+			<Separator />
+			<DefaultMenuItem InternalID="485" />
+			<Separator />
+			<DefaultMenuItem InternalID="498" />
+		</Menu>
+		<Menu Name="View" UUID="CE91AB2B-4241-4BD7-B467-8D537378F678">
+			<Control>
+				<Hide>AllowDeveloper</Hide>
+			</Control>
+			<DefaultMenuItem InternalID="701" />
+			<DefaultMenuItem InternalID="701" />
+			<Separator />
+			<DefaultMenuItem InternalID="705" />
+		</Menu>
+		<Menu Name="&amp;Window" UUID="5C6FFB33-D880-47CC-8066-6D74A712C934">
+			<Control>
+				<ShowWindowList>true</ShowWindowList>
+			</Control>
+			<Menu Name="Aimms Tools" UUID="B99DA9B1-C8A5-4CC9-835A-2D7F28AB2D79">
+				<Control>
+					<Hide>AllowDeveloper</Hide>
+				</Control>
+				<DefaultMenuItem InternalID="301" />
+				<DefaultMenuItem InternalID="313" />
+				<Separator />
+				<DefaultMenuItem InternalID="302" />
+				<DefaultMenuItem InternalID="306" />
+				<DefaultMenuItem InternalID="307" />
+				<Separator />
+				<Separator />
+				<DefaultMenu InternalID="349" />
+				<Separator />
+				<DefaultMenuItem InternalID="330" />
+				<DefaultMenuItem InternalID="331" />
+				<DefaultMenuItem InternalID="311" />
+				<Separator />
+				<DefaultMenuItem InternalID="332" />
+				<Separator />
+				<DefaultMenuItem InternalID="312" />
+				<Separator />
+			</Menu>
+			<MenuItem Name="Grab Screen Area" UUID="2730AB82-BCFB-47F1-AA78-56C29DEDF5AF">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>Tools-Grab Screen Area</Command>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="First Page" UUID="5F544E0D-132F-48E9-9902-C4C2E82EE92E">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="582D0C80-6BCE-4D29-A314-D663B0E3AFEB" Name="Main" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="FCC Simulator Page" UUID="6EBA6FB9-F812-4334-B6FC-9FC4AAD43742">
+				<Control>
+					<Disable>SimpleOptimizer</Disable>
+					<Hide>FullSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="EC0F04C6-ED35-4330-B3F4-66DC9359B7D8" Name="FCC Simulator" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="FCC Optimizer Page" UUID="44BDCDA5-C913-40FF-80B5-09709FB4ACA5">
+				<Control>
+					<Disable>SimpleSimulator</Disable>
+					<Hide>FullSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="8B5EFAC3-CEF2-4844-856C-FB9E2A8F2486" Name="FCC Optimizer" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="New Editor" UUID="CC4D1779-381D-447D-8AA0-BA70846C7308">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>File-New Text File</Command>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Microsoft Excel" UUID="FD08E4F3-84B9-4D19-805A-0C1E04955768" BitmapIndex="1018">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>OpenExcelinSHARC</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Open Microsoft Excel"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Next Window" UUID="6D8DA719-F642-4D22-9C91-7BECA0C824D2" BitmapIndex="44">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>Window-Next Window</Command>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<StatusLineText>"Sets the next window as the active window"</StatusLineText>
+					<Tooltip>"Next Window"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Progress Window" UUID="3B116E31-CCFC-4B51-B77B-FB350373A045" ShortcutKey="592" BitmapIndex="31">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>Window-Progress Window</Command>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<StatusLineText>"Opens the Progress window containing AIMMS and solver statistics"</StatusLineText>
+					<Tooltip>"Progress Window"</Tooltip>
+				</Help>
+			</MenuItem>
+			<MenuItem Name="&amp;Message Window" UUID="9EA2272F-7A7A-4040-8971-A06D00E5A55F" ShortcutKey="589" BitmapIndex="31">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>Window-Message Window</Command>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<StatusLineText>"Opens the Message window containing AIMMS and solver messages"</StatusLineText>
+					<Tooltip>"Message Window"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Separator />
+		</Menu>
+		<Menu Name="Help" UUID="49A3ABB8-77EF-4D7D-9F5A-D4973F39ED24">
+			<MenuItem Name="Help Index" UUID="81B02FE3-6FC5-4DE5-8D2A-FD6D0D7CDCD6" BitmapIndex="47">
+				<ActionSequence>
+					<Action Type="Help">
+						<HelpOn>Contents</HelpOn>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Help on Page" UUID="3AA8D90A-8B6A-458C-B3B7-8D548F39BDEF" BitmapIndex="68">
+				<ActionSequence>
+					<Action Type="Help">
+						<HelpOn>PageKeyWord</HelpOn>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Page Index" UUID="A3650F10-88B9-4145-9956-F6A558ED4684">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="120DBE66-1A52-41BC-8BCA-B6ED8F561F3F" Name="Page Index" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Open Main Page" UUID="6E4D21C0-5C74-4714-8C26-97BD189917A0">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="582D0C80-6BCE-4D29-A314-D663B0E3AFEB" Name="Main" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Open FCC Simulator Page" UUID="7DD4D67D-49F7-4F6E-BD76-5D47FE23B199">
+				<Control>
+					<Disable>SimpleOptimizer</Disable>
+					<Hide>FullSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="EC0F04C6-ED35-4330-B3F4-66DC9359B7D8" Name="FCC Simulator" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Open FCC Optimizer Page" UUID="792D8FBA-4366-4654-97FA-3271B7C149C0">
+				<Control>
+					<Disable>SimpleSimulator</Disable>
+					<Hide>FullSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="8B5EFAC3-CEF2-4844-856C-FB9E2A8F2486" Name="FCC Optimizer" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="About SHARC" UUID="8350DFBD-361B-4A68-B76C-0B249DD9F900">
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="B48DA4C7-16BD-4E77-9C5B-18FEBE8376D5" Name="Model News" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Model Support" UUID="3FF318DE-A8A3-4574-A0C6-D34D6325362E">
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="E5B11B79-6807-4286-B03C-AFD0C36C249C" Name="Model Technical Support" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+		</Menu>
+	</Menubar>
+	<Menubar Name="SHARC Menubar" UUID="D3572263-64C6-4CED-A2A7-7158567CD88F">
+		<DuplicatedMenu Reference="26BE78EC-843A-4882-9A05-240721EEC520" />
+		<DuplicatedMenu Reference="0FF060FE-679D-4D67-8C8F-E9711EF55815" />
+		<DuplicatedMenu Reference="CE91AB2B-4241-4BD7-B467-8D537378F678" />
+		<Menu Name="&amp;File" UUID="2B2106E5-EC14-4E1F-8885-F628E9349393">
+			<MenuItem Name="&amp;Open a Base Case..." UUID="95A1F31C-A3B6-45BF-BFAF-0C544E4AEC93" ShortcutKey="591" BitmapIndex="64">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>chk_open_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Open a base case"</Tooltip>
+				</Help>
+			</MenuItem>
+			<MenuItem Name="File &amp;Description" UUID="C79CB256-5C2D-41DF-BB6A-A5F5C2461EB7">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>File_des_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Save a Base Case ..." UUID="9D0D4A25-5A66-492B-82AE-C09FE30554D0" ShortcutKey="595" BitmapIndex="2">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Save_bas_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Save a base case"</Tooltip>
+				</Help>
+			</MenuItem>
+			<MenuItem Name="Export All Data..." UUID="9350FF98-A852-403E-81E1-A40CE9733C7D">
+				<Control>
+					<Hide>FullSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Save_all_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Menu Name="&amp;Reports" UUID="9DAE09AE-4DEC-4C41-AADF-DED3466EC491">
+				<MenuItem Name="&amp;Output File" UUID="E832FA1D-6CE6-4AAC-930C-7ED40545B839" BitmapIndex="1006">
+					<Control>
+						<Hide>SimpleSHARC</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>expPrint_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+					<Help>
+						<Tooltip>"Export output file"</Tooltip>
+					</Help>
+				</MenuItem>
+				<MenuItem Name="Simple &amp;Excel Report" UUID="C2375839-895A-4170-B375-90DFAB94F12C" BitmapIndex="1018">
+					<Control>
+						<Hide>FullSHARC</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>CreateExcelReport</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Spreadsheet File" UUID="EC63270D-9D70-4BAB-B8A6-91FEB6CD0804" BitmapIndex="1018">
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>expASCII_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+					<Help>
+						<Tooltip>"Export spreadsheet file"</Tooltip>
+					</Help>
+				</MenuItem>
+				<MenuItem Name="Input file for &amp;PROII..." UUID="5D36C6A3-5C92-48D8-B536-8EF2EC72C2B8" BitmapIndex="51">
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>expPROII_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Summary of Stream &amp;Data..." UUID="869A3C54-47A2-4113-85F3-DCB03C0F2150" BitmapIndex="3">
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>expStream_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Narrow Cuts Report" UUID="15343FCB-2A4B-456C-9E72-9A16CB47AF9E" BitmapIndex="82">
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>PrintNarrowCutData</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Additional Product Properties (&amp;ECP/SI) File" UUID="9D7FDDDC-809F-472F-B370-26D27DD784A9" BitmapIndex="80">
+					<Comment>This will generate an Excel spreadsheet with the Additional Properties calculated by using ECP/SI</Comment>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>PrintAdditionalProperties</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Cyclone Report" UUID="8DAB17DA-AC43-4FDF-AF53-A201E5DE247F" BitmapIndex="86">
+					<Control>
+						<Hide>HideCycRep</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Put_to_Cyc_File</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Export &amp;All..." UUID="AFDEDD70-18C9-4932-8CF9-55EBCC28234B" ShortcutKey="833" BitmapIndex="1018">
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>prExportAll</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<Separator />
+				<MenuItem Name="SHARC Health Check..." UUID="54B9D26E-6441-447E-8BD4-413DE1094BB8" BitmapIndex="106">
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Developer_Check</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<MenuItem Name="&amp;Quit" UUID="85A2731E-BC3D-48C6-A46F-4FD519B20203">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>File-Exit</Command>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+		</Menu>
+		<Menu Name="&amp;Case" UUID="A916B849-CCF8-4236-A893-0E302415C307">
+			<Control>
+				<Hide>SimpleSHARC</Hide>
+			</Control>
+			<MenuItem Name="&amp;Convert Data File..." UUID="DE376A3B-B0A7-4B66-B850-F4CAE01850E6" BitmapIndex="31">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>File-Open Data File</Command>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<StatusLineText>"Convert an existing data file to multiple individual case files"</StatusLineText>
+					<Tooltip>"Convert data manager file"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Add/Remove Case(s)..." UUID="04DBE218-9377-45E6-ABEE-F822DF699734">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'psingle_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_Selection</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="&amp;Open..." UUID="8CAEB0AF-8F65-4C6B-9269-68AE96CC475A">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'pmulti_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_Open</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Save" UUID="EB938E98-9A21-489C-82E2-3F890C576762">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'pmulti_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_Save</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Save Active Case" UUID="AAA7C82F-4654-45DB-9720-BFE622DAE7F0">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'psingle_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_Save</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Save Active Case &amp;As..." UUID="53E864BD-D04D-4D89-8441-BD4A65462A19">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'psingle_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_CopyCurrent</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Save All Cases" UUID="FC6784E5-9554-4F52-9227-3DD9C06CEAFD">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'psingle_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_SaveAll</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Save &amp;As..." UUID="1F580E2F-B997-47F1-8B18-417698305665">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'pmulti_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_SaveAs</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Duplicate Active Case" UUID="364CFA4A-7BA2-4C97-A66A-E2975ECFCA52" BitmapIndex="1022">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'pmulti_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>DuplicateCurrentCase</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Duplicate active case"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Case Data Folder..." UUID="75822D08-F462-4749-8D31-668D49A44DCF">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_DeleteCases</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Select Active Case..." UUID="ABDF528E-0E7E-4425-9BEA-D0D5A7FA9F90">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowDeveloper</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="CECA840F-B799-4E9F-B83B-735E764D11E6" Name="Set Case As Active" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Delete Case..." UUID="6CAB98BE-4A98-4B54-9519-AD3EEB75FE71">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>FullSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_DeleteCurrent</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Run All Cases" UUID="2C086C92-9912-41E9-BBF5-845E68B35416">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'psingle_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>CaseMenu_RunAllCases</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+		</Menu>
+		<Menu Name="&amp;Run" UUID="20C4D620-494B-4D2A-BEEA-545EB24CADC2">
+			<Control>
+				<Hide>SimpleSHARC</Hide>
+			</Control>
+			<MenuItem Name="&amp;Update..." UUID="9F754C81-6BCB-4AAD-A15E-0ABCA2BC7E3F" BitmapIndex="1001">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Update_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Update"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Simulation..." UUID="D96AAEAA-F3EA-43DC-9D4F-52E542FB7CAA" BitmapIndex="1000">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>SimMode2_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Simulation"</Tooltip>
+				</Help>
+			</MenuItem>
+			<MenuItem Name="&amp;Constrained Simulation..." UUID="92DACE91-75B2-4B63-85C4-B65E2B1B981C">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>SimMode0_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="&amp;Pilot Plant Mode Simulation..." UUID="37C7F6DA-0617-47D2-AEF3-514207FF9A16">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>pp_sim_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Optimization..." UUID="E9B8089B-8200-446F-8605-482178203938" BitmapIndex="1002">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>obj_sel_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Optimization"</Tooltip>
+				</Help>
+			</MenuItem>
+			<MenuItem Name="&amp;Bounded Variables" UUID="60E30F95-460F-4205-BA31-11E42F9635AE">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>rev_bound_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="&amp;Sensitivity Plots" UUID="1A7268C3-69EF-4192-807A-3740780B2F8B">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>opt_sen_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Feed Blending..." UUID="AADEE627-098A-4A14-824A-E33B63FCE620">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>feedblen_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Purchased Feed Properties" UUID="C4E07861-1F18-4E14-A918-3F1F81141F13">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>purchf_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<Menu Name="&amp;Mini Test Run Average" UUID="B47FC7BF-7D76-4191-94C3-574CA234D59D">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<MenuItem Name="&amp;Select Data..." UUID="57C40F97-B5C3-47F2-9FF8-B7710932FFB4">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Minitest_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Run" UUID="C4736442-1603-4EA6-83C7-3AF65DC3621E">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>run_mini_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Re&amp;view Results" UUID="CDC0ECA7-59B3-47C2-9B23-09335F1802A3">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>vu_mini_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="&amp;Data Analysis" UUID="FDEA0790-83DB-4088-92B9-CAE033B686B6">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="Generate IDX File..." UUID="0FF167FD-6847-47F2-AFD8-A6FB1A2F3109">
+					<ActionSequence>
+						<Action Type="LinkedPage">
+							<Page PageGUID="721233EF-0679-4B23-9876-322084A3DDDD" Name="Generate IDX File" />
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<Separator />
+				<MenuItem Name="&amp;Select Data..." UUID="8BCB6959-9EAB-4BDC-B0E3-40C948449F23">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>sel_data_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Run" UUID="7C429E7C-720B-47CE-8564-C96104F44C91">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>dat_anal_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="R&amp;eview Results" UUID="FBBA14DC-F679-43E0-8EAD-5AF67B6349F0">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>review2_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="&amp;Catalyst Selection" UUID="98E5CD7E-1903-4228-B05C-53D0D8700D14">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;Translate" UUID="351C9A37-BCEE-4162-A7A3-71B5F7AACF95">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>translat_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Run" UUID="88543C55-8955-4D8E-A693-8B9E73A972C5">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>CATSEL_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Feed Se&amp;lection" UUID="F47D87EE-DD43-4D31-B46F-83B4A07265FD">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;Translate" UUID="A3EAD4DD-0A5A-4374-8B38-9C890EBA3C36">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>FEDSEL_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Run" UUID="ED9D9927-204F-4FF6-B299-8436E41E3F4F">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>FEDSEL_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<MenuItem Name="Desi&amp;gn" UUID="540295AF-1E65-48D9-A26F-FAABA0CC2FAB">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>design_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<Menu Name="Refinery LP Yields" UUID="2616F02C-1753-4D3D-B886-004BE5C526A1">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;PROFIT/PIMS" UUID="DE737218-1C4F-4E15-BE51-FA87047ACCC5">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowSimulationMode12</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Profit_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;RPMS" UUID="288788ED-7717-4B3C-9B9C-16DF84A823A2">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowSimulationMode21</Check>
+						<Hide>AllowDeveloper</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Rpms_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;DATAGEN/GEMS - Mode 1" UUID="A63EF981-7E90-43E1-85E3-763E05EFD461">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowSimulationMode18</Check>
+						<Hide>AllowDeveloper</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>gems_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;DATAGEN/GEMS - Mode 2" UUID="923BBC0A-E90F-4AB9-A9B5-8943ACFA2294">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowSimulationMode19</Check>
+						<Hide>AllowDeveloper</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>gems2_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<MenuItem Name="Set &amp;Reference Case" UUID="1E8F0513-7F20-4617-BA88-33DD7BA710C1" BitmapIndex="1012">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>set_base_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Set as reference case"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Multiple Cases" UUID="1F2AC9CC-D8FA-4F0E-B1B8-F14F5E2CD019" BitmapIndex="1003">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'pmulti_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>mulcases_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Run multiple cases"</Tooltip>
+				</Help>
+			</MenuItem>
+			<MenuItem Name="Single Case" UUID="DCC037F1-FAEC-4FCA-81AE-3B2D0DECEBCC" BitmapIndex="1020">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>pcase_sel( 'psingle_case' )</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>SingleCase_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Run single case"</Tooltip>
+				</Help>
+			</MenuItem>
+			<DuplicatedMenuItem Reference="364CFA4A-7BA2-4C97-A66A-E2975ECFCA52" />
+		</Menu>
+		<Menu Name="&amp;Unit Monitoring Tools" UUID="9C16A8A2-2828-4DA7-919A-3B0A61A6286F">
+			<Control>
+				<Hide>SimpleSHARC</Hide>
+			</Control>
+			<Menu Name="&amp;Performance Analysis" UUID="69CCA01A-E244-4C27-ACFA-931E69AF4E1E">
+				<MenuItem Name="Generate IDX File..." UUID="B40FC92C-D99C-412F-85FF-B8F81E477B4C">
+					<ActionSequence>
+						<Action Type="LinkedPage">
+							<Page PageGUID="721233EF-0679-4B23-9876-322084A3DDDD" Name="Generate IDX File" />
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<Separator />
+				<MenuItem Name="&amp;Select Data..." UUID="8E422AD2-49A0-4C02-93C9-C13EE5BEB740">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Sel_Data1_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Run" UUID="710A05F1-C720-4D57-BC2E-883883AA3988">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>dat_anal_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="R&amp;eview Results" UUID="66EB7EA2-AB2C-40ED-AF20-4BA960F7895E">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>review2_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Menu Name="&amp;Normalization Analysis" UUID="E6E043B0-84D7-431E-AB60-F49F45055F3F">
+				<MenuItem Name="Generate IDX File..." UUID="46AF5672-BC58-4597-9680-6A4B964D85C9">
+					<ActionSequence>
+						<Action Type="LinkedPage">
+							<Page PageGUID="721233EF-0679-4B23-9876-322084A3DDDD" Name="Generate IDX File" />
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<Separator />
+				<MenuItem Name="&amp;Select Data..." UUID="C2905BDC-6F0B-4850-89E6-4222442EAC48">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>sel_data2_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Run" UUID="D950108B-E908-4C35-A4D1-64DD2318489D">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>dat_anal_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="R&amp;eview Results" UUID="C5141FC7-8A1C-4810-9D6E-C8C13FEC18AD">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>review2_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<MenuItem Name="Message &amp;on" UUID="18050B72-B0D8-4469-9E67-3BBA3B2B243A">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>ANA_UPD1_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Message o&amp;ff" UUID="0CB0432E-F839-493E-B5CB-959B4807B1A3">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>ANA_UPD2_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+		</Menu>
+		<Menu Name="&amp;Import" UUID="E4C8A5F3-7CBE-49DD-9743-A0E82E4F57C7">
+			<Control>
+				<Hide>SimpleSHARC</Hide>
+			</Control>
+			<MenuItem Name="&amp;All Data..." UUID="04AFBDF2-0E66-401A-BB57-9800F323C236">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>chk_imp_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="&amp;Economic Data..." UUID="FD56B240-6754-4D06-AEE1-005827E738CF">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>econdata_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Menu Name="&amp;Feed Properties..." UUID="DD9FF9F6-9352-4FA7-BA4C-8B3856665360">
+				<MenuItem Name="From SHARC Feed File" UUID="CFF41560-A124-44CD-B482-AA8F3932553D">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>GetFeed_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="From SpreadSheet" UUID="A7642D2E-B576-466F-AD4D-3A9D264DA223">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>GetFeed2_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<MenuItem Name="Fixed &amp;Parameters..." UUID="A62B8E75-D5D5-4EC1-954B-34433151C0D7">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>ModelPar_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Menu Name="&amp;Update Parameters..." UUID="3941B478-286D-4C20-8634-2C3ADA6DD9FC">
+				<Control>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;Yield/HB/Regen..." UUID="5D1EA429-C3B0-41F5-BCF6-93AF1F84CF6C">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>UPDPAR_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Product Properties..." UUID="232B251F-EE50-4A06-AB46-4D25680AD406">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>ppupdpar_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<MenuItem Name="&amp;Unit Constraints..." UUID="B0D0BC14-6D39-4C6F-8665-E481F860E17D">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>unitcons_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Review Data Import" UUID="689D8EE5-B803-4DF5-980A-5D8FDF5D96E1">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Rev_imp_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;PDU Data..." UUID="71528582-6D65-4930-9785-9DC91D406199">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowDeveloper</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>pdudata_acf</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Test Run Data" UUID="E37C3733-55A4-4AB0-B911-35EC65E7A0D3" BitmapIndex="1016">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>testrun_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"Import test run data"</Tooltip>
+				</Help>
+			</MenuItem>
+		</Menu>
+		<Menu Name="&amp;Export" UUID="C455A421-D151-4E8B-B1E3-C1392CE0CF41">
+			<Control>
+				<Hide>SimpleSHARC</Hide>
+			</Control>
+			<MenuItem Name="&amp;All Data..." UUID="AC7F6BC3-E8A0-4772-BB8F-3E16E44A7890">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Save_all_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="&amp;Economic Data..." UUID="65F5B796-DC55-43D0-AE10-F9E509179B7E">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Save_eco_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="&amp;Feed Properties..." UUID="CAC4BFFD-5C89-47F0-8E5B-C458833B39C3">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>SaveFeed_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Fixed &amp;Parameters..." UUID="6AEAD1EE-1C30-4B73-9A8F-B0C8D7EFB23B">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>SaveFPar_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Menu Name="&amp;Update Parameters..." UUID="A02CE604-8F39-4B0B-8889-21BE2809E485">
+				<Control>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;Yield/HB/Regen..." UUID="518E61E1-8B64-4F6F-9831-85B5C46FC4CA">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>save_upd_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Product Properties..." UUID="8AC4F2EE-8548-4252-BD38-1FBD645D8D5A">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>savppupd_acf</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<MenuItem Name="&amp;Unit Constraints..." UUID="E336541C-7AD0-43DA-AA72-886BC05F71B0">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Save_con_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;PDU Data..." UUID="38042097-177A-472B-A40F-9B6833F02B79">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+					<Hide>AllowDeveloper</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>save_pdu_acf</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="&amp;Test Run Data..." UUID="D788F2C6-2D58-40E7-B4FA-D316A5E2D409" BitmapIndex="1014">
+				<Control>
+					<Disable>SimpleSHARC</Disable>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Save_trd_acf</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<StatusLineText>"This will export a test run data file"</StatusLineText>
+					<Tooltip>"Export test run data"</Tooltip>
+				</Help>
+			</MenuItem>
+		</Menu>
+		<Menu Name="&amp;Options" UUID="69E89ABE-7E1F-408C-8E0A-59D84BDF50EB">
+			<Menu Name="AIMMS Settings" UUID="3AC0E438-45FE-43CB-89FE-31496F286D4D">
+				<Control>
+					<Hide>AllowDeveloper</Hide>
+				</Control>
+				<DefaultMenuItem InternalID="402" />
+				<DefaultMenu InternalID="430" />
+				<Separator />
+				<DefaultMenu InternalID="406" />
+				<DefaultMenuItem InternalID="410" />
+				<Separator />
+				<Separator />
+				<DefaultMenuItem InternalID="404" />
+				<Separator />
+			</Menu>
+			<Separator />
+			<Menu Name="Simulator/Optimizer FlowSheet" UUID="8B111ABF-2334-4B12-82E0-D9622F7DAB76">
+				<Control>
+					<Hide>FullSHARC</Hide>
+				</Control>
+				<MenuItem Name="Unit Type I" UUID="2D6A329E-F506-4A41-9DE3-63DEB10F9FCC">
+					<Control>
+						<Check>ShowSimpleSHARC_Mode_1</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Format2ToFormat1</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Unit Type II" UUID="90E7F592-0F94-41C9-8D04-587DC2F42A35">
+					<Control>
+						<Check>ShowSimpleSHARC_Mode_2</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Format1ToFormat2</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<MenuItem Name="&amp;User Level..." UUID="73E273B2-0402-42E8-8DA4-99CB39B6858C" ShortcutKey="588">
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>File-Authorization-Change Level</Command>
+					</Action>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>UserLevelChanged</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Units..." UUID="35E53203-4646-4B1C-8653-A756804BAC55" ShortcutKey="561">
+				<ActionSequence>
+					<Action Type="LinkedPage">
+						<Page PageGUID="723B59A1-7433-4E3A-90A1-47C7CEF83F48" Name="Select Unit Convention" />
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<Menu Name="Economics" UUID="CF211853-6E1C-4E7D-8445-AAE1B0F59FA0">
+				<MenuItem Name="&amp;US Refineries" UUID="6873349F-2D2D-4CDC-8347-1D1325674D80">
+					<Control>
+						<Check>ShowEconomic_Mode1</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>econ1_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Shell International" UUID="FFFCDE41-E3EB-4AAE-8097-BF3371A71ED5">
+					<Control>
+						<Check>ShowEconomic_Mode2</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>econ2_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Specific &amp;Gravity" UUID="ECFC922F-5434-42A8-914E-C1E5233F3985">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<MenuItem Name="&amp;API" UUID="A0445340-A1ED-4225-8A7B-4FBCA30C8EAB">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowAPI_Select1</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>sg_api_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;D15/4" UUID="88661201-E54B-4A81-8F46-14BEE97D7A8E">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowAPI_Select0</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>sg_d154_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Gasoline Cuts" UUID="2C6015C0-1430-49FE-9816-1543E23F28E8">
+				<Control>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;2 Cuts" UUID="2F16747C-B23B-4159-899A-E4D7A1BF8B01">
+					<Control>
+						<Check>ShowMulti_Cuts2</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Gasocut1_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;3 Cuts" UUID="8541AD57-E8AB-4A99-B224-72804D0575EF">
+					<Control>
+						<Check>ShowMulti_Cuts3</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Gasocut2_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="H2S - Correction" UUID="B11442C9-81FF-4D7E-B172-BEE382C5FF3F">
+				<Control>
+					<Hide>VALUE := not Use_R2</Hide>
+				</Control>
+				<MenuItem Name="H2S - &amp;Free" UUID="7476216F-48D3-4F30-AC39-5B20E58168F5">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowH2SFree</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>H2S_free_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="H2S - &amp;Included" UUID="BF5336E9-EE38-4834-BC3E-0D5E171D71B1">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowH2SIncluded</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>H2S_corr_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Version Switch" UUID="87165026-21DB-4875-A417-5A5D51390E96">
+				<Control>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="V 3.x" UUID="FEE04E1A-C49C-475E-ABDF-325E8974F44F">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>Show2XTo3</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Switch2xTo3</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="V 2.x" UUID="29B54C93-8A2D-44BC-BE51-178260120828">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>Show3To2x</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Switch3To2x</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="&amp;Post Riser Quench" UUID="71ECCF7B-F23F-4F60-B7A1-781F9AE8A320">
+				<MenuItem Name="Fix &amp;Temp After Quench" UUID="25E8FF40-116F-4A34-A221-293FC19B998D">
+					<Control>
+						<Check>ShowFixTempAfterQuench1</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Quench1_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Fix Quench Oil Rate" UUID="D3558C9F-71E2-4644-81C8-202821B77CF5">
+					<Control>
+						<Check>ShowFixQuenchOilRate0</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Quench2_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="&amp;CO Combustion Mode" UUID="4CAE90C8-1881-46B4-85E6-F19D9A736725">
+				<MenuItem Name="1-Stage &amp;Partial" UUID="AB357441-31C8-4554-B90F-99AC47444F00">
+					<Control>
+						<Check>ShowPartialCombustion</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>CombPartial_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="1-Stage &amp;Complete" UUID="9DFCD12E-7239-49E4-93FB-1AA98AAA3BFE">
+					<Control>
+						<Check>ShowCompleteCombustion</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>CombComplete_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="2-Stage (1 Flue Gas System)" UUID="6D378240-948F-424D-BE4F-FDC59FB8CB66">
+					<Control>
+						<Check>ShowTwoStgOption2</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>SwitchRegenModeToTS2</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="2-Stage (2 Flue Gas Systems)" UUID="EE499E39-942F-41BA-A05D-F873EA186B2A">
+					<Control>
+						<Check>ShowTwoStgOption1</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>SwitchRegenModeToTS1</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Stripper Mode" UUID="295C46BC-AD8B-49E6-9AE7-9A4F28C3DB50">
+				<Control>
+					<Hide>AllowDeveloper</Hide>
+				</Control>
+				<MenuItem Name="Simple" UUID="F2D14B9C-D5F8-4218-A233-32453E3F9E65">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowSimpleStripperMode</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>SimpStrp_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="WAP" UUID="DD08057A-3459-4C35-8D27-A10B8C7FC7F9">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowWAPStripperMode</Check>
+						<Hide>AllowDeveloper</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>WAPStrip_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Bio-Oil Co-Processing" UUID="43485361-DCCF-484E-84FF-1833944CA370">
+				<Control>
+					<Hide>AllowUserLevel5</Hide>
+				</Control>
+				<MenuItem Name="Off" UUID="E4371643-38DD-4C72-93A0-DA9E97EBABF4">
+					<Control>
+						<Check>ShowBioOff</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>BioModeOff</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="On" UUID="2240FBD0-90EC-4F80-BE1E-9A44AA3209F7">
+					<Control>
+						<Check>ShowBioOn</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>BioModeOn</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+						<Action Type="LinkedPage">
+							<Page PageGUID="2219F74D-F0B9-49C2-8E04-13A8D48564E8" Name="Bio-Oil Feed" />
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<Separator />
+				<MenuItem Name="About Bio-Oil..." UUID="469D2B68-1987-4C1E-BFF4-3CA629CBBABE">
+					<ActionSequence>
+						<Action Type="LinkedPage">
+							<Page PageGUID="BBDFA005-5DF6-4543-8379-518721E82930" Name="About Bio" />
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Naphtha Cracking Mode" UUID="6705FD37-77C0-4D03-BFCA-D0E659DA319E">
+				<Control>
+					<Hide>AllowUserLevel5</Hide>
+				</Control>
+				<MenuItem Name="Off" UUID="8CB17C32-8639-4B8E-88C8-DC61FC795C82" IsDefaultItem="true">
+					<Control>
+						<Check>ShowNCModeIsOff</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>NoNaphthaCracking_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Dedicated Naphtha Riser" UUID="1AA398EA-22AE-49D3-ACFB-9C6E29E42D31">
+					<Control>
+						<Check>ShowNCDualRiserOn</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>NaphthaDualRiser_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Naphtha to Lift-Pot" UUID="0A9F9373-E704-4815-B870-3D6D0D2BB1F6">
+					<Control>
+						<Check>ShowNCLiftPotOn</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>NaphthaLiftpot_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<Separator />
+				<MenuItem Name="About Naphtha Cracking..." UUID="CBF2AF5B-6DC2-454D-BCD7-0DB120E982C3">
+					<ActionSequence>
+						<Action Type="LinkedPage">
+							<Page PageGUID="E9A420DF-097C-4CE3-A3AB-FE0DB27717DC" Name="About Naphtha Cracking" />
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Dual Riser Mode" UUID="066807C7-C803-47C0-AB03-797B739151CB">
+				<Comment>Hide   VALUE := AllowMaster</Comment>
+				<Control>
+					<Hide>VALUE := not Use_R2</Hide>
+				</Control>
+				<MenuItem Name="On" UUID="094B992C-7608-4221-AEC1-2E54D6F89813">
+					<Control>
+						<Check>VALUE := Use_R2</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Assignment">
+							<Identifier>SwitchDRDialog</Identifier>
+							<AssignedValue>1</AssignedValue>
+						</Action>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>prDialogMsg</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+						<Action Type="Assignment">
+							<Identifier>Use_R2</Identifier>
+							<AssignedValue>1</AssignedValue>
+						</Action>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>prR2InitParsVarsForDualRiserMode</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+						<Action Type="Assignment">
+							<Identifier>Economic_mode</Identifier>
+							<AssignedValue>1</AssignedValue>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Off" UUID="A4E27413-15A9-45C1-B452-827EBEE5EFFA">
+					<Control>
+						<Check>VALUE := not Use_R2</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Assignment">
+							<Identifier>SwitchDRDialog</Identifier>
+							<AssignedValue>2</AssignedValue>
+						</Action>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>prDialogMsg</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+						<Action Type="Assignment">
+							<Identifier>Use_R2</Identifier>
+							<AssignedValue>0</AssignedValue>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="On - Split Single Riser" UUID="524B30E6-E311-49A0-AB8B-859D34F1AC1B">
+					<ActionSequence>
+						<Action Type="Assignment">
+							<Identifier>SwitchDRDialog</Identifier>
+							<AssignedValue>3</AssignedValue>
+						</Action>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>prDialogMsg</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>prSplitReactor</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="Appendix" UUID="8EAA6FAB-38C0-49F7-8937-D49E59EB517E">
+					<ActionSequence>
+						<Action Type="LinkedPage">
+							<Page PageGUID="8BB2DA88-2761-4E0A-A488-96B43F3442C0" Name="DRAppendix" />
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="&amp;Cat Deactivation Model" UUID="4912837A-D6CC-4171-BBA7-0509AB5E4F82">
+				<Control>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;On" UUID="E1BCCB5A-8F99-4C6C-AFAB-C810CBCBB18E">
+					<Control>
+						<Check>ShowCatDeactModeOn</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>cat_zm1_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Off" UUID="D10944EB-B4C5-43A3-97BA-B36AA389962E">
+					<Control>
+						<Check>ShowCatDeactModeOff</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>cat_zm0_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Generate Data Analysis Case Files" UUID="A8A8D073-A3DB-4187-89BD-CFEDD95EE721">
+				<Control>
+					<Hide>AllowUserLevel4</Hide>
+				</Control>
+				<MenuItem Name="&amp;Yes" UUID="58F8302D-A7B1-487D-A4A7-CCDC25EA0F57">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowDACaseFileYes</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>DACaseFileYes</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;No" UUID="8EC698AF-6879-4F58-AAE1-8C9146A05726">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Check>ShowDACaseFileNo</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>DACaseFileNo</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="Restore Last Feasible Solution" UUID="E82B36B1-6A76-42D6-9A0D-643A2A993388">
+				<MenuItem Name="&amp;Yes" UUID="C76AB618-5AB5-4BF3-89DB-1EA7F758FFF0">
+					<Control>
+						<Check>ShowRestoreYes</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Assignment">
+							<Identifier>Restore_Option</Identifier>
+							<AssignedValue>1</AssignedValue>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;No" UUID="0EE0ECB6-79F2-41D8-A784-9662865AB76C">
+					<Control>
+						<Check>ShowRestoreNo</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Assignment">
+							<Identifier>Restore_Option</Identifier>
+							<AssignedValue>0</AssignedValue>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<MenuItem Name="&amp;Review Options..." UUID="7AF0BA62-59F7-4834-A395-894F15863826">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>revmodes_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Expand Constraints..." UUID="7A99C504-600F-4C54-8349-6BA6A100EB28">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>expands_ACF</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Auto-save Option..." UUID="9568B3E4-FF94-4433-8B97-1D18824CC833">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<ActionSequence>
+					<Action Type="MenuCommand">
+						<Command>Settings-Autosave &amp; Backup-Data</Command>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"PPPP"</Tooltip>
+				</Help>
+			</MenuItem>
+			<Menu Name="&amp;Input Save/Reload" UUID="29F7910B-62A9-40C7-93D5-5FD62DEBCD7F">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<MenuItem Name="&amp;Save" UUID="EB9CBBA5-0A85-4388-A6C1-C7582DE3F65F">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>inputsav_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="&amp;Load" UUID="3785B768-6811-4C59-A8D9-A0502C9218B5">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>INPUTOPN_ACF</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Menu Name="Help Messages" UUID="9A286CED-6E93-44F3-9A4D-7624FD8DBC95">
+				<MenuItem Name="&amp;On" UUID="50087EFB-ED4D-4BB5-A2A7-B9EA260D2519">
+					<Control>
+						<Check>ShowHelpOn</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Assignment">
+							<Identifier>Help_on</Identifier>
+							<AssignedValue>1</AssignedValue>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<MenuItem Name="O&amp;ff" UUID="CFC2B58B-8CAC-4A93-9E24-FFEC867657F0">
+					<Control>
+						<Check>ShowHelpOff</Check>
+					</Control>
+					<ActionSequence>
+						<Action Type="Assignment">
+							<Identifier>Help_on</Identifier>
+							<AssignedValue>0</AssignedValue>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+			<Separator />
+			<Menu Name="User Settings" UUID="CDFB48D7-18F6-4641-943D-FBA231E337A3">
+				<Control>
+					<Hide>SimpleSHARC</Hide>
+				</Control>
+				<MenuItem Name="Check SHARC License" UUID="DA59BD71-B303-4C3C-A103-692844E4E5DD">
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Display_SHARC_License</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+				<NavigationMenu Name="User Settings" UUID="93859659-8785-4313-A30E-3084DBCE3C96">
+					<NavigationData>
+						<ReferencePage>Other</ReferencePage>
+						<OtherPage PageGUID="5C919AE4-F286-4F62-962C-277FC9B4E5A5" Name="All Configuration Pages" />
+						<NumberOfGenerations>1</NumberOfGenerations>
+						<InludeHiddenPages>false</InludeHiddenPages>
+						<ActionSequence>
+							<Action Type="GotoNavigationPage" />
+						</ActionSequence>
+					</NavigationData>
+				</NavigationMenu>
+				<Separator />
+				<MenuItem Name="Update Data Analysis Files" UUID="3E282AE3-F989-4516-AA90-378F191FCA81">
+					<Control>
+						<Disable>SimpleSHARC</Disable>
+						<Hide>AllowDeveloper</Hide>
+					</Control>
+					<ActionSequence>
+						<Action Type="Run">
+							<RunWhat>SpecificProcecure</RunWhat>
+							<Procedure>Dev_Create_DA_Files</Procedure>
+							<AbortOnError>true</AbortOnError>
+						</Action>
+					</ActionSequence>
+				</MenuItem>
+			</Menu>
+		</Menu>
+		<DuplicatedMenu Reference="5C6FFB33-D880-47CC-8066-6D74A712C934" />
+		<DuplicatedMenu Reference="49A3ABB8-77EF-4D7D-9F5A-D4973F39ED24" />
+		<Menu Name="Developer" UUID="EB58D50D-62B1-471F-B22C-A0611938C5DD">
+			<Control>
+				<Hide>AllowDeveloper</Hide>
+			</Control>
+			<MenuItem Name="Export" UUID="DE3FBF99-44E3-4B8E-A0A1-1A5EB51B65EA">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>prExportRelevantVariables</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Automatic testing" UUID="28FD1939-9369-4D73-A326-45B657131823">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Page_behind_menu_option</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<Separator />
+			<MenuItem Name="Create DA Templates" UUID="9626CCAA-CEA2-40F3-A94F-F215D46FA343">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>Dev_Create_DA_Files</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+				<Help>
+					<Tooltip>"This will create three templates used for Unit Monitoring."</Tooltip>
+				</Help>
+			</MenuItem>
+			<MenuItem Name="Create Excel Link Definition" UUID="2F35B2F3-E688-426F-B7AB-2B6A9A4AB754">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>GenerateInpDefinition</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+			<MenuItem Name="Create Excel Link Definition Missing" UUID="3D7442B7-01F4-440D-9355-97DB76AC0F9A">
+				<ActionSequence>
+					<Action Type="Run">
+						<RunWhat>SpecificProcecure</RunWhat>
+						<Procedure>GenerateInpMissingDefinition</Procedure>
+						<AbortOnError>true</AbortOnError>
+					</Action>
+				</ActionSequence>
+			</MenuItem>
+		</Menu>
+	</Menubar>
+	<Toolbar Name="SHARC Toolbar" UUID="8D8548BD-5F91-4E4B-989F-5F67171A1722">
+		<DefaultMenuItem InternalID="701" />
+		<DefaultMenuItem InternalID="142" />
+		<DefaultMenuItem InternalID="705" />
+		<Separator />
+		<DefaultMenuItem InternalID="211" />
+		<DefaultMenuItem InternalID="212" />
+		<DefaultMenuItem InternalID="213" />
+		<Separator />
+		<DefaultMenuItem InternalID="201" />
+		<Separator />
+		<DuplicatedMenuItem Reference="95A1F31C-A3B6-45BF-BFAF-0C544E4AEC93" />
+		<DuplicatedMenuItem Reference="9D0D4A25-5A66-492B-82AE-C09FE30554D0" />
+		<Separator />
+		<DuplicatedMenuItem Reference="D96AAEAA-F3EA-43DC-9D4F-52E542FB7CAA" />
+		<DuplicatedMenuItem Reference="9F754C81-6BCB-4AAD-A15E-0ABCA2BC7E3F" />
+		<DuplicatedMenuItem Reference="E9B8089B-8200-446F-8605-482178203938" />
+		<Separator />
+		<DuplicatedMenuItem Reference="E832FA1D-6CE6-4AAC-930C-7ED40545B839" />
+		<DuplicatedMenuItem Reference="EC63270D-9D70-4BAB-B8A6-91FEB6CD0804" />
+		<Separator />
+		<DuplicatedMenuItem Reference="E37C3733-55A4-4AB0-B911-35EC65E7A0D3" />
+		<DuplicatedMenuItem Reference="D788F2C6-2D58-40E7-B4FA-D316A5E2D409" />
+		<Separator />
+		<DuplicatedMenuItem Reference="1E8F0513-7F20-4617-BA88-33DD7BA710C1" />
+		<DuplicatedMenuItem Reference="1F2AC9CC-D8FA-4F0E-B1B8-F14F5E2CD019" />
+		<DuplicatedMenuItem Reference="DCC037F1-FAEC-4FCA-81AE-3B2D0DECEBCC" />
+		<DuplicatedMenuItem Reference="364CFA4A-7BA2-4C97-A66A-E2975ECFCA52" />
+		<Separator />
+		<MenuItem Name="Print current page" UUID="6113B343-0D5A-4B69-9710-B230805E4B95" BitmapIndex="51">
+			<Control>
+				<Hide>SimpleSHARC</Hide>
+			</Control>
+			<ActionSequence>
+				<Action Type="Run">
+					<RunWhat>SpecificProcecure</RunWhat>
+					<Procedure>PagePrintAll</Procedure>
+					<AbortOnError>true</AbortOnError>
+				</Action>
+			</ActionSequence>
+		</MenuItem>
+		<Separator />
+		<DuplicatedMenuItem Reference="FD08E4F3-84B9-4D19-805A-0C1E04955768" />
+		<Separator />
+		<MenuItem Name="Go to Page &quot;Additional Product Properties at Specified Cut Points&quot;" UUID="0F029F3B-92A3-4F6B-A5EB-9CBE26892077" BitmapIndex="74">
+			<ActionSequence>
+				<Action Type="LinkedPage">
+					<Page PageGUID="9F646EB4-1A2E-47A9-AFD7-4AA8A09D17BB" Name="Additional Product Properties" />
+				</Action>
+			</ActionSequence>
+			<Help>
+				<Tooltip>"Go to Page Additional Product Properties at Specified Cut Points"</Tooltip>
+			</Help>
+		</MenuItem>
+		<MenuItem Name="Go to Page &quot;Actual Products: Property Estimation based on ECP and SI&quot;" UUID="F47CA46D-0221-4036-9D95-3106C833BE6B" BitmapIndex="82">
+			<ActionSequence>
+				<Action Type="LinkedPage">
+					<Page PageGUID="BF5F5BF5-F442-4C3F-830D-17B695E18541" Name="Product Properties based on ECPSI" />
+				</Action>
+			</ActionSequence>
+			<Help>
+				<Tooltip>"Open Page for Actual Products: Property Estimation based on ECP and SI"</Tooltip>
+			</Help>
+		</MenuItem>
+		<MenuItem Name="Generate Report: File for &quot;Actual Product: Property Estimation based on ECP and SI&quot;" UUID="42FB0E19-B339-4B4B-A1EE-7EB8D240F785" BitmapIndex="69">
+			<ActionSequence>
+				<Action Type="Run">
+					<RunWhat>SpecificProcecure</RunWhat>
+					<Procedure>PrintAdditionalProperties</Procedure>
+					<AbortOnError>true</AbortOnError>
+				</Action>
+			</ActionSequence>
+			<Help>
+				<Tooltip>"Generate Report: File for Actual Product: Property Estimation based on ECP and SI"</Tooltip>
+			</Help>
+		</MenuItem>
+		<MenuItem Name="Export" UUID="1292C9FE-B0B3-45B1-BFA8-E0330917A4DD" BitmapIndex="6">
+			<Control>
+				<Hide>AllowDeveloper</Hide>
+			</Control>
+			<ActionSequence>
+				<Action Type="Run">
+					<RunWhat>SpecificProcecure</RunWhat>
+					<Procedure>prExportAll</Procedure>
+					<AbortOnError>true</AbortOnError>
+				</Action>
+			</ActionSequence>
+			<Help>
+				<Tooltip>"Report: Export All"</Tooltip>
+			</Help>
+		</MenuItem>
+		<MenuItem Name="Check SHARC License" UUID="225DD043-103B-4145-90CC-6A636B4E4E5D" BitmapIndex="106">
+			<ActionSequence>
+				<Action Type="Run">
+					<RunWhat>SpecificProcecure</RunWhat>
+					<Procedure>Display_SHARC_License</Procedure>
+					<AbortOnError>true</AbortOnError>
+				</Action>
+			</ActionSequence>
+			<Help>
+				<Tooltip>"Check SHARC License"</Tooltip>
+			</Help>
+		</MenuItem>
+	</Toolbar>
+</UserMenuTree>
