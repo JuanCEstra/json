@@ -310,6 +310,42 @@
                     "type": "pagev2-grid",
                     "slug": "feed_f",
                     "children": []
+                  },
+                  {
+                    "name": "Feed A",
+                    "type": "pagev2-grid",
+                    "slug": "feed_a",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed B",
+                    "type": "pagev2-grid",
+                    "slug": "feed_b",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed C",
+                    "type": "pagev2-grid",
+                    "slug": "feed_c",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed D",
+                    "type": "pagev2-grid",
+                    "slug": "feed_d",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed E",
+                    "type": "pagev2-grid",
+                    "slug": "feed_e",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed F",
+                    "type": "pagev2-grid",
+                    "slug": "feed_f",
+                    "children": []
                   }
                 ]
               }
@@ -11896,6 +11932,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FDAFRW": {
@@ -11920,6 +11959,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FA\\1": {
@@ -11979,6 +12021,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_R2_FDAFRW": {
@@ -12003,6 +12048,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_R2_FAPCTW": {
@@ -12027,6 +12075,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_R2_FAPCTV": {
@@ -12051,6 +12102,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_Header_10": {
@@ -12086,6 +12140,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_SRFDCKA": {
@@ -12110,6 +12167,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FEED_A_TYPE": {
@@ -12134,6 +12194,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_Header_0": {
@@ -12169,6 +12232,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FDAFRW": {
@@ -12193,6 +12259,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FB\\1": {
@@ -12252,6 +12321,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_R2_FDAFRW": {
@@ -12276,6 +12348,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_R2_FAPCTW": {
@@ -12300,6 +12375,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_R2_FAPCTV": {
@@ -12324,6 +12402,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_Header_10": {
@@ -12359,6 +12440,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_SRFDCKA": {
@@ -12383,6 +12467,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FEED_B_TYPE": {
@@ -12407,6 +12494,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_Header_0": {
@@ -12442,6 +12532,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FDAFRW": {
@@ -12466,6 +12559,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FC\\1": {
@@ -12525,6 +12621,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_R2_FDAFRW": {
@@ -12549,6 +12648,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_R2_FAPCTW": {
@@ -12573,6 +12675,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_R2_FAPCTV": {
@@ -12597,6 +12702,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_Header_10": {
@@ -12632,6 +12740,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_SRFDCKA": {
@@ -12656,6 +12767,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FEED_C_TYPE": {
@@ -12680,6 +12794,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_Header_0": {
@@ -12715,6 +12832,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDAFRW": {
@@ -12739,6 +12859,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FD\\1": {
@@ -12798,6 +12921,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_R2_FDAFRW": {
@@ -12822,6 +12948,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_R2_FAPCTW": {
@@ -12846,6 +12975,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_R2_FAPCTV": {
@@ -12870,6 +13002,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_Header_10": {
@@ -12905,6 +13040,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_SRFDCKA": {
@@ -12929,6 +13067,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FEED_D_TYPE": {
@@ -12953,6 +13094,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_Header_0": {
@@ -12988,6 +13132,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FDAFRW": {
@@ -13012,6 +13159,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FM\\1": {
@@ -13071,6 +13221,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_R2_FDAFRW": {
@@ -13095,6 +13248,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_R2_FAPCTW": {
@@ -13119,6 +13275,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_R2_FAPCTV": {
@@ -13143,6 +13302,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_Header_10": {
@@ -13178,6 +13340,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_SRFDCKA": {
@@ -13202,6 +13367,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FEED_M_TYPE": {
@@ -13226,6 +13394,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_Header_0": {
@@ -13261,6 +13432,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FDAFRW": {
@@ -13285,6 +13459,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FN\\1": {
@@ -13344,6 +13521,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_R2_FDAFRW": {
@@ -13368,6 +13548,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_R2_FAPCTW": {
@@ -13392,6 +13575,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_R2_FAPCTV": {
@@ -13416,6 +13602,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_Header_10": {
@@ -13451,6 +13640,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_SRFDCKA": {
@@ -13475,6 +13667,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FEED_N_TYPE": {
@@ -13499,6 +13694,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAPCTW": {
@@ -13523,6 +13721,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAPCTV": {
@@ -13547,6 +13748,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAPRICE": {
@@ -13571,6 +13775,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAAPI": {
@@ -13595,6 +13802,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAD154": {
@@ -13619,6 +13829,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAH2": {
@@ -13643,6 +13856,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FACARB": {
@@ -13667,6 +13883,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAOXY": {
@@ -13691,6 +13910,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAN2": {
@@ -13715,6 +13937,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FASUL": {
@@ -13739,6 +13964,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAMW": {
@@ -13763,6 +13991,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FABN2": {
@@ -13787,6 +14018,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAAN1": {
@@ -13811,6 +14045,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FADI": {
@@ -13835,6 +14072,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FATRI": {
@@ -13859,6 +14099,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FATETRA": {
@@ -13883,6 +14126,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAANUC": {
@@ -13907,6 +14153,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FACCR": {
@@ -13931,6 +14180,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FANVC": {
@@ -13955,6 +14207,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FABR": {
@@ -13979,6 +14234,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FA450M": {
@@ -14003,6 +14261,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FA450S": {
@@ -14027,6 +14288,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FALGO": {
@@ -14051,6 +14315,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FACLO": {
@@ -14075,6 +14342,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FA1000": {
@@ -14099,6 +14369,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAIRON": {
@@ -14123,6 +14396,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FANA": {
@@ -14147,6 +14423,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FANICK": {
@@ -14171,6 +14450,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAVNDM": {
@@ -14195,6 +14477,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAV100": {
@@ -14219,6 +14504,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAV50": {
@@ -14243,6 +14531,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/A_FAUOPK": {
@@ -14267,6 +14558,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBPCTW": {
@@ -14291,6 +14585,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBPCTV": {
@@ -14315,6 +14612,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBPRICE": {
@@ -14339,6 +14639,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBAPI": {
@@ -14363,6 +14666,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBD154": {
@@ -14387,6 +14693,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBH2": {
@@ -14411,6 +14720,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBCARB": {
@@ -14435,6 +14747,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBOXY": {
@@ -14459,6 +14774,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBN2": {
@@ -14483,6 +14801,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBSUL": {
@@ -14507,6 +14828,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBMW": {
@@ -14531,6 +14855,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBBN2": {
@@ -14555,6 +14882,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBAN1": {
@@ -14579,6 +14909,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBDI": {
@@ -14603,6 +14936,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBTRI": {
@@ -14627,6 +14963,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBTETRA": {
@@ -14651,6 +14990,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBANUC": {
@@ -14675,6 +15017,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBCCR": {
@@ -14699,6 +15044,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBNVC": {
@@ -14723,6 +15071,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBBR": {
@@ -14747,6 +15098,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FB450M": {
@@ -14771,6 +15125,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FB450S": {
@@ -14795,6 +15152,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBLGO": {
@@ -14819,6 +15179,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBCLO": {
@@ -14843,6 +15206,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FB1000": {
@@ -14867,6 +15233,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBIRON": {
@@ -14891,6 +15260,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBNA": {
@@ -14915,6 +15287,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBNICK": {
@@ -14939,6 +15314,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBVNDM": {
@@ -14963,6 +15341,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBV100": {
@@ -14987,6 +15368,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBV50": {
@@ -15011,6 +15395,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/B_FBUOPK": {
@@ -15035,6 +15422,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCPCTW": {
@@ -15059,6 +15449,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCPCTV": {
@@ -15083,6 +15476,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCPRICE": {
@@ -15107,6 +15503,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCAPI": {
@@ -15131,6 +15530,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCD154": {
@@ -15155,6 +15557,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCH2": {
@@ -15179,6 +15584,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCCARB": {
@@ -15203,6 +15611,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCOXY": {
@@ -15227,6 +15638,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCN2": {
@@ -15251,6 +15665,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCSUL": {
@@ -15275,6 +15692,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCMW": {
@@ -15299,6 +15719,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCBN2": {
@@ -15323,6 +15746,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCAN1": {
@@ -15347,6 +15773,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCDI": {
@@ -15371,6 +15800,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCTRI": {
@@ -15395,6 +15827,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCTETRA": {
@@ -15419,6 +15854,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCANUC": {
@@ -15443,6 +15881,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCCCR": {
@@ -15467,6 +15908,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCNVC": {
@@ -15491,6 +15935,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCBR": {
@@ -15515,6 +15962,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FC450M": {
@@ -15539,6 +15989,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FC450S": {
@@ -15563,6 +16016,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCLGO": {
@@ -15587,6 +16043,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCCLO": {
@@ -15611,6 +16070,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FC1000": {
@@ -15635,6 +16097,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCIRON": {
@@ -15659,6 +16124,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCNA": {
@@ -15683,6 +16151,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCNICK": {
@@ -15707,6 +16178,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCVNDM": {
@@ -15731,6 +16205,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCV100": {
@@ -15755,6 +16232,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCV50": {
@@ -15779,6 +16259,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/C_FCUOPK": {
@@ -15803,6 +16286,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDPCTW": {
@@ -15827,6 +16313,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDPCTV": {
@@ -15851,6 +16340,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDPRICE": {
@@ -15875,6 +16367,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDAPI": {
@@ -15899,6 +16394,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDD154": {
@@ -15923,6 +16421,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDH2": {
@@ -15947,6 +16448,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDCARB": {
@@ -15971,6 +16475,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDOXY": {
@@ -15995,6 +16502,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDN2": {
@@ -16019,6 +16529,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDSUL": {
@@ -16043,6 +16556,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDMW": {
@@ -16067,6 +16583,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDBN2": {
@@ -16091,6 +16610,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDAN1": {
@@ -16115,6 +16637,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDDI": {
@@ -16139,6 +16664,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDTRI": {
@@ -16163,6 +16691,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDTETRA": {
@@ -16187,6 +16718,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDANUC": {
@@ -16211,6 +16745,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDCCR": {
@@ -16235,6 +16772,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDNVC": {
@@ -16259,6 +16799,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDBR": {
@@ -16283,6 +16826,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FD450M": {
@@ -16307,6 +16853,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FD450S": {
@@ -16331,6 +16880,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDLGO": {
@@ -16355,6 +16907,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDCLO": {
@@ -16379,6 +16934,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FD1000": {
@@ -16403,6 +16961,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDIRON": {
@@ -16427,6 +16988,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDNA": {
@@ -16451,6 +17015,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDNICK": {
@@ -16475,6 +17042,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDVNDM": {
@@ -16499,6 +17069,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDV100": {
@@ -16523,6 +17096,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDV50": {
@@ -16547,6 +17123,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/D_FDUOPK": {
@@ -16571,6 +17150,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMPCTW": {
@@ -16595,6 +17177,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMPCTV": {
@@ -16619,6 +17204,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMPRICE": {
@@ -16643,6 +17231,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMAPI": {
@@ -16667,6 +17258,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMD154": {
@@ -16691,6 +17285,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMH2": {
@@ -16715,6 +17312,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMCARB": {
@@ -16739,6 +17339,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMOXY": {
@@ -16763,6 +17366,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMN2": {
@@ -16787,6 +17393,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMSUL": {
@@ -16811,6 +17420,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMMW": {
@@ -16835,6 +17447,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMBN2": {
@@ -16859,6 +17474,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMAN1": {
@@ -16883,6 +17501,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMDI": {
@@ -16907,6 +17528,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMTRI": {
@@ -16931,6 +17555,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMTETRA": {
@@ -16955,6 +17582,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMANUC": {
@@ -16979,6 +17609,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMCCR": {
@@ -17003,6 +17636,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMNVC": {
@@ -17027,6 +17663,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMBR": {
@@ -17051,6 +17690,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FM450M": {
@@ -17075,6 +17717,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FM450S": {
@@ -17099,6 +17744,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMLGO": {
@@ -17123,6 +17771,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMCLO": {
@@ -17147,6 +17798,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FM1000": {
@@ -17171,6 +17825,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMIRON": {
@@ -17195,6 +17852,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMNA": {
@@ -17219,6 +17879,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMNICK": {
@@ -17243,6 +17906,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMVNDM": {
@@ -17267,6 +17933,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMV100": {
@@ -17291,6 +17960,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMV50": {
@@ -17315,6 +17987,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/E_FMUOPK": {
@@ -17339,6 +18014,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNPCTW": {
@@ -17363,6 +18041,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNPCTV": {
@@ -17387,6 +18068,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNPRICE": {
@@ -17411,6 +18095,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNAPI": {
@@ -17435,6 +18122,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FND154": {
@@ -17459,6 +18149,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNH2": {
@@ -17483,6 +18176,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNCARB": {
@@ -17507,6 +18203,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNOXY": {
@@ -17531,6 +18230,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNN2": {
@@ -17555,6 +18257,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNSUL": {
@@ -17579,6 +18284,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNMW": {
@@ -17603,6 +18311,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNBN2": {
@@ -17627,6 +18338,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNAN1": {
@@ -17651,6 +18365,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNDI": {
@@ -17675,6 +18392,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNTRI": {
@@ -17699,6 +18419,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNTETRA": {
@@ -17723,6 +18446,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNANUC": {
@@ -17747,6 +18473,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNCCR": {
@@ -17771,6 +18500,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNNVC": {
@@ -17795,6 +18527,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNBR": {
@@ -17819,6 +18554,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FN450M": {
@@ -17843,6 +18581,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FN450S": {
@@ -17867,6 +18608,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNLGO": {
@@ -17891,6 +18635,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNCLO": {
@@ -17915,6 +18662,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FN1000": {
@@ -17939,6 +18689,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNIRON": {
@@ -17963,6 +18716,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNNA": {
@@ -17987,6 +18743,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNNICK": {
@@ -18011,6 +18770,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNVNDM": {
@@ -18035,6 +18797,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNV100": {
@@ -18059,6 +18824,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNV50": {
@@ -18083,6 +18851,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   },
   "widgets/F_FNUOPK": {
@@ -18107,6 +18878,9 @@
     },
     "views": {
       "literal": {}
+    },
+    "views.current": {
+      "literal": "views.0"
     }
   }
 }

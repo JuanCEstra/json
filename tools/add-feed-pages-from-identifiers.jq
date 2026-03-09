@@ -100,7 +100,8 @@ def addFeed($feed; $lines):
               "name": { "literal": ($feed + "_" + $e.value.id) },
               "title": { "literal": $e.value.id },
               "contents.labels.visible": { "literal": 1 },
-              "views": { "literal": {} }
+              "views": { "literal": {} },
+	      "views.current": { "literal": "views.0" }
             }
           }
         else
