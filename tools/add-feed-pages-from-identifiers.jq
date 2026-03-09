@@ -64,22 +64,20 @@ def toGroups($lines; $feed):
       else
         (mapIdent($line; $feed)) as $id
         | if .curTitle == null then
-            # Create a default group if identifiers appear before the first header
             .curTitle = ("Feed " + $feed)
             | .groups += [{ title: .curTitle, ids: [$id] }]
           else
-            # Append to existing group with curTitle, or create it
-            ( .groups | map(.title) | index(.curTitle) ) as $idx
+            .curTitle as $t
+            | ( .groups | map(.title) | index($t) ) as $idx
             | if $idx == null then
-                .groups += [{ title: .curTitle, ids: [$id] }]
+                .groups += [{ title: $t, ids: [$id] }]
               else
                 .groups[$idx].ids += [$id]
               end
           end
       end
     )
-  | .groups;
-def widgetNameGroup($feed; $i): ("Feed_" + $feed + "_Group_" + ($i|tostring));
+  | .groups;def widgetNameGroup($feed; $i): ("Feed_" + $feed + "_Group_" + ($i|tostring));
 def widgetKeyGroup($feed; $i): ("widgets/" + widgetNameGroup($feed; $i));
 
 def addFeed($feed; $lines):

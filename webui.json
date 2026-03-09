@@ -346,6 +346,42 @@
                     "type": "pagev2-grid",
                     "slug": "feed_f",
                     "children": []
+                  },
+                  {
+                    "name": "Feed A",
+                    "type": "pagev2-grid",
+                    "slug": "feed_a",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed B",
+                    "type": "pagev2-grid",
+                    "slug": "feed_b",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed C",
+                    "type": "pagev2-grid",
+                    "slug": "feed_c",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed D",
+                    "type": "pagev2-grid",
+                    "slug": "feed_d",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed E",
+                    "type": "pagev2-grid",
+                    "slug": "feed_e",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed F",
+                    "type": "pagev2-grid",
+                    "slug": "feed_f",
+                    "children": []
                   }
                 ]
               }
@@ -8575,535 +8611,43 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "A_Header_0",
+          "widgetUri": "Feed_A_Group_0",
           "gridArea": "area-a",
-          "dndId": "area-aA_Header_00"
+          "dndId": "area-aFeed_A_Group_00"
         },
         {
-          "widgetUri": "A_FDAFR",
+          "widgetUri": "Feed_A_Group_1",
           "gridArea": "area-a",
-          "dndId": "area-aA_FDAFR1"
+          "dndId": "area-aFeed_A_Group_11"
         },
         {
-          "widgetUri": "A_FDAFRW",
+          "widgetUri": "Feed_A_Group_2",
           "gridArea": "area-a",
-          "dndId": "area-aA_FDAFRW2"
-        },
-        {
-          "widgetUri": "A_FAPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAPCTW3"
-        },
-        {
-          "widgetUri": "A_FAPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAPCTV4"
-        },
-        {
-          "widgetUri": "A_Header_5",
-          "gridArea": "area-a",
-          "dndId": "area-aA_Header_55"
-        },
-        {
-          "widgetUri": "A_R2_FDAFR",
-          "gridArea": "area-a",
-          "dndId": "area-aA_R2_FDAFR6"
-        },
-        {
-          "widgetUri": "A_R2_FDAFRW",
-          "gridArea": "area-a",
-          "dndId": "area-aA_R2_FDAFRW7"
-        },
-        {
-          "widgetUri": "A_R2_FAPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aA_R2_FAPCTW8"
-        },
-        {
-          "widgetUri": "A_R2_FAPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aA_R2_FAPCTV9"
-        },
-        {
-          "widgetUri": "A_Header_10",
-          "gridArea": "area-a",
-          "dndId": "area-aA_Header_1010"
-        },
-        {
-          "widgetUri": "A_FAPRICE",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAPRICE11"
-        },
-        {
-          "widgetUri": "A_FAAPI",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAAPI12"
-        },
-        {
-          "widgetUri": "A_FAD154",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAD15413"
-        },
-        {
-          "widgetUri": "A_FAH2",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAH214"
-        },
-        {
-          "widgetUri": "A_FACARB",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FACARB15"
-        },
-        {
-          "widgetUri": "A_FAOXY",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAOXY16"
-        },
-        {
-          "widgetUri": "A_FAN2",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAN217"
-        },
-        {
-          "widgetUri": "A_FASUL",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FASUL18"
-        },
-        {
-          "widgetUri": "A_FAMW",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAMW19"
-        },
-        {
-          "widgetUri": "A_FABN2",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FABN220"
-        },
-        {
-          "widgetUri": "A_FAAN1",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAAN121"
-        },
-        {
-          "widgetUri": "A_FADI",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FADI22"
-        },
-        {
-          "widgetUri": "A_FATRI",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FATRI23"
-        },
-        {
-          "widgetUri": "A_FATETRA",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FATETRA24"
-        },
-        {
-          "widgetUri": "A_FAANUC",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAANUC25"
-        },
-        {
-          "widgetUri": "A_FACCR",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FACCR26"
-        },
-        {
-          "widgetUri": "A_FANVC",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FANVC27"
-        },
-        {
-          "widgetUri": "A_RA_NVC_CCR",
-          "gridArea": "area-a",
-          "dndId": "area-aA_RA_NVC_CCR28"
-        },
-        {
-          "widgetUri": "A_FABR",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FABR29"
-        },
-        {
-          "widgetUri": "A_FA450M",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FA450M30"
-        },
-        {
-          "widgetUri": "A_FA450S",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FA450S31"
-        },
-        {
-          "widgetUri": "A_FALGO",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FALGO32"
-        },
-        {
-          "widgetUri": "A_FACLO",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FACLO33"
-        },
-        {
-          "widgetUri": "A_FA1000",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FA100034"
-        },
-        {
-          "widgetUri": "A_FAIRON",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAIRON35"
-        },
-        {
-          "widgetUri": "A_FANA",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FANA36"
-        },
-        {
-          "widgetUri": "A_FANICK",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FANICK37"
-        },
-        {
-          "widgetUri": "A_FAVNDM",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAVNDM38"
-        },
-        {
-          "widgetUri": "A_FAV100",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAV10039"
-        },
-        {
-          "widgetUri": "A_FAV50",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAV5040"
-        },
-        {
-          "widgetUri": "A_FAUOPK",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FAUOPK41"
-        },
-        {
-          "widgetUri": "A_SRFDCKA",
-          "gridArea": "area-a",
-          "dndId": "area-aA_SRFDCKA42"
-        },
-        {
-          "widgetUri": "A_FEED_A_TYPE",
-          "gridArea": "area-a",
-          "dndId": "area-aA_FEED_A_TYPE43"
+          "dndId": "area-aFeed_A_Group_22"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "A_Header_0",
+          "uri": "Feed_A_Group_0",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "A_FDAFR",
+          "uri": "Feed_A_Group_1",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "A_FDAFRW",
+          "uri": "Feed_A_Group_2",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_Header_5",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_R2_FDAFR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_R2_FDAFRW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_R2_FAPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_R2_FAPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_Header_10",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAPRICE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAAPI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAD154",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAH2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FACARB",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAOXY",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FASUL",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAMW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FABN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAAN1",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FADI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FATRI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FATETRA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAANUC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FACCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FANVC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_RA_NVC_CCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FABR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FA450M",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FA450S",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FALGO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FACLO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FA1000",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAIRON",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FANA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FANICK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAVNDM",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAV100",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAV50",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FAUOPK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_SRFDCKA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "A_FEED_A_TYPE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
+            "height": "1"
           }
         }
       ]
@@ -9133,535 +8677,43 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "B_Header_0",
+          "widgetUri": "Feed_B_Group_0",
           "gridArea": "area-a",
-          "dndId": "area-aB_Header_00"
+          "dndId": "area-aFeed_B_Group_00"
         },
         {
-          "widgetUri": "B_FDAFR",
+          "widgetUri": "Feed_B_Group_1",
           "gridArea": "area-a",
-          "dndId": "area-aB_FDAFR1"
+          "dndId": "area-aFeed_B_Group_11"
         },
         {
-          "widgetUri": "B_FDAFRW",
+          "widgetUri": "Feed_B_Group_2",
           "gridArea": "area-a",
-          "dndId": "area-aB_FDAFRW2"
-        },
-        {
-          "widgetUri": "B_FBPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBPCTW3"
-        },
-        {
-          "widgetUri": "B_FBPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBPCTV4"
-        },
-        {
-          "widgetUri": "B_Header_5",
-          "gridArea": "area-a",
-          "dndId": "area-aB_Header_55"
-        },
-        {
-          "widgetUri": "B_R2_FDAFR",
-          "gridArea": "area-a",
-          "dndId": "area-aB_R2_FDAFR6"
-        },
-        {
-          "widgetUri": "B_R2_FDAFRW",
-          "gridArea": "area-a",
-          "dndId": "area-aB_R2_FDAFRW7"
-        },
-        {
-          "widgetUri": "B_R2_FAPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aB_R2_FAPCTW8"
-        },
-        {
-          "widgetUri": "B_R2_FAPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aB_R2_FAPCTV9"
-        },
-        {
-          "widgetUri": "B_Header_10",
-          "gridArea": "area-a",
-          "dndId": "area-aB_Header_1010"
-        },
-        {
-          "widgetUri": "B_FBPRICE",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBPRICE11"
-        },
-        {
-          "widgetUri": "B_FBAPI",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBAPI12"
-        },
-        {
-          "widgetUri": "B_FBD154",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBD15413"
-        },
-        {
-          "widgetUri": "B_FBH2",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBH214"
-        },
-        {
-          "widgetUri": "B_FBCARB",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBCARB15"
-        },
-        {
-          "widgetUri": "B_FBOXY",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBOXY16"
-        },
-        {
-          "widgetUri": "B_FBN2",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBN217"
-        },
-        {
-          "widgetUri": "B_FBSUL",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBSUL18"
-        },
-        {
-          "widgetUri": "B_FBMW",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBMW19"
-        },
-        {
-          "widgetUri": "B_FBBN2",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBBN220"
-        },
-        {
-          "widgetUri": "B_FBAN1",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBAN121"
-        },
-        {
-          "widgetUri": "B_FBDI",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBDI22"
-        },
-        {
-          "widgetUri": "B_FBTRI",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBTRI23"
-        },
-        {
-          "widgetUri": "B_FBTETRA",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBTETRA24"
-        },
-        {
-          "widgetUri": "B_FBANUC",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBANUC25"
-        },
-        {
-          "widgetUri": "B_FBCCR",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBCCR26"
-        },
-        {
-          "widgetUri": "B_FBNVC",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBNVC27"
-        },
-        {
-          "widgetUri": "B_RA_NVC_CCR",
-          "gridArea": "area-a",
-          "dndId": "area-aB_RA_NVC_CCR28"
-        },
-        {
-          "widgetUri": "B_FBBR",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBBR29"
-        },
-        {
-          "widgetUri": "B_FB450M",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FB450M30"
-        },
-        {
-          "widgetUri": "B_FB450S",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FB450S31"
-        },
-        {
-          "widgetUri": "B_FBLGO",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBLGO32"
-        },
-        {
-          "widgetUri": "B_FBCLO",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBCLO33"
-        },
-        {
-          "widgetUri": "B_FB1000",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FB100034"
-        },
-        {
-          "widgetUri": "B_FBIRON",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBIRON35"
-        },
-        {
-          "widgetUri": "B_FBNA",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBNA36"
-        },
-        {
-          "widgetUri": "B_FBNICK",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBNICK37"
-        },
-        {
-          "widgetUri": "B_FBVNDM",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBVNDM38"
-        },
-        {
-          "widgetUri": "B_FBV100",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBV10039"
-        },
-        {
-          "widgetUri": "B_FBV50",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBV5040"
-        },
-        {
-          "widgetUri": "B_FBUOPK",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FBUOPK41"
-        },
-        {
-          "widgetUri": "B_SRFDCKA",
-          "gridArea": "area-a",
-          "dndId": "area-aB_SRFDCKA42"
-        },
-        {
-          "widgetUri": "B_FEED_B_TYPE",
-          "gridArea": "area-a",
-          "dndId": "area-aB_FEED_B_TYPE43"
+          "dndId": "area-aFeed_B_Group_22"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "B_Header_0",
+          "uri": "Feed_B_Group_0",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "B_FDAFR",
+          "uri": "Feed_B_Group_1",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "B_FDAFRW",
+          "uri": "Feed_B_Group_2",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_Header_5",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_R2_FDAFR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_R2_FDAFRW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_R2_FAPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_R2_FAPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_Header_10",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBPRICE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBAPI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBD154",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBH2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBCARB",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBOXY",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBSUL",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBMW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBBN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBAN1",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBDI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBTRI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBTETRA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBANUC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBCCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBNVC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_RA_NVC_CCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBBR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FB450M",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FB450S",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBLGO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBCLO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FB1000",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBIRON",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBNA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBNICK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBVNDM",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBV100",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBV50",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FBUOPK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_SRFDCKA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "B_FEED_B_TYPE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
+            "height": "1"
           }
         }
       ]
@@ -9691,535 +8743,43 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "C_Header_0",
+          "widgetUri": "Feed_C_Group_0",
           "gridArea": "area-a",
-          "dndId": "area-aC_Header_00"
+          "dndId": "area-aFeed_C_Group_00"
         },
         {
-          "widgetUri": "C_FDAFR",
+          "widgetUri": "Feed_C_Group_1",
           "gridArea": "area-a",
-          "dndId": "area-aC_FDAFR1"
+          "dndId": "area-aFeed_C_Group_11"
         },
         {
-          "widgetUri": "C_FDAFRW",
+          "widgetUri": "Feed_C_Group_2",
           "gridArea": "area-a",
-          "dndId": "area-aC_FDAFRW2"
-        },
-        {
-          "widgetUri": "C_FCPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCPCTW3"
-        },
-        {
-          "widgetUri": "C_FCPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCPCTV4"
-        },
-        {
-          "widgetUri": "C_Header_5",
-          "gridArea": "area-a",
-          "dndId": "area-aC_Header_55"
-        },
-        {
-          "widgetUri": "C_R2_FDAFR",
-          "gridArea": "area-a",
-          "dndId": "area-aC_R2_FDAFR6"
-        },
-        {
-          "widgetUri": "C_R2_FDAFRW",
-          "gridArea": "area-a",
-          "dndId": "area-aC_R2_FDAFRW7"
-        },
-        {
-          "widgetUri": "C_R2_FAPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aC_R2_FAPCTW8"
-        },
-        {
-          "widgetUri": "C_R2_FAPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aC_R2_FAPCTV9"
-        },
-        {
-          "widgetUri": "C_Header_10",
-          "gridArea": "area-a",
-          "dndId": "area-aC_Header_1010"
-        },
-        {
-          "widgetUri": "C_FCPRICE",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCPRICE11"
-        },
-        {
-          "widgetUri": "C_FCAPI",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCAPI12"
-        },
-        {
-          "widgetUri": "C_FCD154",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCD15413"
-        },
-        {
-          "widgetUri": "C_FCH2",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCH214"
-        },
-        {
-          "widgetUri": "C_FCCARB",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCCARB15"
-        },
-        {
-          "widgetUri": "C_FCOXY",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCOXY16"
-        },
-        {
-          "widgetUri": "C_FCN2",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCN217"
-        },
-        {
-          "widgetUri": "C_FCSUL",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCSUL18"
-        },
-        {
-          "widgetUri": "C_FCMW",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCMW19"
-        },
-        {
-          "widgetUri": "C_FCBN2",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCBN220"
-        },
-        {
-          "widgetUri": "C_FCAN1",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCAN121"
-        },
-        {
-          "widgetUri": "C_FCDI",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCDI22"
-        },
-        {
-          "widgetUri": "C_FCTRI",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCTRI23"
-        },
-        {
-          "widgetUri": "C_FCTETRA",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCTETRA24"
-        },
-        {
-          "widgetUri": "C_FCANUC",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCANUC25"
-        },
-        {
-          "widgetUri": "C_FCCCR",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCCCR26"
-        },
-        {
-          "widgetUri": "C_FCNVC",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCNVC27"
-        },
-        {
-          "widgetUri": "C_RA_NVC_CCR",
-          "gridArea": "area-a",
-          "dndId": "area-aC_RA_NVC_CCR28"
-        },
-        {
-          "widgetUri": "C_FCBR",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCBR29"
-        },
-        {
-          "widgetUri": "C_FC450M",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FC450M30"
-        },
-        {
-          "widgetUri": "C_FC450S",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FC450S31"
-        },
-        {
-          "widgetUri": "C_FCLGO",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCLGO32"
-        },
-        {
-          "widgetUri": "C_FCCLO",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCCLO33"
-        },
-        {
-          "widgetUri": "C_FC1000",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FC100034"
-        },
-        {
-          "widgetUri": "C_FCIRON",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCIRON35"
-        },
-        {
-          "widgetUri": "C_FCNA",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCNA36"
-        },
-        {
-          "widgetUri": "C_FCNICK",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCNICK37"
-        },
-        {
-          "widgetUri": "C_FCVNDM",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCVNDM38"
-        },
-        {
-          "widgetUri": "C_FCV100",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCV10039"
-        },
-        {
-          "widgetUri": "C_FCV50",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCV5040"
-        },
-        {
-          "widgetUri": "C_FCUOPK",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FCUOPK41"
-        },
-        {
-          "widgetUri": "C_SRFDCKA",
-          "gridArea": "area-a",
-          "dndId": "area-aC_SRFDCKA42"
-        },
-        {
-          "widgetUri": "C_FEED_C_TYPE",
-          "gridArea": "area-a",
-          "dndId": "area-aC_FEED_C_TYPE43"
+          "dndId": "area-aFeed_C_Group_22"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "C_Header_0",
+          "uri": "Feed_C_Group_0",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "C_FDAFR",
+          "uri": "Feed_C_Group_1",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "C_FDAFRW",
+          "uri": "Feed_C_Group_2",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_Header_5",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_R2_FDAFR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_R2_FDAFRW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_R2_FAPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_R2_FAPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_Header_10",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCPRICE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCAPI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCD154",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCH2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCCARB",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCOXY",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCSUL",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCMW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCBN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCAN1",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCDI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCTRI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCTETRA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCANUC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCCCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCNVC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_RA_NVC_CCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCBR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FC450M",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FC450S",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCLGO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCCLO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FC1000",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCIRON",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCNA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCNICK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCVNDM",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCV100",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCV50",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FCUOPK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_SRFDCKA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "C_FEED_C_TYPE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
+            "height": "1"
           }
         }
       ]
@@ -10249,535 +8809,43 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "D_Header_0",
+          "widgetUri": "Feed_D_Group_0",
           "gridArea": "area-a",
-          "dndId": "area-aD_Header_00"
+          "dndId": "area-aFeed_D_Group_00"
         },
         {
-          "widgetUri": "D_FDAFR",
+          "widgetUri": "Feed_D_Group_1",
           "gridArea": "area-a",
-          "dndId": "area-aD_FDAFR1"
+          "dndId": "area-aFeed_D_Group_11"
         },
         {
-          "widgetUri": "D_FDAFRW",
+          "widgetUri": "Feed_D_Group_2",
           "gridArea": "area-a",
-          "dndId": "area-aD_FDAFRW2"
-        },
-        {
-          "widgetUri": "D_FDPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDPCTW3"
-        },
-        {
-          "widgetUri": "D_FDPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDPCTV4"
-        },
-        {
-          "widgetUri": "D_Header_5",
-          "gridArea": "area-a",
-          "dndId": "area-aD_Header_55"
-        },
-        {
-          "widgetUri": "D_R2_FDAFR",
-          "gridArea": "area-a",
-          "dndId": "area-aD_R2_FDAFR6"
-        },
-        {
-          "widgetUri": "D_R2_FDAFRW",
-          "gridArea": "area-a",
-          "dndId": "area-aD_R2_FDAFRW7"
-        },
-        {
-          "widgetUri": "D_R2_FAPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aD_R2_FAPCTW8"
-        },
-        {
-          "widgetUri": "D_R2_FAPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aD_R2_FAPCTV9"
-        },
-        {
-          "widgetUri": "D_Header_10",
-          "gridArea": "area-a",
-          "dndId": "area-aD_Header_1010"
-        },
-        {
-          "widgetUri": "D_FDPRICE",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDPRICE11"
-        },
-        {
-          "widgetUri": "D_FDAPI",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDAPI12"
-        },
-        {
-          "widgetUri": "D_FDD154",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDD15413"
-        },
-        {
-          "widgetUri": "D_FDH2",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDH214"
-        },
-        {
-          "widgetUri": "D_FDCARB",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDCARB15"
-        },
-        {
-          "widgetUri": "D_FDOXY",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDOXY16"
-        },
-        {
-          "widgetUri": "D_FDN2",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDN217"
-        },
-        {
-          "widgetUri": "D_FDSUL",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDSUL18"
-        },
-        {
-          "widgetUri": "D_FDMW",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDMW19"
-        },
-        {
-          "widgetUri": "D_FDBN2",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDBN220"
-        },
-        {
-          "widgetUri": "D_FDAN1",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDAN121"
-        },
-        {
-          "widgetUri": "D_FDDI",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDDI22"
-        },
-        {
-          "widgetUri": "D_FDTRI",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDTRI23"
-        },
-        {
-          "widgetUri": "D_FDTETRA",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDTETRA24"
-        },
-        {
-          "widgetUri": "D_FDANUC",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDANUC25"
-        },
-        {
-          "widgetUri": "D_FDCCR",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDCCR26"
-        },
-        {
-          "widgetUri": "D_FDNVC",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDNVC27"
-        },
-        {
-          "widgetUri": "D_RA_NVC_CCR",
-          "gridArea": "area-a",
-          "dndId": "area-aD_RA_NVC_CCR28"
-        },
-        {
-          "widgetUri": "D_FDBR",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDBR29"
-        },
-        {
-          "widgetUri": "D_FD450M",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FD450M30"
-        },
-        {
-          "widgetUri": "D_FD450S",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FD450S31"
-        },
-        {
-          "widgetUri": "D_FDLGO",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDLGO32"
-        },
-        {
-          "widgetUri": "D_FDCLO",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDCLO33"
-        },
-        {
-          "widgetUri": "D_FD1000",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FD100034"
-        },
-        {
-          "widgetUri": "D_FDIRON",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDIRON35"
-        },
-        {
-          "widgetUri": "D_FDNA",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDNA36"
-        },
-        {
-          "widgetUri": "D_FDNICK",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDNICK37"
-        },
-        {
-          "widgetUri": "D_FDVNDM",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDVNDM38"
-        },
-        {
-          "widgetUri": "D_FDV100",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDV10039"
-        },
-        {
-          "widgetUri": "D_FDV50",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDV5040"
-        },
-        {
-          "widgetUri": "D_FDUOPK",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FDUOPK41"
-        },
-        {
-          "widgetUri": "D_SRFDCKA",
-          "gridArea": "area-a",
-          "dndId": "area-aD_SRFDCKA42"
-        },
-        {
-          "widgetUri": "D_FEED_D_TYPE",
-          "gridArea": "area-a",
-          "dndId": "area-aD_FEED_D_TYPE43"
+          "dndId": "area-aFeed_D_Group_22"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "D_Header_0",
+          "uri": "Feed_D_Group_0",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "D_FDAFR",
+          "uri": "Feed_D_Group_1",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "D_FDAFRW",
+          "uri": "Feed_D_Group_2",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_Header_5",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_R2_FDAFR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_R2_FDAFRW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_R2_FAPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_R2_FAPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_Header_10",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDPRICE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDAPI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDD154",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDH2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDCARB",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDOXY",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDSUL",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDMW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDBN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDAN1",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDDI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDTRI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDTETRA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDANUC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDCCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDNVC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_RA_NVC_CCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDBR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FD450M",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FD450S",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDLGO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDCLO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FD1000",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDIRON",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDNA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDNICK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDVNDM",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDV100",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDV50",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FDUOPK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_SRFDCKA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "D_FEED_D_TYPE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
+            "height": "1"
           }
         }
       ]
@@ -10807,535 +8875,43 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "E_Header_0",
+          "widgetUri": "Feed_E_Group_0",
           "gridArea": "area-a",
-          "dndId": "area-aE_Header_00"
+          "dndId": "area-aFeed_E_Group_00"
         },
         {
-          "widgetUri": "E_FDAFR",
+          "widgetUri": "Feed_E_Group_1",
           "gridArea": "area-a",
-          "dndId": "area-aE_FDAFR1"
+          "dndId": "area-aFeed_E_Group_11"
         },
         {
-          "widgetUri": "E_FDAFRW",
+          "widgetUri": "Feed_E_Group_2",
           "gridArea": "area-a",
-          "dndId": "area-aE_FDAFRW2"
-        },
-        {
-          "widgetUri": "E_FMPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMPCTW3"
-        },
-        {
-          "widgetUri": "E_FMPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMPCTV4"
-        },
-        {
-          "widgetUri": "E_Header_5",
-          "gridArea": "area-a",
-          "dndId": "area-aE_Header_55"
-        },
-        {
-          "widgetUri": "E_R2_FDAFR",
-          "gridArea": "area-a",
-          "dndId": "area-aE_R2_FDAFR6"
-        },
-        {
-          "widgetUri": "E_R2_FDAFRW",
-          "gridArea": "area-a",
-          "dndId": "area-aE_R2_FDAFRW7"
-        },
-        {
-          "widgetUri": "E_R2_FAPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aE_R2_FAPCTW8"
-        },
-        {
-          "widgetUri": "E_R2_FAPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aE_R2_FAPCTV9"
-        },
-        {
-          "widgetUri": "E_Header_10",
-          "gridArea": "area-a",
-          "dndId": "area-aE_Header_1010"
-        },
-        {
-          "widgetUri": "E_FMPRICE",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMPRICE11"
-        },
-        {
-          "widgetUri": "E_FMAPI",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMAPI12"
-        },
-        {
-          "widgetUri": "E_FMD154",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMD15413"
-        },
-        {
-          "widgetUri": "E_FMH2",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMH214"
-        },
-        {
-          "widgetUri": "E_FMCARB",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMCARB15"
-        },
-        {
-          "widgetUri": "E_FMOXY",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMOXY16"
-        },
-        {
-          "widgetUri": "E_FMN2",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMN217"
-        },
-        {
-          "widgetUri": "E_FMSUL",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMSUL18"
-        },
-        {
-          "widgetUri": "E_FMMW",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMMW19"
-        },
-        {
-          "widgetUri": "E_FMBN2",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMBN220"
-        },
-        {
-          "widgetUri": "E_FMAN1",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMAN121"
-        },
-        {
-          "widgetUri": "E_FMDI",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMDI22"
-        },
-        {
-          "widgetUri": "E_FMTRI",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMTRI23"
-        },
-        {
-          "widgetUri": "E_FMTETRA",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMTETRA24"
-        },
-        {
-          "widgetUri": "E_FMANUC",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMANUC25"
-        },
-        {
-          "widgetUri": "E_FMCCR",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMCCR26"
-        },
-        {
-          "widgetUri": "E_FMNVC",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMNVC27"
-        },
-        {
-          "widgetUri": "E_RA_NVC_CCR",
-          "gridArea": "area-a",
-          "dndId": "area-aE_RA_NVC_CCR28"
-        },
-        {
-          "widgetUri": "E_FMBR",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMBR29"
-        },
-        {
-          "widgetUri": "E_FM450M",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FM450M30"
-        },
-        {
-          "widgetUri": "E_FM450S",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FM450S31"
-        },
-        {
-          "widgetUri": "E_FMLGO",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMLGO32"
-        },
-        {
-          "widgetUri": "E_FMCLO",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMCLO33"
-        },
-        {
-          "widgetUri": "E_FM1000",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FM100034"
-        },
-        {
-          "widgetUri": "E_FMIRON",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMIRON35"
-        },
-        {
-          "widgetUri": "E_FMNA",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMNA36"
-        },
-        {
-          "widgetUri": "E_FMNICK",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMNICK37"
-        },
-        {
-          "widgetUri": "E_FMVNDM",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMVNDM38"
-        },
-        {
-          "widgetUri": "E_FMV100",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMV10039"
-        },
-        {
-          "widgetUri": "E_FMV50",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMV5040"
-        },
-        {
-          "widgetUri": "E_FMUOPK",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FMUOPK41"
-        },
-        {
-          "widgetUri": "E_SRFDCKA",
-          "gridArea": "area-a",
-          "dndId": "area-aE_SRFDCKA42"
-        },
-        {
-          "widgetUri": "E_FEED_M_TYPE",
-          "gridArea": "area-a",
-          "dndId": "area-aE_FEED_M_TYPE43"
+          "dndId": "area-aFeed_E_Group_22"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "E_Header_0",
+          "uri": "Feed_E_Group_0",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "E_FDAFR",
+          "uri": "Feed_E_Group_1",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "E_FDAFRW",
+          "uri": "Feed_E_Group_2",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_Header_5",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_R2_FDAFR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_R2_FDAFRW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_R2_FAPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_R2_FAPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_Header_10",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMPRICE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMAPI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMD154",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMH2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMCARB",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMOXY",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMSUL",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMMW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMBN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMAN1",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMDI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMTRI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMTETRA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMANUC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMCCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMNVC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_RA_NVC_CCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMBR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FM450M",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FM450S",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMLGO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMCLO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FM1000",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMIRON",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMNA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMNICK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMVNDM",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMV100",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMV50",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FMUOPK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_SRFDCKA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "E_FEED_M_TYPE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
+            "height": "1"
           }
         }
       ]
@@ -11365,535 +8941,43 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "F_Header_0",
+          "widgetUri": "Feed_F_Group_0",
           "gridArea": "area-a",
-          "dndId": "area-aF_Header_00"
+          "dndId": "area-aFeed_F_Group_00"
         },
         {
-          "widgetUri": "F_FDAFR",
+          "widgetUri": "Feed_F_Group_1",
           "gridArea": "area-a",
-          "dndId": "area-aF_FDAFR1"
+          "dndId": "area-aFeed_F_Group_11"
         },
         {
-          "widgetUri": "F_FDAFRW",
+          "widgetUri": "Feed_F_Group_2",
           "gridArea": "area-a",
-          "dndId": "area-aF_FDAFRW2"
-        },
-        {
-          "widgetUri": "F_FNPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNPCTW3"
-        },
-        {
-          "widgetUri": "F_FNPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNPCTV4"
-        },
-        {
-          "widgetUri": "F_Header_5",
-          "gridArea": "area-a",
-          "dndId": "area-aF_Header_55"
-        },
-        {
-          "widgetUri": "F_R2_FDAFR",
-          "gridArea": "area-a",
-          "dndId": "area-aF_R2_FDAFR6"
-        },
-        {
-          "widgetUri": "F_R2_FDAFRW",
-          "gridArea": "area-a",
-          "dndId": "area-aF_R2_FDAFRW7"
-        },
-        {
-          "widgetUri": "F_R2_FAPCTW",
-          "gridArea": "area-a",
-          "dndId": "area-aF_R2_FAPCTW8"
-        },
-        {
-          "widgetUri": "F_R2_FAPCTV",
-          "gridArea": "area-a",
-          "dndId": "area-aF_R2_FAPCTV9"
-        },
-        {
-          "widgetUri": "F_Header_10",
-          "gridArea": "area-a",
-          "dndId": "area-aF_Header_1010"
-        },
-        {
-          "widgetUri": "F_FNPRICE",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNPRICE11"
-        },
-        {
-          "widgetUri": "F_FNAPI",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNAPI12"
-        },
-        {
-          "widgetUri": "F_FND154",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FND15413"
-        },
-        {
-          "widgetUri": "F_FNH2",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNH214"
-        },
-        {
-          "widgetUri": "F_FNCARB",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNCARB15"
-        },
-        {
-          "widgetUri": "F_FNOXY",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNOXY16"
-        },
-        {
-          "widgetUri": "F_FNN2",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNN217"
-        },
-        {
-          "widgetUri": "F_FNSUL",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNSUL18"
-        },
-        {
-          "widgetUri": "F_FNMW",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNMW19"
-        },
-        {
-          "widgetUri": "F_FNBN2",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNBN220"
-        },
-        {
-          "widgetUri": "F_FNAN1",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNAN121"
-        },
-        {
-          "widgetUri": "F_FNDI",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNDI22"
-        },
-        {
-          "widgetUri": "F_FNTRI",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNTRI23"
-        },
-        {
-          "widgetUri": "F_FNTETRA",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNTETRA24"
-        },
-        {
-          "widgetUri": "F_FNANUC",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNANUC25"
-        },
-        {
-          "widgetUri": "F_FNCCR",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNCCR26"
-        },
-        {
-          "widgetUri": "F_FNNVC",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNNVC27"
-        },
-        {
-          "widgetUri": "F_RA_NVC_CCR",
-          "gridArea": "area-a",
-          "dndId": "area-aF_RA_NVC_CCR28"
-        },
-        {
-          "widgetUri": "F_FNBR",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNBR29"
-        },
-        {
-          "widgetUri": "F_FN450M",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FN450M30"
-        },
-        {
-          "widgetUri": "F_FN450S",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FN450S31"
-        },
-        {
-          "widgetUri": "F_FNLGO",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNLGO32"
-        },
-        {
-          "widgetUri": "F_FNCLO",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNCLO33"
-        },
-        {
-          "widgetUri": "F_FN1000",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FN100034"
-        },
-        {
-          "widgetUri": "F_FNIRON",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNIRON35"
-        },
-        {
-          "widgetUri": "F_FNNA",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNNA36"
-        },
-        {
-          "widgetUri": "F_FNNICK",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNNICK37"
-        },
-        {
-          "widgetUri": "F_FNVNDM",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNVNDM38"
-        },
-        {
-          "widgetUri": "F_FNV100",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNV10039"
-        },
-        {
-          "widgetUri": "F_FNV50",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNV5040"
-        },
-        {
-          "widgetUri": "F_FNUOPK",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FNUOPK41"
-        },
-        {
-          "widgetUri": "F_SRFDCKA",
-          "gridArea": "area-a",
-          "dndId": "area-aF_SRFDCKA42"
-        },
-        {
-          "widgetUri": "F_FEED_N_TYPE",
-          "gridArea": "area-a",
-          "dndId": "area-aF_FEED_N_TYPE43"
+          "dndId": "area-aFeed_F_Group_22"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "F_Header_0",
+          "uri": "Feed_F_Group_0",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "F_FDAFR",
+          "uri": "Feed_F_Group_1",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
+            "height": "1"
           }
         },
         {
-          "uri": "F_FDAFRW",
+          "uri": "Feed_F_Group_2",
           "layoutInfo": {
             "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_Header_5",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_R2_FDAFR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_R2_FDAFRW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_R2_FAPCTW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_R2_FAPCTV",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_Header_10",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNPRICE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNAPI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FND154",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNH2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNCARB",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNOXY",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNSUL",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNMW",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNBN2",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNAN1",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNDI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNTRI",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNTETRA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNANUC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNCCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNNVC",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_RA_NVC_CCR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNBR",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FN450M",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FN450S",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNLGO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNCLO",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FN1000",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNIRON",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNNA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNNICK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNVNDM",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNV100",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNV50",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FNUOPK",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_SRFDCKA",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
-          }
-        },
-        {
-          "uri": "F_FEED_N_TYPE",
-          "layoutInfo": {
-            "width": "1",
-            "height": "3"
+            "height": "1"
           }
         }
       ]
@@ -18881,6 +15965,666 @@
     },
     "views.current": {
       "literal": "views.0"
+    }
+  },
+  "widgets/Feed_A_Group_0": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_A_Group_0"
+    },
+    "title": {
+      "literal": "Riser 1"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR",
+          "FDAFRW",
+          "FAPCTW",
+          "FAPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_A_Group_1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_A_Group_1"
+    },
+    "title": {
+      "literal": "Riser 2"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR",
+          "R2_FDAFRW",
+          "R2_FAPCTW",
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_A_Group_2": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_A_Group_2"
+    },
+    "title": {
+      "literal": "Common properties"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FAPRICE",
+          "FAAPI",
+          "FAD154",
+          "FAH2",
+          "FACARB",
+          "FAOXY",
+          "FAN2",
+          "FASUL",
+          "FAMW",
+          "FABN2",
+          "FAAN1",
+          "FADI",
+          "FATRI",
+          "FATETRA",
+          "FAANUC",
+          "FACCR",
+          "FANVC",
+          "RA_NVC_CCR",
+          "FABR",
+          "FA450M",
+          "FA450S",
+          "FALGO",
+          "FACLO",
+          "FA1000",
+          "FAIRON",
+          "FANA",
+          "FANICK",
+          "FAVNDM",
+          "FAV100",
+          "FAV50",
+          "FAUOPK",
+          "SRFDCKA",
+          "FEED_A_TYPE"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_B_Group_0": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_B_Group_0"
+    },
+    "title": {
+      "literal": "Riser 1"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR",
+          "FDAFRW",
+          "FBPCTW",
+          "FBPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_B_Group_1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_B_Group_1"
+    },
+    "title": {
+      "literal": "Riser 2"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR",
+          "R2_FDAFRW",
+          "R2_FAPCTW",
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_B_Group_2": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_B_Group_2"
+    },
+    "title": {
+      "literal": "Common properties"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FBPRICE",
+          "FBAPI",
+          "FBD154",
+          "FBH2",
+          "FBCARB",
+          "FBOXY",
+          "FBN2",
+          "FBSUL",
+          "FBMW",
+          "FBBN2",
+          "FBAN1",
+          "FBDI",
+          "FBTRI",
+          "FBTETRA",
+          "FBANUC",
+          "FBCCR",
+          "FBNVC",
+          "RA_NVC_CCR",
+          "FBBR",
+          "FB450M",
+          "FB450S",
+          "FBLGO",
+          "FBCLO",
+          "FB1000",
+          "FBIRON",
+          "FBNA",
+          "FBNICK",
+          "FBVNDM",
+          "FBV100",
+          "FBV50",
+          "FBUOPK",
+          "SRFDCKA",
+          "FEED_B_TYPE"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_C_Group_0": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_C_Group_0"
+    },
+    "title": {
+      "literal": "Riser 1"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR",
+          "FDAFRW",
+          "FCPCTW",
+          "FCPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_C_Group_1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_C_Group_1"
+    },
+    "title": {
+      "literal": "Riser 2"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR",
+          "R2_FDAFRW",
+          "R2_FAPCTW",
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_C_Group_2": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_C_Group_2"
+    },
+    "title": {
+      "literal": "Common properties"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FCPRICE",
+          "FCAPI",
+          "FCD154",
+          "FCH2",
+          "FCCARB",
+          "FCOXY",
+          "FCN2",
+          "FCSUL",
+          "FCMW",
+          "FCBN2",
+          "FCAN1",
+          "FCDI",
+          "FCTRI",
+          "FCTETRA",
+          "FCANUC",
+          "FCCCR",
+          "FCNVC",
+          "RA_NVC_CCR",
+          "FCBR",
+          "FC450M",
+          "FC450S",
+          "FCLGO",
+          "FCCLO",
+          "FC1000",
+          "FCIRON",
+          "FCNA",
+          "FCNICK",
+          "FCVNDM",
+          "FCV100",
+          "FCV50",
+          "FCUOPK",
+          "SRFDCKA",
+          "FEED_C_TYPE"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_D_Group_0": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_D_Group_0"
+    },
+    "title": {
+      "literal": "Riser 1"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR",
+          "FDAFRW",
+          "FDPCTW",
+          "FDPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_D_Group_1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_D_Group_1"
+    },
+    "title": {
+      "literal": "Riser 2"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR",
+          "R2_FDAFRW",
+          "R2_FAPCTW",
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_D_Group_2": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_D_Group_2"
+    },
+    "title": {
+      "literal": "Common properties"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDPRICE",
+          "FDAPI",
+          "FDD154",
+          "FDH2",
+          "FDCARB",
+          "FDOXY",
+          "FDN2",
+          "FDSUL",
+          "FDMW",
+          "FDBN2",
+          "FDAN1",
+          "FDDI",
+          "FDTRI",
+          "FDTETRA",
+          "FDANUC",
+          "FDCCR",
+          "FDNVC",
+          "RA_NVC_CCR",
+          "FDBR",
+          "FD450M",
+          "FD450S",
+          "FDLGO",
+          "FDCLO",
+          "FD1000",
+          "FDIRON",
+          "FDNA",
+          "FDNICK",
+          "FDVNDM",
+          "FDV100",
+          "FDV50",
+          "FDUOPK",
+          "SRFDCKA",
+          "FEED_D_TYPE"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_E_Group_0": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_E_Group_0"
+    },
+    "title": {
+      "literal": "Riser 1"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR",
+          "FDAFRW",
+          "FMPCTW",
+          "FMPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_E_Group_1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_E_Group_1"
+    },
+    "title": {
+      "literal": "Riser 2"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR",
+          "R2_FDAFRW",
+          "R2_FAPCTW",
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_E_Group_2": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_E_Group_2"
+    },
+    "title": {
+      "literal": "Common properties"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FMPRICE",
+          "FMAPI",
+          "FMD154",
+          "FMH2",
+          "FMCARB",
+          "FMOXY",
+          "FMN2",
+          "FMSUL",
+          "FMMW",
+          "FMBN2",
+          "FMAN1",
+          "FMDI",
+          "FMTRI",
+          "FMTETRA",
+          "FMANUC",
+          "FMCCR",
+          "FMNVC",
+          "RA_NVC_CCR",
+          "FMBR",
+          "FM450M",
+          "FM450S",
+          "FMLGO",
+          "FMCLO",
+          "FM1000",
+          "FMIRON",
+          "FMNA",
+          "FMNICK",
+          "FMVNDM",
+          "FMV100",
+          "FMV50",
+          "FMUOPK",
+          "SRFDCKA",
+          "FEED_M_TYPE"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_F_Group_0": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_F_Group_0"
+    },
+    "title": {
+      "literal": "Riser 1"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR",
+          "FDAFRW",
+          "FNPCTW",
+          "FNPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_F_Group_1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_F_Group_1"
+    },
+    "title": {
+      "literal": "Riser 2"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR",
+          "R2_FDAFRW",
+          "R2_FAPCTW",
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/Feed_F_Group_2": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "name": {
+      "literal": "Feed_F_Group_2"
+    },
+    "title": {
+      "literal": "Common properties"
+    },
+    "contents.labels.visible": {
+      "literal": 1
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FNPRICE",
+          "FNAPI",
+          "FND154",
+          "FNH2",
+          "FNCARB",
+          "FNOXY",
+          "FNN2",
+          "FNSUL",
+          "FNMW",
+          "FNBN2",
+          "FNAN1",
+          "FNDI",
+          "FNTRI",
+          "FNTETRA",
+          "FNANUC",
+          "FNCCR",
+          "FNNVC",
+          "RA_NVC_CCR",
+          "FNBR",
+          "FN450M",
+          "FN450S",
+          "FNLGO",
+          "FNCLO",
+          "FN1000",
+          "FNIRON",
+          "FNNA",
+          "FNNICK",
+          "FNVNDM",
+          "FNV100",
+          "FNV50",
+          "FNUOPK",
+          "SRFDCKA",
+          "FEED_N_TYPE"
+        ]
+      }
+    },
+    "views": {
+      "literal": {}
     }
   }
 }
