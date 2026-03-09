@@ -49,70 +49,68 @@ def mapIdent($id; $feed):
       | sub("^FA"; ("F" + $to))
     );
 
-def widgetKeyScalar($feed; $id): ("widgets/" + $feed + "_" + $id);
-def widgetKeyHeader($feed; $pos): ("widgets/" + $feed + "_Header_" + ($pos|tostring));
+# Turn the raw lines into grouped sections based on headers:
+# returns array like: [{title:"Riser 1", ids:["FDAFR",...]}, ...]
+def toGroups($lines; $feed):
+  ($lines
+   | reduce .[] as $line
+       ({curTitle: null, groups: []};
+        if isBlank($line) then .
+        elif isHeader($line) then
+          .curTitle = unquote($line)
+        else
+          (mapIdent($line; $feed)) as $id
+          | if .curTitle == null then
+              # If file starts with ids before any header, create a default group
+              .groups += [{ title: "Feed " + $feed, ids: [$id] }]
+            else
+              # append to group with curTitle (create if needed)
+              ( .groups | map(.title) | index(.curTitle) ) as $idx
+              | if $idx == null then
+                  .groups += [{ title: .curTitle, ids: [$id] }]
+                else
+                  .groups[$idx].ids += [$id]
+                end
+            end
+        end
+       )
+   ).groups;
+
+def widgetNameGroup($feed; $i): ("Feed_" + $feed + "_Group_" + ($i|tostring));
+def widgetKeyGroup($feed; $i): ("widgets/" + widgetNameGroup($feed; $i));
 
 def addFeed($feed; $lines):
   . as $root
+  | (toGroups($lines; $feed)) as $groups
   | (
-      $lines
-      | map(if isBlank(.) then {kind:"blank"}
-            elif isHeader(.) then {kind:"header", text: unquote(.)}
-            else {kind:"scalar", id: mapIdent(.; $feed)}
-            end)
-      | map(select(.kind!="blank"))
-    ) as $items
-  | (
-      $items
+      $groups
       | to_entries
       | map({
-          widgetUri:
-            (if .value.kind=="scalar" then ($feed + "_" + .value.id)
-             else ($feed + "_Header_" + (.key|tostring))
-             end),
+          widgetUri: widgetNameGroup($feed; .key),
           gridArea: "area-a",
-          dndId:
-            ("area-a" +
-             (if .value.kind=="scalar" then ($feed + "_" + .value.id)
-              else ($feed + "_Header_" + (.key|tostring))
-              end)
-             + (.key|tostring))
+          dndId: ("area-a" + widgetNameGroup($feed; .key) + (.key|tostring))
         })
     ) as $bindings
   | (
-      $items
+      $groups
       | to_entries
-      | map(
-          if .value.kind=="scalar" then
-            { uri: ($feed + "_" + .value.id), layoutInfo: { width:"1", height:"3" } }
-          else
-            { uri: ($feed + "_Header_" + (.key|tostring)), layoutInfo: { width:"1", height:"3" } }
-          end
-        )
+      | map({
+          uri: widgetNameGroup($feed; .key),
+          layoutInfo: { width:"1", height:"1" }
+        })
     ) as $widgets
   | (
-      reduce ($items|to_entries[]) as $e ({};
-        if $e.value.kind=="scalar" then
-          . + {
-            (widgetKeyScalar($feed; $e.value.id)): {
-              "aimms.widget.type": { "literal": "scalar" },
-              "contents": { "aimms": { "contents": [ $e.value.id ] } },
-              "name": { "literal": ($feed + "_" + $e.value.id) },
-              "title": { "literal": $e.value.id },
-              "contents.labels.visible": { "literal": 1 },
-              "views": { "literal": {} },
-	      "views.current": { "literal": "views.0" }
-            }
+      reduce ($groups|to_entries[]) as $g ({};
+        . + {
+          (widgetKeyGroup($feed; $g.key)): {
+            "aimms.widget.type": { "literal": "scalar" },
+            "name": { "literal": widgetNameGroup($feed; $g.key) },
+            "title": { "literal": $g.value.title },
+            "contents.labels.visible": { "literal": 1 },
+            "contents": { "aimms": { "contents": $g.value.ids } },
+            "views": { "literal": {} }
           }
-        else
-          . + {
-            (widgetKeyHeader($feed; $e.key)): {
-              "aimms.widget.type": { "literal": "label" },
-              "contents": { "literal": $e.value.text },
-              "name": { "literal": ($feed + "_Header_" + ($e.key|tostring)) }
-            }
-          }
-        end
+        }
       )
     ) as $newWidgets
   | $root
