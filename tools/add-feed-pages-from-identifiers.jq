@@ -84,7 +84,7 @@ def addFeed($feed; $lines):
       | to_entries
       | map(
           if .value.kind=="scalar" then
-            { uri: ($feed + "_" + .value.id), layoutInfo: { width:"1", height:"2" } }
+            { uri: ($feed + "_" + .value.id), layoutInfo: { width:"1", height:"3" } }
           else
             { uri: ($feed + "_Header_" + (.key|tostring)), layoutInfo: { width:"1", height:"1" } }
           end
