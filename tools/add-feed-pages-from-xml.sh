@@ -17,11 +17,10 @@ fi
 tmp="$(mktemp)"
 trap 'rm -f "$tmp"' EXIT
 
-# Read identifiers file into a JSON array of strings (preserving order)
 jq -Rn '[inputs]' < "$IDENT_LIST" > "$tmp.ident.json"
 
 jq --slurpfile lines "$tmp.ident.json" -f tools/add-feed-pages-from-identifiers.jq "$WEBUI_JSON" > "$tmp"
 jq type "$tmp" >/dev/null
 
 mv "$tmp" "$WEBUI_JSON"
-echo "Generated Feed A-F pages as scalar widgets in $WEBUI_JSON"
+echo "Generated Feed A-F pages as scalar widgets + headers in $WEBUI_JSON"

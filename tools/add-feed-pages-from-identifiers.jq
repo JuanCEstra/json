@@ -10,7 +10,6 @@ def pageKey($l): ("pages/" + slug($l));
 def newLayoutId: "custom_feed_props_single_area";
 def layoutKey: ("layouts/" + newLayoutId);
 
-# A single scrolling area layout
 def ensureLayout:
   . + {
     (layoutKey): {
@@ -42,9 +41,6 @@ def isHeader($s): ($s|test("^\".*\"$"));
 def unquote($s): ($s|sub("^\"";"")|sub("\"$";""));
 def isBlank($s): ($s == "\"\"" or $s == "");
 
-# Map identifiers from Feed A to other feeds
-# - FAxxx -> FBxxx / FCxxx / ... and E->M, F->N
-# - FEED_A_TYPE -> FEED_B_TYPE etc.
 def mapIdent($id; $feed):
   ($feed | mapLetter) as $to
   | ($id
@@ -53,91 +49,67 @@ def mapIdent($id; $feed):
       | gsub("\\bFA([A-Z0-9_]+)\\b"; ("F" + $to + "\\1"))
     );
 
-def widgetKey($feed; $name): ("widgets/" + $feed + "_" + $name);
+def widgetKeyScalar($feed; $id): ("widgets/" + $feed + "_" + $id);
+def widgetKeyHeader($feed; $pos): ("widgets/" + $feed + "_Header_" + ($pos|tostring));
 
-# Build widgets + bindings preserving order
 def addFeed($feed; $lines):
   . as $root
   | (
       $lines
-      | to_entries
-      | map(
-          .key as $i
-          | .value as $raw
-          | if isBlank($raw) then
-              { kind: "blank", i: $i }
-            elif isHeader($raw) then
-              { kind: "header", i: $i, text: unquote($raw) }
-            else
-              { kind: "scalar", i: $i, id: mapIdent($raw; $feed), name: $raw }
-            end
-        )
+      | map(if isBlank(.) then {kind:"blank"}
+            elif isHeader(.) then {kind:"header", text: unquote(.)}
+            else {kind:"scalar", id: mapIdent(.; $feed)}
+            end)
+      | map(select(.kind!="blank"))
     ) as $items
   | (
       $items
-      | map(select(.kind != "blank"))
       | to_entries
-      | map(
-          .key as $pos
-          | .value as $it
-          | {
-              widgetUri:
-                (if $it.kind=="scalar" then
-                   ($feed + "_" + ($it.id))
-                 else
-                   ($feed + "_Header_" + ($pos|tostring))
-                 end),
-              gridArea: "area-a",
-              dndId:
-                ("area-a" +
-                 (if $it.kind=="scalar" then ($feed + "_" + ($it.id)) else ($feed + "_Header_" + ($pos|tostring)) end)
-                 + ($pos|tostring))
-            }
-        )
+      | map({
+          widgetUri:
+            (if .value.kind=="scalar" then ($feed + "_" + .value.id)
+             else ($feed + "_Header_" + (.key|tostring))
+             end),
+          gridArea: "area-a",
+          dndId:
+            ("area-a" +
+             (if .value.kind=="scalar" then ($feed + "_" + .value.id)
+              else ($feed + "_Header_" + (.key|tostring))
+              end)
+             + (.key|tostring))
+        })
     ) as $bindings
   | (
       $items
-      | map(select(.kind != "blank"))
       | to_entries
       | map(
-          .key as $pos
-          | .value as $it
-          | if $it.kind=="scalar" then
-              {
-                uri: ($feed + "_" + ($it.id)),
-                layoutInfo: { width: "1", height: "1" }
-              }
-            else
-              {
-                uri: ($feed + "_Header_" + ($pos|tostring)),
-                layoutInfo: { width: "1", height: "1" }
-              }
-            end
+          if .value.kind=="scalar" then
+            { uri: ($feed + "_" + .value.id), layoutInfo: { width:"1", height:"1" } }
+          else
+            { uri: ($feed + "_Header_" + (.key|tostring)), layoutInfo: { width:"1", height:"1" } }
+          end
         )
     ) as $widgets
   | (
-      # widgets objects to add
-      reduce ($items | map(select(.kind != "blank")) | to_entries[]) as $e ({};
-        ($e.value) as $it
-        | ($e.key) as $pos
-        | if $it.kind=="scalar" then
-            . + {
-              (widgetKey($feed; $it.id)): {
-                "aimms.widget.type": { "literal": "scalar" },
-                "contents": { "aimms": { "contents": [ $it.id ] } },
-                "name": { "literal": ($feed + "_" + $it.id) },
-                "views": { "literal": {} }
-              }
+      reduce ($items|to_entries[]) as $e ({};
+        if $e.value.kind=="scalar" then
+          . + {
+            (widgetKeyScalar($feed; $e.value.id)): {
+              "aimms.widget.type": { "literal": "scalar" },
+              "contents": { "aimms": { "contents": [ $e.value.id ] } },
+              "name": { "literal": ($feed + "_" + $e.value.id) },
+              "views": { "literal": {} }
             }
-          else
-            . + {
-              (("widgets/" + $feed + "_Header_" + ($pos|tostring))): {
-                "aimms.widget.type": { "literal": "label" },
-                "contents": { "literal": $it.text },
-                "name": { "literal": ($feed + "_Header_" + ($pos|tostring)) }
-              }
+          }
+        else
+          . + {
+            (widgetKeyHeader($feed; $e.key)): {
+              "aimms.widget.type": { "literal": "label" },
+              "contents": { "literal": $e.value.text },
+              "name": { "literal": ($feed + "_Header_" + ($e.key|tostring)) }
             }
-          end
+          }
+        end
       )
     ) as $newWidgets
   | $root
@@ -151,22 +123,18 @@ def addFeed($feed; $lines):
         }
       };
 
-# Add nav links under Front Page II children
 def addNavPages:
   . as $root
   | (["application","pages","literal","children",0,"children",0,"children"]) as $kidsPath
   | ($root | getpath($kidsPath)) as $kids
-  | ($kids
-     + (feeds | map({
-         "name": ("Feed " + .),
-         "type": "pagev2-grid",
-         "slug": slug(.),
-         "children": []
-       }))
-    ) as $newKids
+  | ($kids + (feeds | map({
+      "name": ("Feed " + .),
+      "type": "pagev2-grid",
+      "slug": slug(.),
+      "children": []
+    }))) as $newKids
   | $root | setpath($kidsPath; $newKids);
 
-# Entry point: $lines comes from --slurpfile
 . as $root
 | ensureLayout
 | reduce feeds[] as $f
