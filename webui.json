@@ -130,6 +130,42 @@
                     "type": "pagev2-grid",
                     "slug": "feed_f",
                     "children": []
+                  },
+                  {
+                    "name": "Feed A",
+                    "type": "pagev2-grid",
+                    "slug": "feed_a",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed B",
+                    "type": "pagev2-grid",
+                    "slug": "feed_b",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed C",
+                    "type": "pagev2-grid",
+                    "slug": "feed_c",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed D",
+                    "type": "pagev2-grid",
+                    "slug": "feed_d",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed E",
+                    "type": "pagev2-grid",
+                    "slug": "feed_e",
+                    "children": []
+                  },
+                  {
+                    "name": "Feed F",
+                    "type": "pagev2-grid",
+                    "slug": "feed_f",
+                    "children": []
                   }
                 ]
               }
@@ -8332,7 +8368,7 @@
       }
     },
     "displayName": {
-      "literal": "Feed Properties (XML)"
+      "literal": "Feed Properties"
     }
   },
   "widgets/Feed_A_XML": {
@@ -8359,16 +8395,532 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "Feed_A_XML",
+          "widgetUri": "A_Header_0",
           "gridArea": "area-a",
-          "dndId": "area-aFeed_A_XML0"
+          "dndId": "area-aA_Header_00"
+        },
+        {
+          "widgetUri": "A_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FDAFR1"
+        },
+        {
+          "widgetUri": "A_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FDAFRW2"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\13"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\14"
+        },
+        {
+          "widgetUri": "A_Header_5",
+          "gridArea": "area-a",
+          "dndId": "area-aA_Header_55"
+        },
+        {
+          "widgetUri": "A_R2_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aA_R2_FDAFR6"
+        },
+        {
+          "widgetUri": "A_R2_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aA_R2_FDAFRW7"
+        },
+        {
+          "widgetUri": "A_R2_FAPCTW",
+          "gridArea": "area-a",
+          "dndId": "area-aA_R2_FAPCTW8"
+        },
+        {
+          "widgetUri": "A_R2_FAPCTV",
+          "gridArea": "area-a",
+          "dndId": "area-aA_R2_FAPCTV9"
+        },
+        {
+          "widgetUri": "A_Header_10",
+          "gridArea": "area-a",
+          "dndId": "area-aA_Header_1010"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\111"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\112"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\113"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\114"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\115"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\116"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\117"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\118"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\119"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\120"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\121"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\122"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\123"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\124"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\125"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\126"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\127"
+        },
+        {
+          "widgetUri": "A_RA_NVC_CCR",
+          "gridArea": "area-a",
+          "dndId": "area-aA_RA_NVC_CCR28"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\129"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\130"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\131"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\132"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\133"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\134"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\135"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\136"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\137"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\138"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\139"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\140"
+        },
+        {
+          "widgetUri": "A_FA\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FA\\141"
+        },
+        {
+          "widgetUri": "A_SRFDCKA",
+          "gridArea": "area-a",
+          "dndId": "area-aA_SRFDCKA42"
+        },
+        {
+          "widgetUri": "A_FEED_A_TYPE",
+          "gridArea": "area-a",
+          "dndId": "area-aA_FEED_A_TYPE43"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "Feed_A_XML",
+          "uri": "A_Header_0",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_Header_5",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_R2_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_R2_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_R2_FAPCTW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_R2_FAPCTV",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_Header_10",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_RA_NVC_CCR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FA\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_SRFDCKA",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "A_FEED_A_TYPE",
           "layoutInfo": {
             "width": "1",
             "height": "1"
@@ -8401,16 +8953,532 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "Feed_B_XML",
+          "widgetUri": "B_Header_0",
           "gridArea": "area-a",
-          "dndId": "area-aFeed_B_XML0"
+          "dndId": "area-aB_Header_00"
+        },
+        {
+          "widgetUri": "B_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FDAFR1"
+        },
+        {
+          "widgetUri": "B_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FDAFRW2"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\13"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\14"
+        },
+        {
+          "widgetUri": "B_Header_5",
+          "gridArea": "area-a",
+          "dndId": "area-aB_Header_55"
+        },
+        {
+          "widgetUri": "B_R2_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aB_R2_FDAFR6"
+        },
+        {
+          "widgetUri": "B_R2_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aB_R2_FDAFRW7"
+        },
+        {
+          "widgetUri": "B_R2_FAPCTW",
+          "gridArea": "area-a",
+          "dndId": "area-aB_R2_FAPCTW8"
+        },
+        {
+          "widgetUri": "B_R2_FAPCTV",
+          "gridArea": "area-a",
+          "dndId": "area-aB_R2_FAPCTV9"
+        },
+        {
+          "widgetUri": "B_Header_10",
+          "gridArea": "area-a",
+          "dndId": "area-aB_Header_1010"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\111"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\112"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\113"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\114"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\115"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\116"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\117"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\118"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\119"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\120"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\121"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\122"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\123"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\124"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\125"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\126"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\127"
+        },
+        {
+          "widgetUri": "B_RA_NVC_CCR",
+          "gridArea": "area-a",
+          "dndId": "area-aB_RA_NVC_CCR28"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\129"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\130"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\131"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\132"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\133"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\134"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\135"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\136"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\137"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\138"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\139"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\140"
+        },
+        {
+          "widgetUri": "B_FB\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FB\\141"
+        },
+        {
+          "widgetUri": "B_SRFDCKA",
+          "gridArea": "area-a",
+          "dndId": "area-aB_SRFDCKA42"
+        },
+        {
+          "widgetUri": "B_FEED_B_TYPE",
+          "gridArea": "area-a",
+          "dndId": "area-aB_FEED_B_TYPE43"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "Feed_B_XML",
+          "uri": "B_Header_0",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_Header_5",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_R2_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_R2_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_R2_FAPCTW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_R2_FAPCTV",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_Header_10",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_RA_NVC_CCR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FB\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_SRFDCKA",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "B_FEED_B_TYPE",
           "layoutInfo": {
             "width": "1",
             "height": "1"
@@ -8443,16 +9511,532 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "Feed_C_XML",
+          "widgetUri": "C_Header_0",
           "gridArea": "area-a",
-          "dndId": "area-aFeed_C_XML0"
+          "dndId": "area-aC_Header_00"
+        },
+        {
+          "widgetUri": "C_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FDAFR1"
+        },
+        {
+          "widgetUri": "C_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FDAFRW2"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\13"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\14"
+        },
+        {
+          "widgetUri": "C_Header_5",
+          "gridArea": "area-a",
+          "dndId": "area-aC_Header_55"
+        },
+        {
+          "widgetUri": "C_R2_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aC_R2_FDAFR6"
+        },
+        {
+          "widgetUri": "C_R2_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aC_R2_FDAFRW7"
+        },
+        {
+          "widgetUri": "C_R2_FAPCTW",
+          "gridArea": "area-a",
+          "dndId": "area-aC_R2_FAPCTW8"
+        },
+        {
+          "widgetUri": "C_R2_FAPCTV",
+          "gridArea": "area-a",
+          "dndId": "area-aC_R2_FAPCTV9"
+        },
+        {
+          "widgetUri": "C_Header_10",
+          "gridArea": "area-a",
+          "dndId": "area-aC_Header_1010"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\111"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\112"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\113"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\114"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\115"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\116"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\117"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\118"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\119"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\120"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\121"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\122"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\123"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\124"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\125"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\126"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\127"
+        },
+        {
+          "widgetUri": "C_RA_NVC_CCR",
+          "gridArea": "area-a",
+          "dndId": "area-aC_RA_NVC_CCR28"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\129"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\130"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\131"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\132"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\133"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\134"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\135"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\136"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\137"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\138"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\139"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\140"
+        },
+        {
+          "widgetUri": "C_FC\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FC\\141"
+        },
+        {
+          "widgetUri": "C_SRFDCKA",
+          "gridArea": "area-a",
+          "dndId": "area-aC_SRFDCKA42"
+        },
+        {
+          "widgetUri": "C_FEED_C_TYPE",
+          "gridArea": "area-a",
+          "dndId": "area-aC_FEED_C_TYPE43"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "Feed_C_XML",
+          "uri": "C_Header_0",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_Header_5",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_R2_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_R2_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_R2_FAPCTW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_R2_FAPCTV",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_Header_10",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_RA_NVC_CCR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FC\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_SRFDCKA",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "C_FEED_C_TYPE",
           "layoutInfo": {
             "width": "1",
             "height": "1"
@@ -8485,16 +10069,532 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "Feed_D_XML",
+          "widgetUri": "D_Header_0",
           "gridArea": "area-a",
-          "dndId": "area-aFeed_D_XML0"
+          "dndId": "area-aD_Header_00"
+        },
+        {
+          "widgetUri": "D_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FDAFR1"
+        },
+        {
+          "widgetUri": "D_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FDAFRW2"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\13"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\14"
+        },
+        {
+          "widgetUri": "D_Header_5",
+          "gridArea": "area-a",
+          "dndId": "area-aD_Header_55"
+        },
+        {
+          "widgetUri": "D_R2_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aD_R2_FDAFR6"
+        },
+        {
+          "widgetUri": "D_R2_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aD_R2_FDAFRW7"
+        },
+        {
+          "widgetUri": "D_R2_FAPCTW",
+          "gridArea": "area-a",
+          "dndId": "area-aD_R2_FAPCTW8"
+        },
+        {
+          "widgetUri": "D_R2_FAPCTV",
+          "gridArea": "area-a",
+          "dndId": "area-aD_R2_FAPCTV9"
+        },
+        {
+          "widgetUri": "D_Header_10",
+          "gridArea": "area-a",
+          "dndId": "area-aD_Header_1010"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\111"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\112"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\113"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\114"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\115"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\116"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\117"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\118"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\119"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\120"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\121"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\122"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\123"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\124"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\125"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\126"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\127"
+        },
+        {
+          "widgetUri": "D_RA_NVC_CCR",
+          "gridArea": "area-a",
+          "dndId": "area-aD_RA_NVC_CCR28"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\129"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\130"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\131"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\132"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\133"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\134"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\135"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\136"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\137"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\138"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\139"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\140"
+        },
+        {
+          "widgetUri": "D_FD\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FD\\141"
+        },
+        {
+          "widgetUri": "D_SRFDCKA",
+          "gridArea": "area-a",
+          "dndId": "area-aD_SRFDCKA42"
+        },
+        {
+          "widgetUri": "D_FEED_D_TYPE",
+          "gridArea": "area-a",
+          "dndId": "area-aD_FEED_D_TYPE43"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "Feed_D_XML",
+          "uri": "D_Header_0",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_Header_5",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_R2_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_R2_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_R2_FAPCTW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_R2_FAPCTV",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_Header_10",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_RA_NVC_CCR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FD\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_SRFDCKA",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "D_FEED_D_TYPE",
           "layoutInfo": {
             "width": "1",
             "height": "1"
@@ -8527,16 +10627,532 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "Feed_E_XML",
+          "widgetUri": "E_Header_0",
           "gridArea": "area-a",
-          "dndId": "area-aFeed_E_XML0"
+          "dndId": "area-aE_Header_00"
+        },
+        {
+          "widgetUri": "E_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FDAFR1"
+        },
+        {
+          "widgetUri": "E_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FDAFRW2"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\13"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\14"
+        },
+        {
+          "widgetUri": "E_Header_5",
+          "gridArea": "area-a",
+          "dndId": "area-aE_Header_55"
+        },
+        {
+          "widgetUri": "E_R2_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aE_R2_FDAFR6"
+        },
+        {
+          "widgetUri": "E_R2_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aE_R2_FDAFRW7"
+        },
+        {
+          "widgetUri": "E_R2_FAPCTW",
+          "gridArea": "area-a",
+          "dndId": "area-aE_R2_FAPCTW8"
+        },
+        {
+          "widgetUri": "E_R2_FAPCTV",
+          "gridArea": "area-a",
+          "dndId": "area-aE_R2_FAPCTV9"
+        },
+        {
+          "widgetUri": "E_Header_10",
+          "gridArea": "area-a",
+          "dndId": "area-aE_Header_1010"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\111"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\112"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\113"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\114"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\115"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\116"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\117"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\118"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\119"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\120"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\121"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\122"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\123"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\124"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\125"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\126"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\127"
+        },
+        {
+          "widgetUri": "E_RA_NVC_CCR",
+          "gridArea": "area-a",
+          "dndId": "area-aE_RA_NVC_CCR28"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\129"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\130"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\131"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\132"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\133"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\134"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\135"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\136"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\137"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\138"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\139"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\140"
+        },
+        {
+          "widgetUri": "E_FM\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FM\\141"
+        },
+        {
+          "widgetUri": "E_SRFDCKA",
+          "gridArea": "area-a",
+          "dndId": "area-aE_SRFDCKA42"
+        },
+        {
+          "widgetUri": "E_FEED_M_TYPE",
+          "gridArea": "area-a",
+          "dndId": "area-aE_FEED_M_TYPE43"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "Feed_E_XML",
+          "uri": "E_Header_0",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_Header_5",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_R2_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_R2_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_R2_FAPCTW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_R2_FAPCTV",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_Header_10",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_RA_NVC_CCR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FM\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_SRFDCKA",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "E_FEED_M_TYPE",
           "layoutInfo": {
             "width": "1",
             "height": "1"
@@ -8569,22 +11185,1816 @@
     "bindings": {
       "literal": [
         {
-          "widgetUri": "Feed_F_XML",
+          "widgetUri": "F_Header_0",
           "gridArea": "area-a",
-          "dndId": "area-aFeed_F_XML0"
+          "dndId": "area-aF_Header_00"
+        },
+        {
+          "widgetUri": "F_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FDAFR1"
+        },
+        {
+          "widgetUri": "F_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FDAFRW2"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\13"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\14"
+        },
+        {
+          "widgetUri": "F_Header_5",
+          "gridArea": "area-a",
+          "dndId": "area-aF_Header_55"
+        },
+        {
+          "widgetUri": "F_R2_FDAFR",
+          "gridArea": "area-a",
+          "dndId": "area-aF_R2_FDAFR6"
+        },
+        {
+          "widgetUri": "F_R2_FDAFRW",
+          "gridArea": "area-a",
+          "dndId": "area-aF_R2_FDAFRW7"
+        },
+        {
+          "widgetUri": "F_R2_FAPCTW",
+          "gridArea": "area-a",
+          "dndId": "area-aF_R2_FAPCTW8"
+        },
+        {
+          "widgetUri": "F_R2_FAPCTV",
+          "gridArea": "area-a",
+          "dndId": "area-aF_R2_FAPCTV9"
+        },
+        {
+          "widgetUri": "F_Header_10",
+          "gridArea": "area-a",
+          "dndId": "area-aF_Header_1010"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\111"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\112"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\113"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\114"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\115"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\116"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\117"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\118"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\119"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\120"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\121"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\122"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\123"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\124"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\125"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\126"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\127"
+        },
+        {
+          "widgetUri": "F_RA_NVC_CCR",
+          "gridArea": "area-a",
+          "dndId": "area-aF_RA_NVC_CCR28"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\129"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\130"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\131"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\132"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\133"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\134"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\135"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\136"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\137"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\138"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\139"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\140"
+        },
+        {
+          "widgetUri": "F_FN\\1",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FN\\141"
+        },
+        {
+          "widgetUri": "F_SRFDCKA",
+          "gridArea": "area-a",
+          "dndId": "area-aF_SRFDCKA42"
+        },
+        {
+          "widgetUri": "F_FEED_N_TYPE",
+          "gridArea": "area-a",
+          "dndId": "area-aF_FEED_N_TYPE43"
         }
       ]
     },
     "widgets": {
       "literal": [
         {
-          "uri": "Feed_F_XML",
+          "uri": "F_Header_0",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_Header_5",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_R2_FDAFR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_R2_FDAFRW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_R2_FAPCTW",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_R2_FAPCTV",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_Header_10",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_RA_NVC_CCR",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FN\\1",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_SRFDCKA",
+          "layoutInfo": {
+            "width": "1",
+            "height": "1"
+          }
+        },
+        {
+          "uri": "F_FEED_N_TYPE",
           "layoutInfo": {
             "width": "1",
             "height": "1"
           }
         }
       ]
+    }
+  },
+  "widgets/A_Header_0": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 1"
+    },
+    "name": {
+      "literal": "A_Header_0"
+    }
+  },
+  "widgets/A_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_FA\\1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FA\\1"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_FA\\1"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_Header_5": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 2"
+    },
+    "name": {
+      "literal": "A_Header_5"
+    }
+  },
+  "widgets/A_R2_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_R2_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_R2_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_R2_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_R2_FAPCTW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_R2_FAPCTW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_R2_FAPCTV": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_R2_FAPCTV"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_Header_10": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Common properties"
+    },
+    "name": {
+      "literal": "A_Header_10"
+    }
+  },
+  "widgets/A_RA_NVC_CCR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "RA_NVC_CCR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_RA_NVC_CCR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_SRFDCKA": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "SRFDCKA"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_SRFDCKA"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/A_FEED_A_TYPE": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FEED_A_TYPE"
+        ]
+      }
+    },
+    "name": {
+      "literal": "A_FEED_A_TYPE"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_Header_0": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 1"
+    },
+    "name": {
+      "literal": "B_Header_0"
+    }
+  },
+  "widgets/B_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_FB\\1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FB\\1"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_FB\\1"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_Header_5": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 2"
+    },
+    "name": {
+      "literal": "B_Header_5"
+    }
+  },
+  "widgets/B_R2_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_R2_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_R2_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_R2_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_R2_FAPCTW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_R2_FAPCTW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_R2_FAPCTV": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_R2_FAPCTV"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_Header_10": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Common properties"
+    },
+    "name": {
+      "literal": "B_Header_10"
+    }
+  },
+  "widgets/B_RA_NVC_CCR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "RA_NVC_CCR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_RA_NVC_CCR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_SRFDCKA": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "SRFDCKA"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_SRFDCKA"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/B_FEED_B_TYPE": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FEED_B_TYPE"
+        ]
+      }
+    },
+    "name": {
+      "literal": "B_FEED_B_TYPE"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_Header_0": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 1"
+    },
+    "name": {
+      "literal": "C_Header_0"
+    }
+  },
+  "widgets/C_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_FC\\1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FC\\1"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_FC\\1"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_Header_5": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 2"
+    },
+    "name": {
+      "literal": "C_Header_5"
+    }
+  },
+  "widgets/C_R2_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_R2_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_R2_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_R2_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_R2_FAPCTW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_R2_FAPCTW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_R2_FAPCTV": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_R2_FAPCTV"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_Header_10": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Common properties"
+    },
+    "name": {
+      "literal": "C_Header_10"
+    }
+  },
+  "widgets/C_RA_NVC_CCR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "RA_NVC_CCR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_RA_NVC_CCR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_SRFDCKA": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "SRFDCKA"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_SRFDCKA"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/C_FEED_C_TYPE": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FEED_C_TYPE"
+        ]
+      }
+    },
+    "name": {
+      "literal": "C_FEED_C_TYPE"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_Header_0": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 1"
+    },
+    "name": {
+      "literal": "D_Header_0"
+    }
+  },
+  "widgets/D_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_FD\\1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FD\\1"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_FD\\1"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_Header_5": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 2"
+    },
+    "name": {
+      "literal": "D_Header_5"
+    }
+  },
+  "widgets/D_R2_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_R2_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_R2_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_R2_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_R2_FAPCTW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_R2_FAPCTW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_R2_FAPCTV": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_R2_FAPCTV"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_Header_10": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Common properties"
+    },
+    "name": {
+      "literal": "D_Header_10"
+    }
+  },
+  "widgets/D_RA_NVC_CCR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "RA_NVC_CCR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_RA_NVC_CCR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_SRFDCKA": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "SRFDCKA"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_SRFDCKA"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/D_FEED_D_TYPE": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FEED_D_TYPE"
+        ]
+      }
+    },
+    "name": {
+      "literal": "D_FEED_D_TYPE"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_Header_0": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 1"
+    },
+    "name": {
+      "literal": "E_Header_0"
+    }
+  },
+  "widgets/E_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_FM\\1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FM\\1"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_FM\\1"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_Header_5": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 2"
+    },
+    "name": {
+      "literal": "E_Header_5"
+    }
+  },
+  "widgets/E_R2_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_R2_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_R2_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_R2_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_R2_FAPCTW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_R2_FAPCTW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_R2_FAPCTV": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_R2_FAPCTV"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_Header_10": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Common properties"
+    },
+    "name": {
+      "literal": "E_Header_10"
+    }
+  },
+  "widgets/E_RA_NVC_CCR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "RA_NVC_CCR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_RA_NVC_CCR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_SRFDCKA": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "SRFDCKA"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_SRFDCKA"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/E_FEED_M_TYPE": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FEED_M_TYPE"
+        ]
+      }
+    },
+    "name": {
+      "literal": "E_FEED_M_TYPE"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_Header_0": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 1"
+    },
+    "name": {
+      "literal": "F_Header_0"
+    }
+  },
+  "widgets/F_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_FN\\1": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FN\\1"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_FN\\1"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_Header_5": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Riser 2"
+    },
+    "name": {
+      "literal": "F_Header_5"
+    }
+  },
+  "widgets/F_R2_FDAFR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_R2_FDAFR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_R2_FDAFRW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FDAFRW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_R2_FDAFRW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_R2_FAPCTW": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTW"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_R2_FAPCTW"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_R2_FAPCTV": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "R2_FAPCTV"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_R2_FAPCTV"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_Header_10": {
+    "aimms.widget.type": {
+      "literal": "label"
+    },
+    "contents": {
+      "literal": "Common properties"
+    },
+    "name": {
+      "literal": "F_Header_10"
+    }
+  },
+  "widgets/F_RA_NVC_CCR": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "RA_NVC_CCR"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_RA_NVC_CCR"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_SRFDCKA": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "SRFDCKA"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_SRFDCKA"
+    },
+    "views": {
+      "literal": {}
+    }
+  },
+  "widgets/F_FEED_N_TYPE": {
+    "aimms.widget.type": {
+      "literal": "scalar"
+    },
+    "contents": {
+      "aimms": {
+        "contents": [
+          "FEED_N_TYPE"
+        ]
+      }
+    },
+    "name": {
+      "literal": "F_FEED_N_TYPE"
+    },
+    "views": {
+      "literal": {}
     }
   }
 }

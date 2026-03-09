@@ -42,7 +42,7 @@ def unquote($s): ($s|sub("^\"";"")|sub("\"$";""));
 def isBlank($s): ($s == "\"\"" or $s == "");
 
 def mapIdent($id; $feed):
-  ($feed | mapLetter) as $to
+  (mapLetter($feed)) as $to
   | ($id
       | gsub("FEED_A_TYPE"; ("FEED_" + $to + "_TYPE"))
       | gsub("FEEDA_TYPE"; ("FEED" + $to + "_TYPE"))
