@@ -84,7 +84,7 @@ def addFeed($feed; $lines):
       | to_entries
       | map(
           if .value.kind=="scalar" then
-            { uri: ($feed + "_" + .value.id), layoutInfo: { width:"1", height:"1" } }
+            { uri: ($feed + "_" + .value.id), layoutInfo: { width:"1", height:"2" } }
           else
             { uri: ($feed + "_Header_" + (.key|tostring)), layoutInfo: { width:"1", height:"1" } }
           end
@@ -98,6 +98,8 @@ def addFeed($feed; $lines):
               "aimms.widget.type": { "literal": "scalar" },
               "contents": { "aimms": { "contents": [ $e.value.id ] } },
               "name": { "literal": ($feed + "_" + $e.value.id) },
+              "title": { "literal": $e.value.id },
+              "contents.labels.visible": { "literal": 1 },
               "views": { "literal": {} }
             }
           }
