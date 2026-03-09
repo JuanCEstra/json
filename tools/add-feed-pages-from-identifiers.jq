@@ -51,31 +51,34 @@ def mapIdent($id; $feed):
 
 # Turn the raw lines into grouped sections based on headers:
 # returns array like: [{title:"Riser 1", ids:["FDAFR",...]}, ...]
+# Build grouped sections based on header lines.
+# Output: [{title:"Riser 1", ids:[...]}, ...]
 def toGroups($lines; $feed):
-  ($lines
-   | reduce .[] as $line
-       ({curTitle: null, groups: []};
-        if isBlank($line) then .
-        elif isHeader($line) then
-          .curTitle = unquote($line)
-        else
-          (mapIdent($line; $feed)) as $id
-          | if .curTitle == null then
-              # If file starts with ids before any header, create a default group
-              .groups += [{ title: "Feed " + $feed, ids: [$id] }]
-            else
-              # append to group with curTitle (create if needed)
-              ( .groups | map(.title) | index(.curTitle) ) as $idx
-              | if $idx == null then
-                  .groups += [{ title: .curTitle, ids: [$id] }]
-                else
-                  .groups[$idx].ids += [$id]
-                end
-            end
-        end
-       )
-   ).groups;
-
+  reduce $lines[] as $line
+    (
+      { curTitle: null, groups: [] };
+      if isBlank($line) then
+        .
+      elif isHeader($line) then
+        .curTitle = unquote($line)
+      else
+        (mapIdent($line; $feed)) as $id
+        | if .curTitle == null then
+            # Create a default group if identifiers appear before the first header
+            .curTitle = ("Feed " + $feed)
+            | .groups += [{ title: .curTitle, ids: [$id] }]
+          else
+            # Append to existing group with curTitle, or create it
+            ( .groups | map(.title) | index(.curTitle) ) as $idx
+            | if $idx == null then
+                .groups += [{ title: .curTitle, ids: [$id] }]
+              else
+                .groups[$idx].ids += [$id]
+              end
+          end
+      end
+    )
+  | .groups;
 def widgetNameGroup($feed; $i): ("Feed_" + $feed + "_Group_" + ($i|tostring));
 def widgetKeyGroup($feed; $i): ("widgets/" + widgetNameGroup($feed; $i));
 
