@@ -86,7 +86,7 @@ def addFeed($feed; $lines):
           if .value.kind=="scalar" then
             { uri: ($feed + "_" + .value.id), layoutInfo: { width:"1", height:"3" } }
           else
-            { uri: ($feed + "_Header_" + (.key|tostring)), layoutInfo: { width:"1", height:"1" } }
+            { uri: ($feed + "_Header_" + (.key|tostring)), layoutInfo: { width:"1", height:"3" } }
           end
         )
     ) as $widgets
