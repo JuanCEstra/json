@@ -46,7 +46,7 @@ def mapIdent($id; $feed):
   | ($id
       | gsub("FEED_A_TYPE"; ("FEED_" + $to + "_TYPE"))
       | gsub("FEEDA_TYPE"; ("FEED" + $to + "_TYPE"))
-      | gsub("\\bFA([A-Z0-9_]+)\\b"; ("F" + $to + "\\1"))
+      | sub("^FA"; ("F" + $to))
     );
 
 def widgetKeyScalar($feed; $id): ("widgets/" + $feed + "_" + $id);
